@@ -1,0 +1,19 @@
+{
+  "kind": "correctness_test",
+  "formal_training_configurations": 0,
+  "optimizer_updates": 0,
+  "dataset_split_access": false,
+  "torch": "2.9.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "checks": [
+    "CPU float64 checkpoint/RNG next-batch drift/loss exact equality",
+    "GPU float32 checkpoint/RNG next-batch drift/loss exact equality"
+  ],
+  "passed": 2,
+  "failed": 0,
+  "source_sha256": {
+    "theory_fm_models.py": "fd97ebc960271869c4906cf4ad8f67252e30ebb39b84f461cc882442a2c76fbe",
+    "experiment/runner.py": "7f06cf13fbc1a4b7bbb2191528b9bc101ddf90dd1fd6fd2f1f121edb93e74dbe",
+    "tests/test_checkpoint_roundtrip.py": "fd4153b7947f33fbd0d08d59c5321418f81a0a2f42dbb094c888280fb340918c"
+  }
+}

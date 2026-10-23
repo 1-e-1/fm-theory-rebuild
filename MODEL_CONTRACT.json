@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "basis_pdf_sha256": "04cd5eb0d681f27db7f2b29a82f88341ca4543ccbe6f079887033ce809aea2ad",
+  "source_sections": [
+    "2.1-2.4",
+    "3.3",
+    "3.8",
+    "7",
+    "8.1"
+  ],
+  "main_model_ids": [
+    "FM_STANDARD",
+    "FM_REAL_ODE",
+    "FM_COMPLEX_SDE",
+    "FM_COMPLEX_ODE",
+    "FM_COMPLEX_VDC_ODE"
+  ],
+  "network": "stateless Linear/Tanh MLP; no recurrent neural memory",
+  "operator_target": "Eulerian probability-field history at fixed state-space query; generation-time axis",
+  "random_process": "state Brownian increments in external integrator; no random order process",
+  "dimension": "2D manuscript reference; even D>2 is explicit new extension with fixed J; no theorem transfer",
+  "vdc": "two-potential compatible construction; not independent velocity/div/curl heads",
+  "default_order_real_range": [
+    -1.0,
+    0.4
+  ],
+  "default_order_imag_range": [
+    -0.5,
+    0.5
+  ],
+  "node_operator": "Riemann-Liouville derivative of piecewise-linear field with initial term",
+  "cell_operator": "cell-averaged Riemann-Liouville derivative of piecewise-constant field",
+  "delivery_validation": {
+    "ast_syntax": "passed",
+    "models_imported": false,
+    "forward_executed": false,
+    "backward_executed": false,
+    "numerical_tests_executed": false,
+    "training_executed": false,
+    "datasets_downloaded": false
+  },
+  "code_classes": [
+    "ModelConfig",
+    "FieldHistory",
+    "FieldOutput",
+    "ModelSpec",
+    "FeedForward",
+    "SmoothProbabilityPotentials",
+    "RLFieldSpectrum",
+    "FIRFieldMemory",
+    "FlowFieldModel",
+    "FlatSequenceLayout",
+    "EndpointTrajectoryMap"
+  ],
+  "public_functions": [
+    "canonical_complex_structure",
+    "apply_j",
+    "complex_loggamma_right",
+    "positive_real_complex_power",
+    "build_model",
+    "parameter_counts",
+    "optimization_groups"
+  ],
+  "paper_writing_by_codex": false
+}

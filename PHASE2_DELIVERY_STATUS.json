@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-10-10T16:55:29.902724+00:00",
+  "finish_pid": 72312,
+  "actual_invocation": [
+    "D:\\work_space\\fm_theory_rebuild_v1\\phase2_experiment\\finish.py",
+    "--delivery-only"
+  ],
+  "mode": "delivery-only",
+  "status": "DELIVERY_COMPLETED",
+  "formal_configuration_count": 75,
+  "session_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_delivery\\20261010T165529902563Z",
+  "experimental_completed": true,
+  "delivery_completed": true,
+  "process_results": [],
+  "automatic_recovery_attempts": 0,
+  "writes_canonical_status": true,
+  "preflight": {
+    "formal_configuration_count": 75,
+    "phase1_guard": {
+      "ok": true,
+      "issues": [],
+      "files_checked": 25
+    },
+    "frozen_core_guard": {
+      "ok": true,
+      "files_checked": 11,
+      "issues": []
+    },
+    "protocols": {
+      "SEQ_DELAY": {
+        "updates": 12000,
+        "N": 32,
+        "H": 17,
+        "state_dim": 128
+      },
+      "SEQ_ACCUM": {
+        "updates": 24000,
+        "N": 32,
+        "H": 17,
+        "state_dim": 128
+      },
+      "SEQ_MULTISCALE": {
+        "updates": 24000,
+        "N": 32,
+        "H": 17,
+        "state_dim": 128
+      }
+    },
+    "protocol_file_sha256": "ffe41eee60020f371354cc1ccd60fb719b625b89662391f3149bcc4b43eabf23"
+  },
+  "updated_at": "2026-10-10T17:01:23.539494+00:00",
+  "process_coverage_at_delivery": {
+    "checked_at": "2026-10-10T16:55:36.604233+00:00",
+    "registered_process_state": {
+      "mode": "resume",
+      "dataset_id": null,
+      "command": [
+        "C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-u",
+        "-m",
+        "phase2_experiment.runner",
+        "resume"
+      ],
+      "started_at": "2026-10-09T16:46:52.032183+00:00",
+      "console_log": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets\\console_logs\\resume_queue_20261009T164652032102Z.log",
+      "status": "PROCESS_FINISHED",
+      "formal_configuration_denominator": 75,
+      "pid": 63120,
+      "exit_code": 0,
+      "ended_at": "2026-10-10T15:50:30.524350+00:00",
+      "pid_alive_at_snapshot": false
+    },
+    "direct_process_query": "DENIED_OR_UNAVAILABLE",
+    "absence_verified": false,
+    "warnings": [
+      "Direct process enumeration is unavailable; absence of unregistered direct launches is not verified. Get-CimInstance : 拒绝访问 \n所在位置 行:1 字符: 101\n+ ... alse); $p = Get-CimInstance Win32_Process -Filter \"Name='python.exe'  ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (:) [Get-CimInstance], CimException\n    + FullyQualifiedErrorId : HRESULT 0x80041003,Microsoft.Management.Infrastructure.CimCmdlets.GetCimInstanceCommand"
+    ]
+  },
+  "events": [
+    {
+      "at": "2026-10-10T16:55:36.841802+00:00",
+      "kind": "FULL_EXPERIMENT_GATE_PASSED",
+      "verified_completed": 75,
+      "formal_total": 75
+    },
+    {
+      "at": "2026-10-10T16:56:12.755129+00:00",
+      "kind": "AGGREGATION_COMPLETE",
+      "verified_completed": 75
+    },
+    {
+      "at": "2026-10-10T16:56:45.016944+00:00",
+      "kind": "FIGURES_COMPLETE",
+      "figure_count": 44
+    },
+    {
+      "at": "2026-10-10T17:01:23.539473+00:00",
+      "kind": "FULL_DELIVERY_COMPLETED",
+      "verified_completed": 75,
+      "formal_total": 75,
+      "package": "D:\\work_space\\fm_theory_rebuild_v1\\CHATGPT_REVIEW_PACK_PHASE2_3_DATASETS.zip",
+      "archive_sha256": "78a003758a699542714583fbd95edff70befe691056881b22b3a070ba8d98224",
+      "CRC_checked": true
+    }
+  ],
+  "verified_completed": 75,
+  "final_gate": {
+    "ok": true,
+    "verified_completed": 75,
+    "formal_configuration_count": 75,
+    "verification": {
+      "ok": true,
+      "formal_configuration_count": 75,
+      "counts": {
+        "BLOCKED": 0,
+        "COMPLETED": 75,
+        "FAILED": 0,
+        "PENDING": 0,
+        "RUNNING": 0
+      },
+      "issues": {},
+      "scope_sha256": "3b88e7fa083a6068ea751bb6c5d02bf923b873376c28491f57e9b4a454f2ffdd",
+      "phase1_guard": {
+        "ok": true,
+        "issues": [],
+        "files_checked": 25
+      }
+    },
+    "frozen_core_guard": {
+      "ok": true,
+      "files_checked": 11,
+      "issues": []
+    },
+    "protocol_file_guard": {
+      "ok": true,
+      "expected_sha256": "ffe41eee60020f371354cc1ccd60fb719b625b89662391f3149bcc4b43eabf23",
+      "actual_sha256": "ffe41eee60020f371354cc1ccd60fb719b625b89662391f3149bcc4b43eabf23",
+      "selection_registered_sha256": "ffe41eee60020f371354cc1ccd60fb719b625b89662391f3149bcc4b43eabf23"
+    }
+  },
+  "local_inventory": {
+    "ok": true,
+    "issues": [],
+    "formal_output_root": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets",
+    "inventory": "D:\\work_space\\fm_theory_rebuild_v1\\review_pack_phase2_3datasets\\full_weight_sample_log_inventory.csv",
+    "inventory_sha256": "ed8f9e29cc8e548daea0a7b22f1ce7bd40f6fce49394c7aa8fe8fd36c42d79e2",
+    "files": 3709,
+    "bytes": 3071929391,
+    "categories": {
+      "checkpoint": 225,
+      "config_or_result": 1335,
+      "floating_generated_sample": 645,
+      "source_snapshot": 1423,
+      "training_log": 76,
+      "failure_record": 5
+    },
+    "current_run_checkpoint_contract": "final + validation-best + same-attempt resume for each of 75 runs",
+    "full_weights_in_zip": false,
+    "full_weights_retained_locally": true
+  },
+  "figure_count": 44,
+  "package": "D:\\work_space\\fm_theory_rebuild_v1\\CHATGPT_REVIEW_PACK_PHASE2_3_DATASETS.zip",
+  "package_sha256": "78a003758a699542714583fbd95edff70befe691056881b22b3a070ba8d98224",
+  "package_bytes": 7859944342,
+  "zip_validation_report": "PHASE2_ZIP_VALIDATION.json"
+}

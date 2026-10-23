@@ -1,0 +1,686 @@
+{
+  "generated_at": "2026-10-10T16:56:45.016214+00:00",
+  "status": "FIGURES_GENERATED",
+  "datasets": {
+    "SEQ_DELAY": {
+      "verified_completed": 25,
+      "expected_formal_runs": 25,
+      "models": {
+        "FM_STANDARD": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_REAL_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_SDE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_VDC_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        }
+      },
+      "registered_data_spec": "D:\\work_space\\fm_theory_rebuild_v1\\data\\phase2_3datasets\\seq_delay\\DATA_SPEC.json",
+      "length": 64,
+      "channels": 2,
+      "state_dim": 128,
+      "test_npz_opened_by_plotter": false,
+      "status": "FIGURES_FROM_FINAL_EVALUATIONS"
+    },
+    "SEQ_ACCUM": {
+      "verified_completed": 25,
+      "expected_formal_runs": 25,
+      "models": {
+        "FM_STANDARD": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_REAL_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_SDE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_VDC_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        }
+      },
+      "registered_data_spec": "D:\\work_space\\fm_theory_rebuild_v1\\data\\phase2_3datasets\\seq_accum\\DATA_SPEC.json",
+      "length": 64,
+      "channels": 2,
+      "state_dim": 128,
+      "test_npz_opened_by_plotter": false,
+      "status": "FIGURES_FROM_FINAL_EVALUATIONS"
+    },
+    "SEQ_MULTISCALE": {
+      "verified_completed": 25,
+      "expected_formal_runs": 25,
+      "models": {
+        "FM_STANDARD": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_REAL_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_SDE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        },
+        "FM_COMPLEX_VDC_ODE": {
+          "available_training_seeds": [
+            17,
+            29,
+            43,
+            71,
+            101
+          ],
+          "n_of_5": 5
+        }
+      },
+      "registered_data_spec": "D:\\work_space\\fm_theory_rebuild_v1\\data\\phase2_3datasets\\seq_multiscale\\DATA_SPEC.json",
+      "length": 64,
+      "channels": 2,
+      "state_dim": 128,
+      "test_npz_opened_by_plotter": false,
+      "status": "FIGURES_FROM_FINAL_EVALUATIONS"
+    }
+  },
+  "figure_count": 44,
+  "figures": [
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__learning_fm_standard",
+      "svg": "seq_delay__learning_fm_standard.svg",
+      "png": "seq_delay__learning_fm_standard.png",
+      "source_files": [
+        "sources\\seq_delay__learning_fm_standard.csv",
+        "sources\\seq_delay__learning_fm_standard.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__learning_fm_real_ode",
+      "svg": "seq_delay__learning_fm_real_ode.svg",
+      "png": "seq_delay__learning_fm_real_ode.png",
+      "source_files": [
+        "sources\\seq_delay__learning_fm_real_ode.csv",
+        "sources\\seq_delay__learning_fm_real_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__learning_fm_complex_sde",
+      "svg": "seq_delay__learning_fm_complex_sde.svg",
+      "png": "seq_delay__learning_fm_complex_sde.png",
+      "source_files": [
+        "sources\\seq_delay__learning_fm_complex_sde.csv",
+        "sources\\seq_delay__learning_fm_complex_sde.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__learning_fm_complex_ode",
+      "svg": "seq_delay__learning_fm_complex_ode.svg",
+      "png": "seq_delay__learning_fm_complex_ode.png",
+      "source_files": [
+        "sources\\seq_delay__learning_fm_complex_ode.csv",
+        "sources\\seq_delay__learning_fm_complex_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__learning_fm_complex_vdc_ode",
+      "svg": "seq_delay__learning_fm_complex_vdc_ode.svg",
+      "png": "seq_delay__learning_fm_complex_vdc_ode.png",
+      "source_files": [
+        "sources\\seq_delay__learning_fm_complex_vdc_ode.csv",
+        "sources\\seq_delay__learning_fm_complex_vdc_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__quality",
+      "svg": "seq_delay__quality.svg",
+      "png": "seq_delay__quality.png",
+      "source_files": [
+        "sources\\seq_delay__quality.csv",
+        "sources\\seq_delay__quality.npz"
+      ],
+      "interpretation": "Points are individual training seeds; intervals use training seeds only. Negative MMD estimates are retained. Standard FM uses same-checkpoint Heun. Partial groups are explicitly n/5."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__quality_cost",
+      "svg": "seq_delay__quality_cost.svg",
+      "png": "seq_delay__quality_cost.png",
+      "source_files": [
+        "sources\\seq_delay__quality_cost.csv",
+        "sources\\seq_delay__quality_cost.npz"
+      ],
+      "interpretation": "Actual per-run training and primary-solver sampling wall-clock costs; mean and marginal 95% t intervals across training seeds. Same-checkpoint diagnostic cost is separate in raw tables."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__sequence_examples",
+      "svg": "seq_delay__sequence_examples.svg",
+      "png": "seq_delay__sequence_examples.png",
+      "source_files": [
+        "sources\\seq_delay__sequence_examples.csv",
+        "sources\\seq_delay__sequence_examples.npz"
+      ],
+      "interpretation": "Representative rule: lowest available training seed, first ensemble, first four particles; fixed saved real-reference block. Examples are illustrative, not paired prediction errors. Blue/red spans identify registered downstream input/output observation windows."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__acf",
+      "svg": "seq_delay__acf.svg",
+      "png": "seq_delay__acf.png",
+      "source_files": [
+        "sources\\seq_delay__acf.csv",
+        "sources\\seq_delay__acf.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__psd",
+      "svg": "seq_delay__psd.svg",
+      "png": "seq_delay__psd.png",
+      "source_files": [
+        "sources\\seq_delay__psd.csv",
+        "sources\\seq_delay__psd.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__cross_channel_lags",
+      "svg": "seq_delay__cross_channel_lags.svg",
+      "png": "seq_delay__cross_channel_lags.png",
+      "source_files": [
+        "sources\\seq_delay__cross_channel_lags.csv",
+        "sources\\seq_delay__cross_channel_lags.npz"
+      ],
+      "interpretation": "Directed cross-channel correlations preserve observation-time alignment. Pointwise bands aggregate independent training seeds only."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__early_late_correlation",
+      "svg": "seq_delay__early_late_correlation.svg",
+      "png": "seq_delay__early_late_correlation.png",
+      "source_files": [
+        "sources\\seq_delay__early_late_correlation.csv",
+        "sources\\seq_delay__early_late_correlation.npz"
+      ],
+      "interpretation": "Mean saved correlation matrix over available independent training seeds; coordinates map s*2+channel as exported. Multiscale has no invented deterministic residual target."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__pairing_structure",
+      "svg": "seq_delay__pairing_structure.svg",
+      "png": "seq_delay__pairing_structure.png",
+      "source_files": [
+        "sources\\seq_delay__pairing_structure.csv",
+        "sources\\seq_delay__pairing_structure.npz"
+      ],
+      "interpretation": "Existing evaluation metrics only: late re-pairing preserves marginal samples and breaks early/late dependence. Same-seed original versus shuffled numbers are retained; reference lines are fixed, not repeated independent seeds."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__tstr_trtr",
+      "svg": "seq_delay__tstr_trtr.svg",
+      "png": "seq_delay__tstr_trtr.png",
+      "source_files": [
+        "sources\\seq_delay__tstr_trtr.csv",
+        "sources\\seq_delay__tstr_trtr.npz"
+      ],
+      "interpretation": "Read existing final ridge evaluation, never fit or select a new model. Lambda was selected only using shared real validation. TSTR intervals use independent generator training seeds; repeated fixed TRTR baselines have no seed-based uncertainty claim."
+    },
+    {
+      "dataset_id": "SEQ_DELAY",
+      "stem": "seq_delay__paired_contrasts",
+      "svg": "seq_delay__paired_contrasts.svg",
+      "png": "seq_delay__paired_contrasts.png",
+      "source_files": [
+        "sources\\seq_delay__paired_contrasts.csv",
+        "sources\\seq_delay__paired_contrasts.npz"
+      ],
+      "interpretation": "Raw 95% intervals over available paired training seeds, separate from Holm-adjusted tests in paired_comparisons.csv. Missing seed pairs are not imputed. An interval crossing zero does not prove equivalence."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__learning_fm_standard",
+      "svg": "seq_accum__learning_fm_standard.svg",
+      "png": "seq_accum__learning_fm_standard.png",
+      "source_files": [
+        "sources\\seq_accum__learning_fm_standard.csv",
+        "sources\\seq_accum__learning_fm_standard.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__learning_fm_real_ode",
+      "svg": "seq_accum__learning_fm_real_ode.svg",
+      "png": "seq_accum__learning_fm_real_ode.png",
+      "source_files": [
+        "sources\\seq_accum__learning_fm_real_ode.csv",
+        "sources\\seq_accum__learning_fm_real_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__learning_fm_complex_sde",
+      "svg": "seq_accum__learning_fm_complex_sde.svg",
+      "png": "seq_accum__learning_fm_complex_sde.png",
+      "source_files": [
+        "sources\\seq_accum__learning_fm_complex_sde.csv",
+        "sources\\seq_accum__learning_fm_complex_sde.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__learning_fm_complex_ode",
+      "svg": "seq_accum__learning_fm_complex_ode.svg",
+      "png": "seq_accum__learning_fm_complex_ode.png",
+      "source_files": [
+        "sources\\seq_accum__learning_fm_complex_ode.csv",
+        "sources\\seq_accum__learning_fm_complex_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__learning_fm_complex_vdc_ode",
+      "svg": "seq_accum__learning_fm_complex_vdc_ode.svg",
+      "png": "seq_accum__learning_fm_complex_vdc_ode.png",
+      "source_files": [
+        "sources\\seq_accum__learning_fm_complex_vdc_ode.csv",
+        "sources\\seq_accum__learning_fm_complex_vdc_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__quality",
+      "svg": "seq_accum__quality.svg",
+      "png": "seq_accum__quality.png",
+      "source_files": [
+        "sources\\seq_accum__quality.csv",
+        "sources\\seq_accum__quality.npz"
+      ],
+      "interpretation": "Points are individual training seeds; intervals use training seeds only. Negative MMD estimates are retained. Standard FM uses same-checkpoint Heun. Partial groups are explicitly n/5."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__quality_cost",
+      "svg": "seq_accum__quality_cost.svg",
+      "png": "seq_accum__quality_cost.png",
+      "source_files": [
+        "sources\\seq_accum__quality_cost.csv",
+        "sources\\seq_accum__quality_cost.npz"
+      ],
+      "interpretation": "Actual per-run training and primary-solver sampling wall-clock costs; mean and marginal 95% t intervals across training seeds. Same-checkpoint diagnostic cost is separate in raw tables."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__sequence_examples",
+      "svg": "seq_accum__sequence_examples.svg",
+      "png": "seq_accum__sequence_examples.png",
+      "source_files": [
+        "sources\\seq_accum__sequence_examples.csv",
+        "sources\\seq_accum__sequence_examples.npz"
+      ],
+      "interpretation": "Representative rule: lowest available training seed, first ensemble, first four particles; fixed saved real-reference block. Examples are illustrative, not paired prediction errors. Blue/red spans identify registered downstream input/output observation windows."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__acf",
+      "svg": "seq_accum__acf.svg",
+      "png": "seq_accum__acf.png",
+      "source_files": [
+        "sources\\seq_accum__acf.csv",
+        "sources\\seq_accum__acf.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__psd",
+      "svg": "seq_accum__psd.svg",
+      "png": "seq_accum__psd.png",
+      "source_files": [
+        "sources\\seq_accum__psd.csv",
+        "sources\\seq_accum__psd.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__cross_channel_lags",
+      "svg": "seq_accum__cross_channel_lags.svg",
+      "png": "seq_accum__cross_channel_lags.png",
+      "source_files": [
+        "sources\\seq_accum__cross_channel_lags.csv",
+        "sources\\seq_accum__cross_channel_lags.npz"
+      ],
+      "interpretation": "Directed cross-channel correlations preserve observation-time alignment. Pointwise bands aggregate independent training seeds only."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__early_late_correlation",
+      "svg": "seq_accum__early_late_correlation.svg",
+      "png": "seq_accum__early_late_correlation.png",
+      "source_files": [
+        "sources\\seq_accum__early_late_correlation.csv",
+        "sources\\seq_accum__early_late_correlation.npz"
+      ],
+      "interpretation": "Mean saved correlation matrix over available independent training seeds; coordinates map s*2+channel as exported. Multiscale has no invented deterministic residual target."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__pairing_structure",
+      "svg": "seq_accum__pairing_structure.svg",
+      "png": "seq_accum__pairing_structure.png",
+      "source_files": [
+        "sources\\seq_accum__pairing_structure.csv",
+        "sources\\seq_accum__pairing_structure.npz"
+      ],
+      "interpretation": "Existing evaluation metrics only: late re-pairing preserves marginal samples and breaks early/late dependence. Same-seed original versus shuffled numbers are retained; reference lines are fixed, not repeated independent seeds."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__tstr_trtr",
+      "svg": "seq_accum__tstr_trtr.svg",
+      "png": "seq_accum__tstr_trtr.png",
+      "source_files": [
+        "sources\\seq_accum__tstr_trtr.csv",
+        "sources\\seq_accum__tstr_trtr.npz"
+      ],
+      "interpretation": "Read existing final ridge evaluation, never fit or select a new model. Lambda was selected only using shared real validation. TSTR intervals use independent generator training seeds; repeated fixed TRTR baselines have no seed-based uncertainty claim."
+    },
+    {
+      "dataset_id": "SEQ_ACCUM",
+      "stem": "seq_accum__paired_contrasts",
+      "svg": "seq_accum__paired_contrasts.svg",
+      "png": "seq_accum__paired_contrasts.png",
+      "source_files": [
+        "sources\\seq_accum__paired_contrasts.csv",
+        "sources\\seq_accum__paired_contrasts.npz"
+      ],
+      "interpretation": "Raw 95% intervals over available paired training seeds, separate from Holm-adjusted tests in paired_comparisons.csv. Missing seed pairs are not imputed. An interval crossing zero does not prove equivalence."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__learning_fm_standard",
+      "svg": "seq_multiscale__learning_fm_standard.svg",
+      "png": "seq_multiscale__learning_fm_standard.png",
+      "source_files": [
+        "sources\\seq_multiscale__learning_fm_standard.csv",
+        "sources\\seq_multiscale__learning_fm_standard.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__learning_fm_real_ode",
+      "svg": "seq_multiscale__learning_fm_real_ode.svg",
+      "png": "seq_multiscale__learning_fm_real_ode.png",
+      "source_files": [
+        "sources\\seq_multiscale__learning_fm_real_ode.csv",
+        "sources\\seq_multiscale__learning_fm_real_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__learning_fm_complex_sde",
+      "svg": "seq_multiscale__learning_fm_complex_sde.svg",
+      "png": "seq_multiscale__learning_fm_complex_sde.png",
+      "source_files": [
+        "sources\\seq_multiscale__learning_fm_complex_sde.csv",
+        "sources\\seq_multiscale__learning_fm_complex_sde.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__learning_fm_complex_ode",
+      "svg": "seq_multiscale__learning_fm_complex_ode.svg",
+      "png": "seq_multiscale__learning_fm_complex_ode.png",
+      "source_files": [
+        "sources\\seq_multiscale__learning_fm_complex_ode.csv",
+        "sources\\seq_multiscale__learning_fm_complex_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__learning_fm_complex_vdc_ode",
+      "svg": "seq_multiscale__learning_fm_complex_vdc_ode.svg",
+      "png": "seq_multiscale__learning_fm_complex_vdc_ode.png",
+      "source_files": [
+        "sources\\seq_multiscale__learning_fm_complex_vdc_ode.csv",
+        "sources\\seq_multiscale__learning_fm_complex_vdc_ode.npz"
+      ],
+      "interpretation": "Full numeric curves retained. ODE and complete-SDE drift losses are different targets and are not ranked across model families. No convergence claim from reaching budget."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__quality",
+      "svg": "seq_multiscale__quality.svg",
+      "png": "seq_multiscale__quality.png",
+      "source_files": [
+        "sources\\seq_multiscale__quality.csv",
+        "sources\\seq_multiscale__quality.npz"
+      ],
+      "interpretation": "Points are individual training seeds; intervals use training seeds only. Negative MMD estimates are retained. Standard FM uses same-checkpoint Heun. Partial groups are explicitly n/5."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__quality_cost",
+      "svg": "seq_multiscale__quality_cost.svg",
+      "png": "seq_multiscale__quality_cost.png",
+      "source_files": [
+        "sources\\seq_multiscale__quality_cost.csv",
+        "sources\\seq_multiscale__quality_cost.npz"
+      ],
+      "interpretation": "Actual per-run training and primary-solver sampling wall-clock costs; mean and marginal 95% t intervals across training seeds. Same-checkpoint diagnostic cost is separate in raw tables."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__sequence_examples",
+      "svg": "seq_multiscale__sequence_examples.svg",
+      "png": "seq_multiscale__sequence_examples.png",
+      "source_files": [
+        "sources\\seq_multiscale__sequence_examples.csv",
+        "sources\\seq_multiscale__sequence_examples.npz"
+      ],
+      "interpretation": "Representative rule: lowest available training seed, first ensemble, first four particles; fixed saved real-reference block. Examples are illustrative, not paired prediction errors. Blue/red spans identify registered downstream input/output observation windows."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__acf",
+      "svg": "seq_multiscale__acf.svg",
+      "png": "seq_multiscale__acf.png",
+      "source_files": [
+        "sources\\seq_multiscale__acf.csv",
+        "sources\\seq_multiscale__acf.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__psd",
+      "svg": "seq_multiscale__psd.svg",
+      "png": "seq_multiscale__psd.png",
+      "source_files": [
+        "sources\\seq_multiscale__psd.csv",
+        "sources\\seq_multiscale__psd.npz"
+      ],
+      "interpretation": "Saved evaluation arrays use correct [observation position, channel] axes. Bands are pointwise training-seed intervals, not simultaneous bands or particle-count intervals. Fixed real reference is not treated as repeated seed evidence."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__cross_channel_lags",
+      "svg": "seq_multiscale__cross_channel_lags.svg",
+      "png": "seq_multiscale__cross_channel_lags.png",
+      "source_files": [
+        "sources\\seq_multiscale__cross_channel_lags.csv",
+        "sources\\seq_multiscale__cross_channel_lags.npz"
+      ],
+      "interpretation": "Directed cross-channel correlations preserve observation-time alignment. Pointwise bands aggregate independent training seeds only."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__early_late_correlation",
+      "svg": "seq_multiscale__early_late_correlation.svg",
+      "png": "seq_multiscale__early_late_correlation.png",
+      "source_files": [
+        "sources\\seq_multiscale__early_late_correlation.csv",
+        "sources\\seq_multiscale__early_late_correlation.npz"
+      ],
+      "interpretation": "Mean saved correlation matrix over available independent training seeds; coordinates map s*2+channel as exported. Multiscale has no invented deterministic residual target."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__tstr_trtr",
+      "svg": "seq_multiscale__tstr_trtr.svg",
+      "png": "seq_multiscale__tstr_trtr.png",
+      "source_files": [
+        "sources\\seq_multiscale__tstr_trtr.csv",
+        "sources\\seq_multiscale__tstr_trtr.npz"
+      ],
+      "interpretation": "Read existing final ridge evaluation, never fit or select a new model. Lambda was selected only using shared real validation. TSTR intervals use independent generator training seeds; repeated fixed TRTR baselines have no seed-based uncertainty claim."
+    },
+    {
+      "dataset_id": "SEQ_MULTISCALE",
+      "stem": "seq_multiscale__paired_contrasts",
+      "svg": "seq_multiscale__paired_contrasts.svg",
+      "png": "seq_multiscale__paired_contrasts.png",
+      "source_files": [
+        "sources\\seq_multiscale__paired_contrasts.csv",
+        "sources\\seq_multiscale__paired_contrasts.npz"
+      ],
+      "interpretation": "Raw 95% intervals over available paired training seeds, separate from Holm-adjusted tests in paired_comparisons.csv. Missing seed pairs are not imputed. An interval crossing zero does not prove equivalence."
+    }
+  ],
+  "warnings": [],
+  "training_updates": 0,
+  "models_built": 0,
+  "test_npz_opened": false,
+  "protocol_modified": false,
+  "uncertainty_unit": "independent training seeds; pointwise t intervals, no particle/projection repeat count",
+  "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\review_pack_phase2_3datasets\\figures"
+}

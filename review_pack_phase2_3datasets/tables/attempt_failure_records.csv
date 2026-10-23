@@ -1,0 +1,68 @@
+run_id,dataset_id,model_id,seed,attempt_id,failure_source,error,traceback
+SEQ_ACCUM__FM_COMPLEX_SDE__seed17,SEQ_ACCUM,FM_COMPLEX_SDE,17,attempt_001,outputs\phase2_3datasets\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\attempt_001\failure.json,"PermissionError(13, '拒绝访问。')","Traceback (most recent call last):
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 517, in run_queue
+    else:train_one(dataset_id,model_id,seed,resume=bool(dirs))
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 396, in train_one
+    evaluate_one(directory)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 433, in evaluate_one
+    diagnostics=checkpoint_diagnostics(model,directory/""checkpoint_checks"",load_data(conf[""dataset_id""],""validation"",device),
+                                       dataset_id=conf[""dataset_id""])
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\diagnostics.py"", line 151, in checkpoint_diagnostics
+    _write_json(index_path,report)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\diagnostics.py"", line 26, in _write_json
+    os.replace(temp, path)
+    ~~~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\checkpoint_checks\\checkpoint_diagnostics\\diagnostics.json.tmp' -> 'D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\checkpoint_checks\\checkpoint_diagnostics\\diagnostics.json'
+"
+SEQ_ACCUM__FM_COMPLEX_SDE__seed17,SEQ_ACCUM,FM_COMPLEX_SDE,17,attempt_001,outputs\phase2_3datasets\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\attempt_001\failure_1791547772182456700.json,"PermissionError(13, '拒绝访问。')","Traceback (most recent call last):
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 517, in run_queue
+    else:train_one(dataset_id,model_id,seed,resume=bool(dirs))
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 396, in train_one
+    evaluate_one(directory)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 433, in evaluate_one
+    diagnostics=checkpoint_diagnostics(model,directory/""checkpoint_checks"",load_data(conf[""dataset_id""],""validation"",device),
+                                       dataset_id=conf[""dataset_id""])
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\diagnostics.py"", line 151, in checkpoint_diagnostics
+    _write_json(index_path,report)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\diagnostics.py"", line 26, in _write_json
+    os.replace(temp, path)
+    ~~~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\checkpoint_checks\\checkpoint_diagnostics\\diagnostics.json.tmp' -> 'D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\checkpoint_checks\\checkpoint_diagnostics\\diagnostics.json'
+"
+SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29,SEQ_ACCUM,FM_COMPLEX_VDC_ODE,29,attempt_001,outputs\phase2_3datasets\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\attempt_001\failure_runtime_stall_20261009T164443Z.json,Training remained at the flushed step14000/checkpoint for about12 minutes. Exact owned process terminated for same-attempt checkpoint resume; cause unknown.,"No Python traceback was available. A standard-library remote stack dump request was submitted but did not execute before termination. This is an external runtime interruption, not a caught model exception."
+SEQ_ACCUM__FM_COMPLEX_SDE__seed101,SEQ_ACCUM,FM_COMPLEX_SDE,101,attempt_001,outputs\phase2_3datasets\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\attempt_001\failure.json,"PermissionError(13, '拒绝访问。')","Traceback (most recent call last):
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 517, in run_queue
+    else:train_one(dataset_id,model_id,seed,resume=bool(dirs))
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 397, in train_one
+    update_run(run_id,""COMPLETED"",attempt_dir=str(directory),output_dir=str(directory),updates=steps)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\scope.py"", line 307, in update_run
+    write_json(MANIFEST_PATH, manifest)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\scope.py"", line 46, in write_json
+    os.replace(temporary, path)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\work_space\\fm_theory_rebuild_v1\\PHASE2_MANIFEST.json.tmp' -> 'D:\\work_space\\fm_theory_rebuild_v1\\PHASE2_MANIFEST.json'
+"
+SEQ_ACCUM__FM_COMPLEX_SDE__seed101,SEQ_ACCUM,FM_COMPLEX_SDE,101,attempt_001,outputs\phase2_3datasets\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\attempt_001\failure_1791590003755230400.json,"PermissionError(13, '拒绝访问。')","Traceback (most recent call last):
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 517, in run_queue
+    else:train_one(dataset_id,model_id,seed,resume=bool(dirs))
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\runner.py"", line 397, in train_one
+    update_run(run_id,""COMPLETED"",attempt_dir=str(directory),output_dir=str(directory),updates=steps)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\scope.py"", line 307, in update_run
+    write_json(MANIFEST_PATH, manifest)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\work_space\fm_theory_rebuild_v1\phase2_experiment\scope.py"", line 46, in write_json
+    os.replace(temporary, path)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\work_space\\fm_theory_rebuild_v1\\PHASE2_MANIFEST.json.tmp' -> 'D:\\work_space\\fm_theory_rebuild_v1\\PHASE2_MANIFEST.json'
+"

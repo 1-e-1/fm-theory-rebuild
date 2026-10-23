@@ -1,0 +1,1449 @@
+{
+  "completed_seq_iid": 25,
+  "formal_denominator": 50,
+  "per_model_completed_training_seeds": {
+    "FM_STANDARD": 5,
+    "FM_REAL_ODE": 5,
+    "FM_COMPLEX_SDE": 5,
+    "FM_COMPLEX_ODE": 5,
+    "FM_COMPLEX_VDC_ODE": 5
+  },
+  "backend": "matplotlib Agg / CPU",
+  "matplotlib_version": "3.10.8",
+  "moving_average_window": 100,
+  "warnings": [],
+  "figures": [
+    {
+      "stem": "learning_FM_STANDARD",
+      "svg": "learning_FM_STANDARD.svg",
+      "png": "learning_FM_STANDARD.png",
+      "source_files": [
+        "sources\\learning_FM_STANDARD.csv",
+        "sources\\learning_FM_STANDARD.npz"
+      ],
+      "interpretation": "Each curve is one completed training seed; importance-weighted arithmetic smoothing. SDE and ODE labels differ. Budget does not establish convergence."
+    },
+    {
+      "stem": "learning_FM_REAL_ODE",
+      "svg": "learning_FM_REAL_ODE.svg",
+      "png": "learning_FM_REAL_ODE.png",
+      "source_files": [
+        "sources\\learning_FM_REAL_ODE.csv",
+        "sources\\learning_FM_REAL_ODE.npz"
+      ],
+      "interpretation": "Each curve is one completed training seed; importance-weighted arithmetic smoothing. SDE and ODE labels differ. Budget does not establish convergence."
+    },
+    {
+      "stem": "learning_FM_COMPLEX_SDE",
+      "svg": "learning_FM_COMPLEX_SDE.svg",
+      "png": "learning_FM_COMPLEX_SDE.png",
+      "source_files": [
+        "sources\\learning_FM_COMPLEX_SDE.csv",
+        "sources\\learning_FM_COMPLEX_SDE.npz"
+      ],
+      "interpretation": "Each curve is one completed training seed; importance-weighted arithmetic smoothing. SDE and ODE labels differ. Budget does not establish convergence."
+    },
+    {
+      "stem": "learning_FM_COMPLEX_ODE",
+      "svg": "learning_FM_COMPLEX_ODE.svg",
+      "png": "learning_FM_COMPLEX_ODE.png",
+      "source_files": [
+        "sources\\learning_FM_COMPLEX_ODE.csv",
+        "sources\\learning_FM_COMPLEX_ODE.npz"
+      ],
+      "interpretation": "Each curve is one completed training seed; importance-weighted arithmetic smoothing. SDE and ODE labels differ. Budget does not establish convergence."
+    },
+    {
+      "stem": "learning_FM_COMPLEX_VDC_ODE",
+      "svg": "learning_FM_COMPLEX_VDC_ODE.svg",
+      "png": "learning_FM_COMPLEX_VDC_ODE.png",
+      "source_files": [
+        "sources\\learning_FM_COMPLEX_VDC_ODE.csv",
+        "sources\\learning_FM_COMPLEX_VDC_ODE.npz"
+      ],
+      "interpretation": "Each curve is one completed training seed; importance-weighted arithmetic smoothing. SDE and ODE labels differ. Budget does not establish convergence."
+    },
+    {
+      "stem": "quality_seed_scatter",
+      "svg": "quality_seed_scatter.svg",
+      "png": "quality_seed_scatter.png",
+      "source_files": [
+        "sources\\quality_per_training_seed.csv",
+        "sources\\quality_seed_moments.csv",
+        "sources\\quality_per_training_seed.npz"
+      ],
+      "interpretation": "95% intervals resample no particles: five independent training seeds are the replication unit. Standard main values are Heun. Partial groups are not final five-seed comparisons."
+    },
+    {
+      "stem": "quality_walltime",
+      "svg": "quality_walltime.svg",
+      "png": "quality_walltime.png",
+      "source_files": [
+        "sources\\quality_per_training_seed.csv",
+        "sources\\quality_per_training_seed.npz"
+      ],
+      "interpretation": "Each point is a completed checkpoint. Time includes measured internal computation, not only NFE. No Pareto or superiority claim is inferred from partial groups."
+    },
+    {
+      "stem": "iid_marginal_diagnostics",
+      "svg": "iid_marginal_diagnostics.svg",
+      "png": "iid_marginal_diagnostics.png",
+      "source_files": [
+        "sources\\iid_marginal_histograms.csv",
+        "sources\\iid_diagnostics.npz"
+      ],
+      "interpretation": "Raw units; fixed mixture-scale plot range [-5.6,5.6]. Histogram densities divide by all observations; out-of-range mass is preserved in CSV. Real reference is the archived disjoint held-out blocks, not a new data split."
+    },
+    {
+      "stem": "iid_dependence_diagnostics",
+      "svg": "iid_dependence_diagnostics.svg",
+      "png": "iid_dependence_diagnostics.png",
+      "source_files": [
+        "sources\\iid_acf_per_training_seed.csv",
+        "sources\\iid_diagnostics.npz"
+      ],
+      "interpretation": "Real finite-sample correlation uses the same sequence count as one generated checkpoint. A nonzero sample correlation alone does not establish spurious population dependence; IID results do not establish long-memory advantages."
+    },
+    {
+      "stem": "iid_position_correlation",
+      "svg": "iid_position_correlation.svg",
+      "png": "iid_position_correlation.png",
+      "source_files": [
+        "sources\\iid_acf_per_training_seed.csv",
+        "sources\\iid_diagnostics.npz"
+      ],
+      "interpretation": "Diagonal entries masked. Pointwise averages across training seeds are descriptive, not tests. Full unclipped matrices remain in NPZ; color saturation does not discard numbers."
+    }
+  ],
+  "output_directory": "D:\\work_space\\fm_theory_rebuild_v1\\review_pack_phase1_50\\figures",
+  "input_files": [
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\manifest.json",
+      "sha256": "4f3769843906c5f840b968b139c236546363804036b6cea86c3512fc0f270b55",
+      "bytes": 54330
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\review_pack_phase1_50\\tables\\main_per_seed.csv",
+      "sha256": "f54c11d030fc28ac4e6ea0d687fda93a4d8fab2b1d6c09ea27df4881aca52cb8",
+      "bytes": 42002
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\review_pack_phase1_50\\tables\\compute_costs.csv",
+      "sha256": "fc94627b7f302cd55c1b09b33b7ea6beb31ca1f970f534e73b7ad0c4805069ae",
+      "bytes": 22956
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\config.json",
+      "sha256": "c1c67f54ecea1fe6aa0d939fd0faf8c242cbbb7a05f456439dd66c10e213c0e8",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\training.csv",
+      "sha256": "e4f4ab6baadb1ccfc495bd6c46ace18f5dc0456e5b4120f1f6de88f79153b107",
+      "bytes": 1509562
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\evaluation_heun.json",
+      "sha256": "4649f95520f3c9873b80a144f81bcaee63d7f5b990844bb2d25938f84283d196",
+      "bytes": 2292
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\samples_raw.npy",
+      "sha256": "95672bdcb0f32561a1fdadf0ab8b72170b192cc473422422d76794a9ba9f731b",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+      "sha256": "c6962f07a00c45691dd26e7c1dbc72eeb5ca40332f90af56e6f1f0be96762118",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\training_cost.json",
+      "sha256": "4e8f0b1ff1b0b56eecce0082ece142513465bcc7aa10d082dc1bd9d582a1655b",
+      "bytes": 369
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "97f5036304d88086a47c2bb3c5d664fe7cf0bd5110490e30bf299e2711ede804",
+      "bytes": 923
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metric_provenance.json",
+      "sha256": "09aa071ff126b0a721ff097e79bac970ac6d453f77c6f976707137dbdf7625e6",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\config.json",
+      "sha256": "d062592b5c722384e915b4230b690e357e38492a321fa9f2bebba1019d98dabb",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\training.csv",
+      "sha256": "b7ca3820ece632e9d96c832bcada1bec60608fbe85eb326c444a04792b997eff",
+      "bytes": 1542472
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\evaluation.json",
+      "sha256": "f2ab5d585cea904b9450e95f3d163865dee8b9edd9131f65ae4b293f5a956586",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\samples_raw.npy",
+      "sha256": "f6e11581f2deb996336f35ae878ccc051de80b3c36a4b4ac55cdb6d223c8e5e6",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+      "sha256": "44c45b32717392d4bcadd4762f35799694e9f62923dd1b4bfd60a4f29bac5fc2",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\training_cost.json",
+      "sha256": "6b4b022a9e73bdd40508aa27b01b72ca5c873e3271b7e289b97e042e14d21151",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "8f38ab763cd1a547ddedb91295344df6540738ceeed7a75fc7a1e91d848d54d0",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\metric_provenance.json",
+      "sha256": "095e36f7bcf2cb04765896855c3855d5ed61970c3f9a84026e5bd3bd9313b1c1",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\config.json",
+      "sha256": "3802c741e4f1f0a9983d02931db7bd2ca2fbdb0b9feb049c132af67001d8ac4b",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\training.csv",
+      "sha256": "fff363f6f92a1e177fe6cbe8cc5d27bcdeafbb9532531afbe4da31f4b7452f87",
+      "bytes": 1550761
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\evaluation.json",
+      "sha256": "7689996c505f3ed28f678c78b42b4a5f5e9dcc9638015690012d4212410c378f",
+      "bytes": 2293
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\samples_raw.npy",
+      "sha256": "4b12a90ea0404c671e1b3680a8980ef3d10a935ee7cadfa5909835ab0e9801ea",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\metrics_arrays.npz",
+      "sha256": "69e4012a81afd7d49aebfab01af4d5264f3b60468aa55d0514dfaaf51842bb18",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\training_cost.json",
+      "sha256": "c58db30ac876e7586ccf55c4cb1061f74bec8b2f4b0752aa7b2576fac2969653",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "f447da202715a4f60bade2d1ac1fc8d7238a78a66c8f8fa0ffd9766aecdd3123",
+      "bytes": 475
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\metric_provenance.json",
+      "sha256": "22744d6f3fb66d52bfd3606ac151c554ba9eb1d6751429d68a6caa9538b79356",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\config.json",
+      "sha256": "dd52218cd10cf9ad55e889766763adf145d9e59efb6071af19aa4ec4986cbccf",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\training.csv",
+      "sha256": "66753b42530a74ee74c211628e0ec2343814ea028d266dc1cde660ddf94e84eb",
+      "bytes": 1550301
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\evaluation.json",
+      "sha256": "91b13864c22b7c3cef59c94e2844b389244e8215c27ec1fccebf2d1ee62fe61a",
+      "bytes": 2294
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\samples_raw.npy",
+      "sha256": "d1e02e5022b9af44de2519e3546d20e90bab2f2fd0c89b965141d7d8a74df1a2",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+      "sha256": "f22af367c5e67e28f857979ce0b2aed00c3c2ebed3f1283740fa85d3e5254aba",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\training_cost.json",
+      "sha256": "d8723af50de7db9d373e56b2fb4ccac61aa0eb7808b94aa2d014074535552c1b",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "5827c69567e5b77b69bc200aa0d3858de848fc7dcb0c8080794660014e76153a",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\metric_provenance.json",
+      "sha256": "55f0413ab2a5b3a1e2c63b3599bfb39db1d3454349bb3d5689f5a05e2fed75be",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\config.json",
+      "sha256": "a10f8ba77dc0f9cdb4c4632de3d078b4c051ef8cec5ff062b8a3fe7ac6fea587",
+      "bytes": 2103
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training.csv",
+      "sha256": "cb1f1b7a24ec5fa5d5c00bcb11f9fb2221c268bbb9b1fbdb9e78d6fd70e5e9cb",
+      "bytes": 1551590
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\evaluation.json",
+      "sha256": "749f4dc383c5fe8d8d46856b6cd417f185ce3c06442a5a8ee2c8191df02a9687",
+      "bytes": 2293
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\samples_raw.npy",
+      "sha256": "a7ba875f697ae0d91939b1b9819adee806baf1b66c085150885772c6c5d94927",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+      "sha256": "29db157b9797990c060da52287d72f19ae01641332f188f2aa0a3eb4bd73e997",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training_cost.json",
+      "sha256": "3dfbedcdfcfc8d6db3aeb503b36f51995c99192423a65a5bae25bd7269128730",
+      "bytes": 390
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "530098dfb92c99fa922a659c7a489c917bb967c5a7cc65db4d54dee836f6b288",
+      "bytes": 475
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metric_provenance.json",
+      "sha256": "fb1347fd8d1ec18de6aa1a27155c7a73599c4eb355362897f5862d135374b0a8",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\config.json",
+      "sha256": "1ffb9449dff89cfd749d59ab7942e5321508e0f96a57cefae1a3964f03e05703",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\training.csv",
+      "sha256": "aeca29191ecf6a990005f7f40aa4b30847818fb836df43734d31e648c81139dc",
+      "bytes": 1510828
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\evaluation_heun.json",
+      "sha256": "afb77cbf36c04e09f80f71fa46fe0e8a0367521ee9f7ed2b06d15f2cf975486c",
+      "bytes": 2294
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\samples_raw.npy",
+      "sha256": "da81dbcad6c24217424a1c5daf630f25de5f922e7109a2d4e8c10048c6ac89d8",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+      "sha256": "ed009c395d0e861ddf166564d686a45d9d3be4be7289a2935b333d8f04141dc1",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\training_cost.json",
+      "sha256": "07785b1fec616a2f744b10eb3fff6361a6e542f853ca6661d155406679f82a90",
+      "bytes": 369
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "48d926670529bcf156ea797f760f54c32f1b6deb2578194e29d87b1d3acf4daf",
+      "bytes": 923
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metric_provenance.json",
+      "sha256": "c35d80112fe27bb90a88502ae460f5d13fc2843f7f0cbab63dc609d691cbd85e",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\config.json",
+      "sha256": "fca22e8c1d49352a14b201fb527c03a5967aaec7e39f3fe8c63628a2bc1c7053",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\training.csv",
+      "sha256": "3c00fa7d3d4ec7f690c93303c66f7ecd65bcdce7a04fdc178b4cb90e96c737f5",
+      "bytes": 1544145
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\evaluation.json",
+      "sha256": "91ed25158942cceb5adf274e8fb2f79448b09f65179c5fe21c8700a02c746336",
+      "bytes": 2300
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\samples_raw.npy",
+      "sha256": "1c9d05a8f813054866a35a71d95a8232507decadb13321f1072aa4a8db6b6521",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+      "sha256": "a978200c3ca65af98a69ede92df38b1c568d450a238732d002b76e7b61baa2f7",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\training_cost.json",
+      "sha256": "8a092925b48360d6854509366b1f497fb3fda5d55d127cb11e0479d755f94ddb",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "d2b746d6f62d41d9d3c6ae6e275e01d66c60e2132168fdd4b848e582ec81463d",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\metric_provenance.json",
+      "sha256": "44c0983c7d4b0dd515a40f23643200968c778d79267805961423ad642e99d257",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\config.json",
+      "sha256": "30be13c0fb4ebe5aa3f747b095689e330fdefb350f2d461e494549186365bbee",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\training.csv",
+      "sha256": "98577cb7ca44f6cdcf2c1e163685fce5ece27330dd84dcb778ea7a01cf154b65",
+      "bytes": 1549538
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\evaluation.json",
+      "sha256": "d3afde2450b39bf81eeef049185689216d4d5db3ff4242572c273bdff674a9a9",
+      "bytes": 2298
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\samples_raw.npy",
+      "sha256": "ac17bdb542d2916fd80624acd792f16c16b9afe03f77028efe209e8a2cde3ceb",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\metrics_arrays.npz",
+      "sha256": "fd76ec0bcd1ed29d141d858ffe52a7577a9d4a13973fbf18ec1c191bb4e39a3e",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\training_cost.json",
+      "sha256": "d7f96dc435b05f9849e84ddd736fbb725052c0444f6972d8fc4416027578307a",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "0ad9aecbdb867995327f02de106e15d5966b0b81678aa4beb75d66b5e68ec336",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\metric_provenance.json",
+      "sha256": "438d8d877fdefc328711cf464a9660dfaace56ca59a7efa718e102dec2525c5a",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\config.json",
+      "sha256": "2615deb59909d069871a01555fe32fd1a6c48029ea5bc70da7fb6069ac2f7ead",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\training.csv",
+      "sha256": "4955ca89acc269fe885d52352949c29c8d11b23d797f9a1204a2dda5da29452c",
+      "bytes": 1552635
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\evaluation.json",
+      "sha256": "d047e86a54cc812c24e8ef82868ac1836c09870ff3f0a870e5c57d64a734e28f",
+      "bytes": 2294
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\samples_raw.npy",
+      "sha256": "914fee26d37cfc9e9fc3146e61cfdb63a449d8e5d3dda6bd67afa43ed6c3aaff",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+      "sha256": "1be6a36d1c86df9e39531c747654d2d523337e3a6dcb0445874cf825d9147237",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\training_cost.json",
+      "sha256": "874776d5d4039e54d790ca2342065d6345e3a577542a4b19a5dc186fdd801f1a",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "f02c23b1ed6518e46e327171a87eb6d91e40c5d4e0dcd1ebc1b7f27139026d1d",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\metric_provenance.json",
+      "sha256": "263e7ba8729bf93135b9200b8ecd6fa046d8c3753a62d6ba379939cd254a9338",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\config.json",
+      "sha256": "5ac08416c3c7fb55edc6fd7ea4abb18f51d5652a7ca8e44a8656923637c9a7ce",
+      "bytes": 2103
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training.csv",
+      "sha256": "fa0c1906a7a06efd1fbf3ec1dbc0c4c828d46599562c66540b5327a120815d10",
+      "bytes": 1553601
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\evaluation.json",
+      "sha256": "0d09a20164893f40e07001f334338fd5dcbbafe2442a1261c803a666215ff33b",
+      "bytes": 2300
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\samples_raw.npy",
+      "sha256": "5b8af967b907ec8aec38d49a28ae02de90d9a9c82f6dcf03999fd96cf4cec4b0",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+      "sha256": "4f3a57feaca32137232e76da782cd7995a2cde91596e71830bd3e95e43f86710",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training_cost.json",
+      "sha256": "eea2f937747d685c0ab43eb94c8be382cb14d156b5229ee468e6d05f60ecf4f8",
+      "bytes": 390
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "a1cbf773c798a64ee3206ee444df7b4f381f0f61b8726091e75e974d3007518c",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metric_provenance.json",
+      "sha256": "61a58a88fb747502ba3c05e04882fa635d74be1d200445c1c7f84cb7c815d37b",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\config.json",
+      "sha256": "e1fe6cf3829a1190ee9102bcd392a5074963bf607ea087584cbd68c957eaf4c2",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\training.csv",
+      "sha256": "526949e343e57cd8e8e856494ee8221372ea60239028fa13ff7ce3094588b192",
+      "bytes": 1510953
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\evaluation_heun.json",
+      "sha256": "4f6f9b13ea988da0edb11fd961ad976446f8bc12089090bfd002f29f18055fd8",
+      "bytes": 2300
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\samples_raw.npy",
+      "sha256": "215986c31290d23aa79091e91a3f4639e362dc40931cc6223cf4a2cea5e81b62",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+      "sha256": "b23c8f208896f7c45696043ba9a6abc478f797f4b050f14cbcda0d3354dc2e66",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\training_cost.json",
+      "sha256": "ec68e08e62da4e7d2fc6fc2db4c243b6695181cbd76b4d0219a00d33c4b82e54",
+      "bytes": 369
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "9d3e66e61b253cb0097115822d5add363c6fec8ce8c523ee53dd7537645f03ec",
+      "bytes": 924
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metric_provenance.json",
+      "sha256": "8ade9ed3be9bae9727095b33a4dea3000d0639f78faf2dc060d7cdf1f77772a7",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\config.json",
+      "sha256": "9e902897e6012eb6a90d32713c6aaa6b87874c0f3333149cdbde1eff2323ca7e",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\training.csv",
+      "sha256": "dd29dd8096256e3381959fff015d23774e3bbafcec1a8e768c3a5ec59fee40bd",
+      "bytes": 1543111
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\evaluation.json",
+      "sha256": "10c6410a6e5496e1ef0333bcad92546007b04780d0204d7c00d52362fc87da58",
+      "bytes": 2288
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\samples_raw.npy",
+      "sha256": "697302b4ec5287d841ae66660d1212d57a350a885c0ea6df397d75e8987cfcce",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+      "sha256": "cd2dec0588292346d78cf7152956f33b0564cbdbd294fbe39b49da6117b91af8",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\training_cost.json",
+      "sha256": "69a8b7f0255fc3aec79420a64cc6c27f943ba83c051a456dc2393fa7701a0fd5",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "376a2b432bc4b3976023ecf4171e84e2e3bb30f5cd343e599ba88ad0722593fb",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\metric_provenance.json",
+      "sha256": "5122b634703ac1118de389f03c666083b635ac111bf3e98fbda9fe20e8c2ac0d",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\config.json",
+      "sha256": "9b80f52aa8fd1ac5c2a2fd30a08d09e32fe8a751fccb90c39a1404f284b4ed95",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\training.csv",
+      "sha256": "ce5de10b662fa23ef3dfa0f06c6680d49a93228ba4c6c8b24980107f20f0bd86",
+      "bytes": 1551336
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\evaluation.json",
+      "sha256": "1b910d85150bf0aaec3bc5ca7e1e71ddfb7316937ae6b1c61b72e428b48140ce",
+      "bytes": 2303
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\samples_raw.npy",
+      "sha256": "0305525f9cca024c4baac934a2589dd2c8ff969a3a80138cd5c534691e05b2d9",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\metrics_arrays.npz",
+      "sha256": "27a6f1a75cb78a475cfbda5505a815510c32d5d07dc504c76804abb1225f9d24",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\training_cost.json",
+      "sha256": "b5162d20c7f306a19f3e72a76f8cb76e38a3af9ddd455cb45d96829371d36ebc",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "e9d03fe79dd06f86e43b092a3e73c377b27436ced9effe5873fbb679f29e599d",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\metric_provenance.json",
+      "sha256": "d81539d01a822246269de863aa5d5d15ed058cb14a34dab6a937d75497a35121",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\config.json",
+      "sha256": "f6c00e90037590b6f1754faf3cc53fec741585ffe664a535bb43948a91b9e03a",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\training.csv",
+      "sha256": "886a0e0bb829150601ec0da869420e93742a83264877f04b522d65d1df5aa99f",
+      "bytes": 1551026
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\evaluation.json",
+      "sha256": "e32ab95fdbb7e1ea25f93e8d8f16d81c56282df4c2a583ac73c733e6c6bb909a",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\samples_raw.npy",
+      "sha256": "05b639f4cd660e96b4d96cc3dd100ec1f3ddcb1451a7b3508e26466ea8f7125c",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+      "sha256": "41911f64fa239b80c45188de3cb5eeac981f1bbf246d846afd5ba68059b936a4",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\training_cost.json",
+      "sha256": "30d63a9093064382d913573a707e953473723abe87efa225a9fcb97af5543a5b",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "44ab8a0d329ef60ca6b43168db515e62049aaff6dfb4fc00b0261f3baf7f8e96",
+      "bytes": 475
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\metric_provenance.json",
+      "sha256": "367ff32e9411c70099098eef27a0937bc139d7021fdb150c0a1d67f5a099e7d1",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\config.json",
+      "sha256": "2c1d4d4c28ca0be34b463ce1fd36c484ac39ef615592b3c0307a5bfcdb3bb4ee",
+      "bytes": 2103
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training.csv",
+      "sha256": "b117fd23652848f783eac10af89b53539ab2b9b8d60aae36ecc82bb7574c8837",
+      "bytes": 1552363
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\evaluation.json",
+      "sha256": "b9d10e327df8bf0c6ed7c72b2067cbacbe5c0892366c8de0695dfa47341f54a2",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\samples_raw.npy",
+      "sha256": "3d128eae1f2612093a19b6ca4a26779f481cb549144bcd1f01428b5617c9e764",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+      "sha256": "cfa88621e1cbf39840d36e87e3a3b5325a71e7a83e8b344c97e6da8882a6ed18",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training_cost.json",
+      "sha256": "b22deaad042bd750524cd94a0386db06fb65ab165ddb1818d229413cac2568fe",
+      "bytes": 390
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "397548a4e0389a0d3307691a050a17b9efc2b43990c1e79e0006558396ccbcd4",
+      "bytes": 475
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metric_provenance.json",
+      "sha256": "315a772ee567fe9c064990c4a17ec658eefd818671a86af3a08796fff30241ef",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\config.json",
+      "sha256": "7e5845a6836e8a8513fcfe298d9a841324324051e1b1e47f8c5e082adb73fb16",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\training.csv",
+      "sha256": "20f927fc6aee36ee4030328a0d54b8cd2959db9af155d675af4f8afe0ce42d7a",
+      "bytes": 1511488
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\evaluation_heun.json",
+      "sha256": "bd030478a0540b5dacdbb7413ad49d584322f07dfcbe4f7548c7607e8052d7ab",
+      "bytes": 2294
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\samples_raw.npy",
+      "sha256": "5802734fc80116edda7c278ef800d9b64051754fd51424a9a563af8f5e0ff389",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+      "sha256": "2354d4f13ca0af7f9b1c39fe85e64bd06282e3759a7b00c23fcc3c2f6e5e56a6",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\training_cost.json",
+      "sha256": "bc280ae7aeba325e11bfa281f21325719c3df67bebd45795a6f1a8e117da5e46",
+      "bytes": 369
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "e17bab8cf6f2dcc8f81bfbf1698941df7757a002bae27708f4198c3c0532cee5",
+      "bytes": 923
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metric_provenance.json",
+      "sha256": "bd15edb4adf7249cc18ec15050ed953f1c442b537fe78cc2cc106765f7034c5f",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\config.json",
+      "sha256": "0c666ed12431918b8acdfa95cd0a026a8915861dd1d81c8e2fe5645296461c03",
+      "bytes": 2089
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\training.csv",
+      "sha256": "e0b2ff72b2b8d4a8ab76f257885910e9a77e9d3c789269ddebdc6bbe95b8eb2e",
+      "bytes": 1542965
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\evaluation.json",
+      "sha256": "0eea89afc4beb8195a92ab55aac734efcb07dc6d98f691ed615dee03c5b4f87f",
+      "bytes": 2299
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\samples_raw.npy",
+      "sha256": "f0f2ed44cec4beff0a19e9b54a3577d9b0b927e175f4164e673d28f893472fba",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+      "sha256": "aba4250a59f43a8efd7c1e61e51ec5b71297a6f9e975d71604a8aa34b0b85874",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\training_cost.json",
+      "sha256": "b4261b0d3b7da04e6ceac82d41f3f9d5b34e8adccd19f09e7405f4f6022b9a7b",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "6fbf3f5cca179aff2effba80f7d81820e611ca467f0c6be8f785eb76182050e2",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\metric_provenance.json",
+      "sha256": "df9a6f9eba4aa658e3b33f31ecd118e4a2d24bfaf9b3f9fec40a64cab7bde0c4",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\config.json",
+      "sha256": "897f58c7150048cbfef09bb66aeffac73d7846f8b4d738be85e498d16edf09ee",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\training.csv",
+      "sha256": "08ca46db51c4f41a23693400488fd45be58f5b7dc91f122da889f949109eb835",
+      "bytes": 1550971
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\evaluation.json",
+      "sha256": "881b872cc11f06c6bb6ad11796d121a17e6f6e4a487567664e6dec3cb49810f8",
+      "bytes": 2294
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\samples_raw.npy",
+      "sha256": "510470d6c709420e1cb2a9ce67e3471e950626732186e964007142620d64338e",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\metrics_arrays.npz",
+      "sha256": "f30a867bda0298982f1a2407b8581e3f21e54bee99f4a07ffa6a13d960a0c6c7",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\training_cost.json",
+      "sha256": "c94a433ab0f682a7cdc0fbc0ad8cad7fe61bf015fd5167074c2996b048603366",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "4bca587e7be4e34451f06dc7a44897bd3d002c4665d505d38a957e218040d086",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\metric_provenance.json",
+      "sha256": "efe957de774569a91a02027bdd6088e521e238e0a9f3531dd0cf54de387c2c04",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\config.json",
+      "sha256": "2bf631c3d477e9d0e55a6787f5db0df9a53aa5b85d3d1aaa9c28b57cad511be1",
+      "bytes": 2095
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\training.csv",
+      "sha256": "56b6bfb6dc470fd78406a20d167e8b0d4a45491a709a536247cc1d991db6b294",
+      "bytes": 1550532
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\evaluation.json",
+      "sha256": "497df0e19285091ae4b92c3bbcc4923250b496426f517aaa8b6e84736e42563d",
+      "bytes": 2301
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\samples_raw.npy",
+      "sha256": "f85f63f76ecdcd91eac3e38907389d44b75d2478c0fc0b0be38dfe67fd58f025",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+      "sha256": "07cc3a06ab92db8df17eb42d25d6b7c221203320ed424a647df74483ddc4af53",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\training_cost.json",
+      "sha256": "d017cb83f55e0419d2035da9fdfa729d6009ac55ee0c3763aed8352b90d285a7",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "b0e685c27de7e35703e850f0283140ca0447aa622a29da2685b029c3e2a45a26",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\metric_provenance.json",
+      "sha256": "3b5c7c57e1aeac7f2f19ab732c90dadaeec5a29376259791188e2dc43a6e9125",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\config.json",
+      "sha256": "e5c2dec7b2b292e37ac46f4614c72bfe6da293ff6c53e063692dc6fa55cc816f",
+      "bytes": 2103
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training.csv",
+      "sha256": "79334fa36a0c0c7fae3cb6b537da8fdeaed3028aa193366c27e7beb319184dfe",
+      "bytes": 1552460
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\evaluation.json",
+      "sha256": "e4c4a7499077f4c77a10e36111f1b035ebc7f6263ec6664efacc4e130c30db71",
+      "bytes": 2297
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\samples_raw.npy",
+      "sha256": "cc2692fea8e716a8b297148621c286fa286329af321405c1221f6bb86108ab71",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+      "sha256": "fff54bf4089cb463d209804070a5def36371442406482b1c6324b8f096c592d2",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training_cost.json",
+      "sha256": "b89baa6a0b3f50f3a2a72ebffc68a57c73450685cd302d1261fe91a62db5a0d1",
+      "bytes": 390
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "95a2f6ee037fd42a53efd81e28dc94f4ab374cb83b3b12cfcf728efeaaeb82ce",
+      "bytes": 475
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metric_provenance.json",
+      "sha256": "20fccdd34ebb95382a122e3903bf999e7601b56acb917a48d92a071633331af9",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\config.json",
+      "sha256": "98518426d4c9f73b1186a25f72a024e8fef61d71adb33c3e791f3abb212c38c5",
+      "bytes": 2091
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\training.csv",
+      "sha256": "13a08495a04bf5a98c2a759ad147e866da93f119b0739331a60d40592638a589",
+      "bytes": 1510567
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\evaluation_heun.json",
+      "sha256": "c209507697d2476ebdfa39992d341ccb47f0ae2d61e2a3990434f76c259626f4",
+      "bytes": 2295
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\samples_raw.npy",
+      "sha256": "459a8a3bdc864d4ecb484f0e65f083e31c87b44a6e3144c7fe60709fdac23cc8",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+      "sha256": "bc82eca3fd6449d43039c6bd0056aa0927ff702afba49e4daec1f0b67bbbd8a1",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\training_cost.json",
+      "sha256": "71a54d2570bf719168d93f621a86df7d9df5e750356fcd6157a1e35ca7fd800c",
+      "bytes": 368
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "694f5a1f697dd057dbd960b82df55e98397de4ad5b348c1e9dda313f7cf24553",
+      "bytes": 923
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metric_provenance.json",
+      "sha256": "05aa4f37a07f00078f401935328bcf41b39914e56f425c477e35bfc21d9e2ba2",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\config.json",
+      "sha256": "2dc2ed076a348f8e917dcc49e3a62c6d4e74c16c8fd3c8f38d55b244f31e2070",
+      "bytes": 2091
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\training.csv",
+      "sha256": "cf2eac24ddff16ebe75c9eecce0a01b5ae30b55dd993a41870a2b1cd3f513443",
+      "bytes": 1543113
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\evaluation.json",
+      "sha256": "fc9e376b57a873c43684e4f8e395e23e41350969a11f4a7981181be7c5a172f3",
+      "bytes": 2293
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\samples_raw.npy",
+      "sha256": "fc61da919e97da75c153df8a349d46e0e42ad01ded3c75bb2fe42b13346130ef",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+      "sha256": "de4e1c0f3c20d2cc479ed7474493fda4483a60fe98f86d0193b7fcbd12909ed8",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\training_cost.json",
+      "sha256": "2206d9094a5db5e1c9ef9cd6218a667ddcd26ec60398241eb2fb28c25507e61b",
+      "bytes": 387
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "c05854cf915197ef9f7a2ae73301310b62f7591103327e27d8f400c9063db85c",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\metric_provenance.json",
+      "sha256": "78233836a1992c249ace0af2d603f59b16eed49949b0258b200f4a8ff0ca6122",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\config.json",
+      "sha256": "93b0297fed409bd2acc00a1f5dcbca1f0bac51ccb6034d7acc6dfdec72d612ab",
+      "bytes": 2097
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\training.csv",
+      "sha256": "4bb21f3e0a5f82b4b6650c3b051258902ffd930afee85363b3d4927a39b3084d",
+      "bytes": 1549882
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\evaluation.json",
+      "sha256": "d2c30916a8530987e135e7b6c67bc693e37a9f2e02794106d12de4f0133d5e23",
+      "bytes": 2297
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\samples_raw.npy",
+      "sha256": "cc11ad6842ac2f0c30e4a8dfe79aa20f77d091092b398220db4e84eb7c1b8ab4",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\metrics_arrays.npz",
+      "sha256": "8cc9b94f044a61c6b7371e42f4574881c2357ac891ad701306bae399bc3f2601",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\training_cost.json",
+      "sha256": "5ef257cce995f8e5f988833fbe187ad311a007e8e0d2987634e1facea3b6fccd",
+      "bytes": 389
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "4a0d628985dc6aa8576ddb5b49a6508da82dcb4ac8a6498650e060e60e8f04c1",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\metric_provenance.json",
+      "sha256": "56b29c8ea49079a0a723bab3a29537d1c007decebbce9623235a69e8a95b00fd",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\config.json",
+      "sha256": "7bb1cc3ce3861f3aa02c746ce413a0cfd85a86d79bb38bf0b298a1ad360306e7",
+      "bytes": 2097
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\training.csv",
+      "sha256": "a4fa2b0a67b19642c749c8eaa4be7f01316674e5c373c81003b80286943b559a",
+      "bytes": 1550891
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\evaluation.json",
+      "sha256": "574012ad5cf40fc62bedb058497c473fe4268f19c053adad172e9077a4bc7461",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\samples_raw.npy",
+      "sha256": "3f1596816cbc3a52154115e79bc28514e14cc37186586c1e13f1ba1cf89785ea",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+      "sha256": "0a42f2e6b52943abde38682a169798ce47096eafa6ec290312246f507f542927",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\training_cost.json",
+      "sha256": "0f2e47f7dc43a15ee7d73c9f475f4f19f6d08368af02bee2c75fba787c1ecb66",
+      "bytes": 388
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "610c822ba8a634e7cc89121a9211633254e579406470d1ae829f2cbe28991b72",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\metric_provenance.json",
+      "sha256": "8f52b1858105b78790b1c8987c4c1377fdad11458958c3bec44604aa0341c9e2",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\config.json",
+      "sha256": "f6ab79b5beb25f5eb293b1c6ae4ceefa316fbb9e4d0845e403b1d4eac7099313",
+      "bytes": 2105
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training.csv",
+      "sha256": "f1290ae73c5283d58ca45dbc4ba6d78cdf18fa494dc1b68d0dba246ec8809c6b",
+      "bytes": 1552662
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\evaluation.json",
+      "sha256": "851187bf5c42df6dd480da848c6941ae8d9f4e8beab91d04f826efac3a5b69cc",
+      "bytes": 2297
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\samples_raw.npy",
+      "sha256": "751915928ec434e9620f4357afab52009fc02e40b05e70b2ccca72163dd3661e",
+      "bytes": 524416
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+      "sha256": "61ec4b8bce0b3cad544c5d20e9872e28136f454c1860acd5fb9c79a06d22ad8d",
+      "bytes": 726892
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training_cost.json",
+      "sha256": "36a3b5266ab0ca464c879f8826ba921c86a6ebd8b0d95a65770e15553a30f477",
+      "bytes": 390
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+      "sha256": "a38dec31dad436d510dfec7d52f28db8e524e32edff911984a14054c83e8414e",
+      "bytes": 476
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metric_provenance.json",
+      "sha256": "de6a0e8e7196a58974d6b0fc664b0843a6a2474a22d5f0768b57dcf15569f113",
+      "bytes": 1202
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+      "sha256": "21d402721f504ac0012a9b922e51104d7bc9e2d055a97c3657269a78ab434f3d",
+      "bytes": 2097708
+    },
+    {
+      "path": "D:\\work_space\\fm_theory_rebuild_v1\\data\\seq_iid\\stats.npz",
+      "sha256": "3d61378c45a5cd1b92bd0044cdc14e54e131eebf5c7f08f722cf38ac73e69f53",
+      "bytes": 1528
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "iid_dependence_diagnostics.png",
+      "sha256": "07ca7cae1f16cf448c3a90173cd497e05d57dca3a95ca95f854209686e8a1010",
+      "bytes": 309004
+    },
+    {
+      "path": "iid_dependence_diagnostics.svg",
+      "sha256": "a1354e096beb30df20900c0d1e0bd31ff0658095b507038928b877ecdafe2b29",
+      "bytes": 50982
+    },
+    {
+      "path": "iid_marginal_diagnostics.png",
+      "sha256": "bc755bf74a758aba9d478c6e0853f83acba1b1e31204b5460959b1b51c25deac",
+      "bytes": 251532
+    },
+    {
+      "path": "iid_marginal_diagnostics.svg",
+      "sha256": "dea0242a84726c23f9de7e16ef59efd5a324a7ef01c674bc385163e74d7ee9de",
+      "bytes": 63079
+    },
+    {
+      "path": "iid_position_correlation.png",
+      "sha256": "89bd60ef4e421036bec97d7985d6fdb086b38b10f66e092c888dd3fb53348565",
+      "bytes": 238629
+    },
+    {
+      "path": "iid_position_correlation.svg",
+      "sha256": "4b5b41ed8388da726b619e362f9cb605242cb8697eaec55aaabb6dac4261d0cd",
+      "bytes": 188535
+    },
+    {
+      "path": "learning_FM_COMPLEX_ODE.png",
+      "sha256": "f8857c1befd0e7c7998803f1a7b5ee064e393de668dbd26bbb0c93d5985d23eb",
+      "bytes": 202380
+    },
+    {
+      "path": "learning_FM_COMPLEX_ODE.svg",
+      "sha256": "7017f81b80fd1dbc97d5fd2691d0e7ba94522a7f86abac20b75137de049ac985",
+      "bytes": 598220
+    },
+    {
+      "path": "learning_FM_COMPLEX_SDE.png",
+      "sha256": "c1850ad91ebf9a33994036cee54b19191f53353cbc4035a2d608fba334b7a2c1",
+      "bytes": 201731
+    },
+    {
+      "path": "learning_FM_COMPLEX_SDE.svg",
+      "sha256": "55901b98b2c65eadc6b9c49731cd512fb43b5bd1deda0cf0d1925fc2d8a1c905",
+      "bytes": 593370
+    },
+    {
+      "path": "learning_FM_COMPLEX_VDC_ODE.png",
+      "sha256": "3f97e9241a19b9523a5576e8d5127865df331a924ee5c14281c1a0c496921223",
+      "bytes": 207552
+    },
+    {
+      "path": "learning_FM_COMPLEX_VDC_ODE.svg",
+      "sha256": "b00d991ff5cc27fcc3ff515717f75d0a2a17bdecb49df9dc6c3b8036a47debdb",
+      "bytes": 596953
+    },
+    {
+      "path": "learning_FM_REAL_ODE.png",
+      "sha256": "01479197381026bdefcdd2aa5758b80bcb9d9699e214b26988939701e91f3e2b",
+      "bytes": 200627
+    },
+    {
+      "path": "learning_FM_REAL_ODE.svg",
+      "sha256": "4f083bc05d1dec36fbe44fb3597c5ec0c5e14e5e23f04cd1b28a237efeb5ab19",
+      "bytes": 596844
+    },
+    {
+      "path": "learning_FM_STANDARD.png",
+      "sha256": "6089ee507ab2e6578c08822a9efb6d085781dbe5ae948c1f60964ef1a4f7cd60",
+      "bytes": 198166
+    },
+    {
+      "path": "learning_FM_STANDARD.svg",
+      "sha256": "16eb0ac3af201969164dc20edb822de567fb12920cb25dbbd1e6b3cad0f06dd4",
+      "bytes": 600070
+    },
+    {
+      "path": "quality_seed_scatter.png",
+      "sha256": "38b3da879aa4a70322565aee69a72aea66788b1c6823f50954b86fd4b0ee664b",
+      "bytes": 126749
+    },
+    {
+      "path": "quality_seed_scatter.svg",
+      "sha256": "c91f32cafee90591f6b8955a99423092358b760a6f2949f537982b8198429ca2",
+      "bytes": 42423
+    },
+    {
+      "path": "quality_walltime.png",
+      "sha256": "54381ab633db3f601f43b30544661a66681e34a4f20d654f29431c28e4d003c9",
+      "bytes": 160362
+    },
+    {
+      "path": "quality_walltime.svg",
+      "sha256": "bb11b44b7649bfc456a58404c2d5f5d472e87018d972d60087e2aca75da88409",
+      "bytes": 67531
+    },
+    {
+      "path": "sources\\iid_acf_per_training_seed.csv",
+      "sha256": "a1653f90fb8e890a7d278ed37b9ff01e97d2dc256fe4e674f1cc8e4f13bc2984",
+      "bytes": 93475
+    },
+    {
+      "path": "sources\\iid_diagnostics.npz",
+      "sha256": "2d6652ef6937e8078c161d833853efd33a1392b1351d60695859d41760eb7bc5",
+      "bytes": 14740991
+    },
+    {
+      "path": "sources\\iid_marginal_histograms.csv",
+      "sha256": "6a8c84238afa9d4d40cbe678e866b41c18ea2b79ea5310b8df0d4ea50d6c21a4",
+      "bytes": 108154
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_ODE.csv",
+      "sha256": "887ec7a7bcb5c69649beabc467886597715b6ba9d2a454c514ae0dc542419ed0",
+      "bytes": 7176009
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_ODE.npz",
+      "sha256": "9ac3ac18563d05aee5b46ac0b06225488a872562ea94999a17f2048e0f9a8208",
+      "bytes": 739134
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_SDE.csv",
+      "sha256": "63552de18cb3da03a3d121a661c0575ab7c43f74d83b38075c42c925793029fd",
+      "bytes": 7154819
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_SDE.npz",
+      "sha256": "dfd64a228d22890968dd1e177804aa5bf5445803fbf0138230c44ad66e4190ea",
+      "bytes": 745382
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_VDC_ODE.csv",
+      "sha256": "778df625779c361fa676831a424fd239be1449f6b4c2e9f8edacece52063a244",
+      "bytes": 7425789
+    },
+    {
+      "path": "sources\\learning_FM_COMPLEX_VDC_ODE.npz",
+      "sha256": "e401ba8ccef206ee4f6840bc794bc2d737242c96b36048fdc1d28b1bb1b71eed",
+      "bytes": 738889
+    },
+    {
+      "path": "sources\\learning_FM_REAL_ODE.csv",
+      "sha256": "79c493be16fb824375576baa8ab43adfaa7a7d73c9d2c214399f00b8f22cb3b8",
+      "bytes": 6994924
+    },
+    {
+      "path": "sources\\learning_FM_REAL_ODE.npz",
+      "sha256": "d59e5dbe32b69dc033081f29266f1894b1595c8a63d28b5f33dde11a342635d9",
+      "bytes": 738284
+    },
+    {
+      "path": "sources\\learning_FM_STANDARD.csv",
+      "sha256": "58f1208ba063a1c6e46764b0a4c7a524bad06f0ea41c34c4f03bfc0ad9566fbb",
+      "bytes": 7019203
+    },
+    {
+      "path": "sources\\learning_FM_STANDARD.npz",
+      "sha256": "266f5820f7baccb3bddf7d0b6157d12d9adc04c2581a0f4d752471cb497a7958",
+      "bytes": 739664
+    },
+    {
+      "path": "sources\\quality_per_training_seed.csv",
+      "sha256": "3ff192091d4742778863e2e9784434d84ad29972524f33424cd538d2b8fcbfb2",
+      "bytes": 3892
+    },
+    {
+      "path": "sources\\quality_per_training_seed.npz",
+      "sha256": "000c1ac5a173d5a6982d5f1153e1a3004cd4c5cab5b9b1b9cc26e67511cb0071",
+      "bytes": 4348
+    },
+    {
+      "path": "sources\\quality_seed_moments.csv",
+      "sha256": "000d30eebd7cfbb4e9a3f5a2d9f60b302f600e89d8ffc794fcd4e5c9631f3256",
+      "bytes": 1282
+    }
+  ],
+  "script_sha256": "92df1b03a77e72e292f77fd564be90f5346caf5b78acf3f56177029ec07761e8"
+}

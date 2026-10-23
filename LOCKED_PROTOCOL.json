@@ -1,0 +1,200 @@
+{
+  "SEQ_IID": {
+    "updates": 12000,
+    "selection_rationale": "All five independent validation-only 200-update pilots had finite losses, gradients and autonomous generated samples. At measured costs the 12000-update shared tier alone requires approximately 6.31 GPU hours before formal evaluation/checks; 24000/48000 would double/quadruple this. Choose the lowest authorized formal tier uniformly, retain full curves, and do not assert convergence from the budget. No test metrics entered this choice.",
+    "N": 32,
+    "H": 17,
+    "Q": 64,
+    "E": 1,
+    "hidden": 128,
+    "hidden_layers": 3,
+    "query_chunk": 64,
+    "source_chunk": 32,
+    "network_lr": 0.0002,
+    "order_lr": 2e-05,
+    "weight_decay": 0.0001,
+    "grad_clip": 1,
+    "sigma_min": 0.05,
+    "kappa": 0.05,
+    "tau_min": null,
+    "time_distribution": ".5 Uniform + .5 U^4; inverse-density weighting",
+    "sampling_ensembles": 16,
+    "sampling_particles": 64,
+    "sampling_steps": 64,
+    "checkpoint": "final",
+    "best_validation_checkpoint_retained": true,
+    "solver": "first cell_average_PC; then PL node explicit Euler / Euler-Maruyama",
+    "standard_reference": "same checkpoint and initial samples; Heun primary statistical baseline; Euler retained as supplement",
+    "same_checkpoint_checks": {
+      "steps": [
+        32,
+        64,
+        128
+      ],
+      "particles": [
+        32,
+        64,
+        128
+      ],
+      "ensembles": 2,
+      "extra_training_updates": 0
+    },
+    "pilots": [
+      {
+        "model_id": "FM_STANDARD",
+        "validation_loss": 1.2178870838833973,
+        "final_validation_loss": 1.2178870838833973,
+        "generated_mean": -0.002673706039786339,
+        "generated_variance": 0.9692822694778442,
+        "validation_mean": -0.004233046900480986,
+        "validation_variance": 1.0014116764068604,
+        "training_seconds": 0.6471071999985725,
+        "sampling": {
+          "sampling_seconds": 0.01798359997337684,
+          "ensembles": 2,
+          "N": 32,
+          "steps": 32,
+          "history_max": 32,
+          "drift_calls": 34,
+          "V_evaluation_points": 0,
+          "W_network_evaluation_points": 0,
+          "spatial_reverse_calls": 0,
+          "solver": "euler",
+          "initial_cell": "Gauss3",
+          "peak_sampling_memory_bytes": 22702592,
+          "seed": 9011,
+          "history_source": "generated_accepted_states_only"
+        },
+        "test_accessed": false
+      },
+      {
+        "model_id": "FM_REAL_ODE",
+        "validation_loss": 1.220094645745121,
+        "final_validation_loss": 1.220094645745121,
+        "generated_mean": -0.0034216451458632946,
+        "generated_variance": 0.9723622798919678,
+        "validation_mean": -0.004233046900480986,
+        "validation_variance": 1.0014116764068604,
+        "training_seconds": 17.01249299995834,
+        "sampling": {
+          "sampling_seconds": 0.971832400013227,
+          "ensembles": 2,
+          "N": 32,
+          "steps": 32,
+          "history_max": 32,
+          "drift_calls": 32,
+          "V_evaluation_points": 33792,
+          "W_network_evaluation_points": 2162688,
+          "spatial_reverse_calls": 528,
+          "solver": "euler",
+          "initial_cell": "RL_PC_average",
+          "peak_sampling_memory_bytes": 35990528,
+          "seed": 9011,
+          "history_source": "generated_accepted_states_only"
+        },
+        "test_accessed": false
+      },
+      {
+        "model_id": "FM_COMPLEX_SDE",
+        "validation_loss": 1.2939743741881102,
+        "final_validation_loss": 1.2939743741881102,
+        "generated_mean": -0.010163938626646996,
+        "generated_variance": 1.0490213632583618,
+        "validation_mean": -0.004233046900480986,
+        "validation_variance": 1.0014116764068604,
+        "training_seconds": 16.50189140002476,
+        "sampling": {
+          "sampling_seconds": 0.916075799963437,
+          "ensembles": 2,
+          "N": 32,
+          "steps": 32,
+          "history_max": 32,
+          "drift_calls": 32,
+          "V_evaluation_points": 33792,
+          "W_network_evaluation_points": 2162688,
+          "spatial_reverse_calls": 528,
+          "solver": "euler",
+          "initial_cell": "RL_PC_average",
+          "peak_sampling_memory_bytes": 37029376,
+          "seed": 9011,
+          "history_source": "generated_accepted_states_only"
+        },
+        "test_accessed": false
+      },
+      {
+        "model_id": "FM_COMPLEX_ODE",
+        "validation_loss": 1.2204985773423687,
+        "final_validation_loss": 1.2204985773423687,
+        "generated_mean": -0.0034624238032847643,
+        "generated_variance": 0.9733449220657349,
+        "validation_mean": -0.004233046900480986,
+        "validation_variance": 1.0014116764068604,
+        "training_seconds": 16.589694200025406,
+        "sampling": {
+          "sampling_seconds": 1.004833300015889,
+          "ensembles": 2,
+          "N": 32,
+          "steps": 32,
+          "history_max": 32,
+          "drift_calls": 32,
+          "V_evaluation_points": 33792,
+          "W_network_evaluation_points": 2162688,
+          "spatial_reverse_calls": 528,
+          "solver": "euler",
+          "initial_cell": "RL_PC_average",
+          "peak_sampling_memory_bytes": 38033920,
+          "seed": 9011,
+          "history_source": "generated_accepted_states_only"
+        },
+        "test_accessed": false
+      },
+      {
+        "model_id": "FM_COMPLEX_VDC_ODE",
+        "validation_loss": 1.2214927003951743,
+        "final_validation_loss": 1.2214927003951743,
+        "generated_mean": -0.0060432045720517635,
+        "generated_variance": 0.9754939675331116,
+        "validation_mean": -0.004233046900480986,
+        "validation_variance": 1.0014116764068604,
+        "training_seconds": 25.010842800023966,
+        "sampling": {
+          "sampling_seconds": 1.322959000011906,
+          "ensembles": 2,
+          "N": 32,
+          "steps": 32,
+          "history_max": 32,
+          "drift_calls": 32,
+          "V_evaluation_points": 33792,
+          "W_network_evaluation_points": 2162688,
+          "spatial_reverse_calls": 1056,
+          "solver": "euler",
+          "initial_cell": "RL_PC_average",
+          "peak_sampling_memory_bytes": 39632384,
+          "seed": 9011,
+          "history_source": "generated_accepted_states_only"
+        },
+        "test_accessed": false
+      }
+    ],
+    "estimated_training_seconds_from_pilots": 22728.608580009313
+  },
+  "ROBOT_8DOF": {
+    "status": "BLOCKED",
+    "updates": null
+  },
+  "model_order": [
+    "FM_STANDARD",
+    "FM_REAL_ODE",
+    "FM_COMPLEX_SDE",
+    "FM_COMPLEX_ODE",
+    "FM_COMPLEX_VDC_ODE"
+  ],
+  "seed_order": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "scope": "exactly 50 manifest entries; no other tasks"
+}

@@ -1,0 +1,3165 @@
+{
+  "schema_version": 1,
+  "phase_id": "PHASE2_3_DATASETS",
+  "created_at": "2026-10-09T03:29:17.520166+00:00",
+  "updated_at": "2026-10-10T15:50:29.207234+00:00",
+  "formal_configuration_count": 75,
+  "runs": [
+    {
+      "queue_index": 1,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_STANDARD",
+      "seed": 17,
+      "run_id": "SEQ_DELAY__FM_STANDARD__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001",
+          "created_at": "2026-10-09T04:10:31.262026+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.245327+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T04:10:31.261806+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T04:11:14.491519+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.245129+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520176+00:00",
+      "updated_at": "2026-10-09T16:46:53.245146+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed17/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 2,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_REAL_ODE",
+      "seed": 17,
+      "run_id": "SEQ_DELAY__FM_REAL_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T04:11:14.544153+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.353714+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T04:11:14.543894+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T04:34:56.631362+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.353494+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520181+00:00",
+      "updated_at": "2026-10-09T16:46:53.353515+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed17/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 3,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 17,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_SDE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001",
+          "created_at": "2026-10-09T04:34:56.686416+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.463624+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T04:34:56.686121+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T04:57:55.469726+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.463310+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520184+00:00",
+      "updated_at": "2026-10-09T16:46:53.463336+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed17/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 4,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 17,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T04:57:55.520360+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.574390+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T04:57:55.520123+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T05:15:44.730303+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.574214+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520186+00:00",
+      "updated_at": "2026-10-09T16:46:53.574228+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed17/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 5,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 17,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T05:15:44.778118+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.721982+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T05:15:44.777880+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T05:42:25.585745+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.721812+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520188+00:00",
+      "updated_at": "2026-10-09T16:46:53.721825+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 6,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_STANDARD",
+      "seed": 29,
+      "run_id": "SEQ_DELAY__FM_STANDARD__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001",
+          "created_at": "2026-10-09T05:42:25.634000+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.828383+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T05:42:25.633764+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T05:42:58.372370+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.828197+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520190+00:00",
+      "updated_at": "2026-10-09T16:46:53.828210+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed29/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 7,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_REAL_ODE",
+      "seed": 29,
+      "run_id": "SEQ_DELAY__FM_REAL_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T05:42:58.419025+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:53.935665+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T05:42:58.418810+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T06:00:24.475140+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:53.935474+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520192+00:00",
+      "updated_at": "2026-10-09T16:46:53.935488+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed29/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 8,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 29,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_SDE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001",
+          "created_at": "2026-10-09T06:00:24.524784+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.044569+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T06:00:24.524544+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T06:17:50.465436+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.044344+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520194+00:00",
+      "updated_at": "2026-10-09T16:46:54.044357+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed29/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 9,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 29,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T06:17:50.512822+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.154105+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T06:17:50.512560+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T06:35:17.491021+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.153906+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520196+00:00",
+      "updated_at": "2026-10-09T16:46:54.153920+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed29/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 10,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 29,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T06:35:17.545885+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.278205+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T06:35:17.545625+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T07:01:49.519383+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.278019+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520200+00:00",
+      "updated_at": "2026-10-09T16:46:54.278034+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 11,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_STANDARD",
+      "seed": 43,
+      "run_id": "SEQ_DELAY__FM_STANDARD__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001",
+          "created_at": "2026-10-09T07:01:49.571617+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.382359+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T07:01:49.571386+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T07:02:22.849808+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.382190+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520202+00:00",
+      "updated_at": "2026-10-09T16:46:54.382204+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed43/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 12,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_REAL_ODE",
+      "seed": 43,
+      "run_id": "SEQ_DELAY__FM_REAL_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T07:02:22.897480+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.491982+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T07:02:22.897284+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T07:19:53.123524+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.491779+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520204+00:00",
+      "updated_at": "2026-10-09T16:46:54.491794+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed43/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 13,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 43,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_SDE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001",
+          "created_at": "2026-10-09T07:19:53.176854+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.605405+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T07:19:53.176625+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T07:37:22.672242+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.605237+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520206+00:00",
+      "updated_at": "2026-10-09T16:46:54.605251+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed43/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 14,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 43,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T07:37:22.719974+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.715592+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T07:37:22.719773+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T07:54:51.843731+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.715414+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520209+00:00",
+      "updated_at": "2026-10-09T16:46:54.715427+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed43/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 15,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 43,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T07:54:51.897124+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.822413+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T07:54:51.896826+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T08:21:23.876987+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.822221+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520211+00:00",
+      "updated_at": "2026-10-09T16:46:54.822235+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 16,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_STANDARD",
+      "seed": 71,
+      "run_id": "SEQ_DELAY__FM_STANDARD__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001",
+          "created_at": "2026-10-09T08:21:23.930468+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:54.934582+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T08:21:23.930254+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T08:21:57.519816+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:54.934408+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520214+00:00",
+      "updated_at": "2026-10-09T16:46:54.934421+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed71/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 17,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_REAL_ODE",
+      "seed": 71,
+      "run_id": "SEQ_DELAY__FM_REAL_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T08:21:57.572716+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.055161+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T08:21:57.572498+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T08:39:25.691073+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.054990+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520216+00:00",
+      "updated_at": "2026-10-09T16:46:55.055002+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed71/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 18,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 71,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_SDE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001",
+          "created_at": "2026-10-09T08:39:25.747263+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.158932+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T08:39:25.747033+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T08:56:53.562321+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.158752+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520218+00:00",
+      "updated_at": "2026-10-09T16:46:55.158764+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed71/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 19,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 71,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T08:56:53.618964+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.262641+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T08:56:53.618712+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T09:14:21.936042+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.262453+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520219+00:00",
+      "updated_at": "2026-10-09T16:46:55.262469+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed71/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 20,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 71,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T09:14:21.988785+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.369924+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T09:14:21.988549+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T09:40:55.106750+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.369754+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520221+00:00",
+      "updated_at": "2026-10-09T16:46:55.369767+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 21,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_STANDARD",
+      "seed": 101,
+      "run_id": "SEQ_DELAY__FM_STANDARD__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001",
+          "created_at": "2026-10-09T09:40:55.162247+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.473997+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T09:40:55.162006+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T09:41:28.671118+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.473817+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520223+00:00",
+      "updated_at": "2026-10-09T16:46:55.473832+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_STANDARD__seed101/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 22,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_REAL_ODE",
+      "seed": 101,
+      "run_id": "SEQ_DELAY__FM_REAL_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-09T09:41:28.720626+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.581636+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T09:41:28.720419+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T09:58:56.091440+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.581467+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520225+00:00",
+      "updated_at": "2026-10-09T16:46:55.581480+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_REAL_ODE__seed101/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 23,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 101,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_SDE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001",
+          "created_at": "2026-10-09T09:58:56.144518+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.689444+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T09:58:56.144261+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T10:16:25.086325+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.689268+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520227+00:00",
+      "updated_at": "2026-10-09T16:46:55.689281+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_SDE__seed101/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 24,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 101,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-09T10:16:25.142855+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.803867+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T10:16:25.142573+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T10:33:52.257610+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.803700+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520229+00:00",
+      "updated_at": "2026-10-09T16:46:55.803713+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_ODE__seed101/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 25,
+      "dataset_id": "SEQ_DELAY",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 101,
+      "run_id": "SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-09T10:33:52.312567+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:55.919110+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T10:33:52.312327+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T11:00:27.686827+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:55.918942+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520231+00:00",
+      "updated_at": "2026-10-09T16:46:55.918955+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 26,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_STANDARD",
+      "seed": 17,
+      "run_id": "SEQ_ACCUM__FM_STANDARD__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001",
+          "created_at": "2026-10-09T11:00:27.739185+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.098878+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T11:00:27.738973+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T11:01:29.059148+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:56.098676+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520234+00:00",
+      "updated_at": "2026-10-09T16:46:56.098690+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 27,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_REAL_ODE",
+      "seed": 17,
+      "run_id": "SEQ_ACCUM__FM_REAL_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T11:01:29.115685+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.264836+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T11:01:29.115465+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T11:35:54.591883+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:56.264647+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520236+00:00",
+      "updated_at": "2026-10-09T16:46:56.264661+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 28,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 17,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_SDE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001",
+          "created_at": "2026-10-09T11:35:54.644347+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.435217+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T11:35:54.644132+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T12:09:32.183806+00:00",
+          "previous_status": "RUNNING",
+          "status": "FAILED",
+          "reason": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'D:\\\\work_space\\\\fm_theory_rebuild_v1\\\\outputs\\\\phase2_3datasets\\\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\\\attempt_001\\\\checkpoint_checks\\\\checkpoint_diagnostics\\\\diagnostics.json.tmp' -> 'D:\\\\work_space\\\\fm_theory_rebuild_v1\\\\outputs\\\\phase2_3datasets\\\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\\\attempt_001\\\\checkpoint_checks\\\\checkpoint_diagnostics\\\\diagnostics.json'"
+        },
+        {
+          "at": "2026-10-09T12:23:45.859397+00:00",
+          "previous_status": "FAILED",
+          "status": "COMPLETED",
+          "reason": "Recovered preserved checkpoint diagnostics after recorded Windows I/O failure; zero training updates; primary results unchanged"
+        },
+        {
+          "at": "2026-10-09T16:46:56.435040+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520238+00:00",
+      "updated_at": "2026-10-09T16:46:56.435053+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed17/attempt_001",
+      "updates": 24000,
+      "auxiliary_io_recovery_record": "phase2_reference/AUXILIARY_IO_RECOVERIES/SEQ_ACCUM__FM_COMPLEX_SDE__seed17/20261009T122253.716418+0000"
+    },
+    {
+      "queue_index": 29,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 17,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T12:09:32.233015+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.604801+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T12:09:32.232809+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T12:44:12.419755+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:56.604621+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520239+00:00",
+      "updated_at": "2026-10-09T16:46:56.604633+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 30,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 17,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-09T12:44:12.470866+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.785084+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T12:44:12.470650+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T13:36:27.275264+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:56.784912+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520241+00:00",
+      "updated_at": "2026-10-09T16:46:56.784926+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 31,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_STANDARD",
+      "seed": 29,
+      "run_id": "SEQ_ACCUM__FM_STANDARD__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001",
+          "created_at": "2026-10-09T13:36:27.325989+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:56.947821+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T13:36:27.325747+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T13:37:26.899867+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:56.947640+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520243+00:00",
+      "updated_at": "2026-10-09T16:46:56.947654+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 32,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_REAL_ODE",
+      "seed": 29,
+      "run_id": "SEQ_ACCUM__FM_REAL_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T13:37:26.948197+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:57.111989+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T13:37:26.947989+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T14:20:48.296213+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:57.111818+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520245+00:00",
+      "updated_at": "2026-10-09T16:46:57.111831+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 33,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 29,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_SDE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001",
+          "created_at": "2026-10-09T14:20:48.372053+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:57.336348+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T14:20:48.371724+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T15:07:13.190794+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:57.336101+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520247+00:00",
+      "updated_at": "2026-10-09T16:46:57.336117+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 34,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 29,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T15:07:13.260029+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T16:46:57.534564+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T15:07:13.259694+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T15:53:04.146549+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        },
+        {
+          "at": "2026-10-09T16:46:57.534354+00:00",
+          "previous_status": "COMPLETED",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520249+00:00",
+      "updated_at": "2026-10-09T16:46:57.534369+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 35,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 29,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-09T15:53:04.213489+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T17:14:42.699340+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T15:53:04.213162+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T16:46:34.578449+00:00",
+          "previous_status": "RUNNING",
+          "status": "FAILED",
+          "reason": "Training remained at the flushed step14000/checkpoint for about12 minutes. Exact owned process terminated for same-attempt checkpoint resume; cause unknown."
+        },
+        {
+          "at": "2026-10-09T16:46:58.381753+00:00",
+          "previous_status": "FAILED",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T17:14:42.699102+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520251+00:00",
+      "updated_at": "2026-10-09T17:14:42.699117+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 36,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_STANDARD",
+      "seed": 43,
+      "run_id": "SEQ_ACCUM__FM_STANDARD__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001",
+          "created_at": "2026-10-09T17:14:42.754854+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T17:15:45.701045+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T17:14:42.754516+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T17:15:45.700830+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520254+00:00",
+      "updated_at": "2026-10-09T17:15:45.700843+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 37,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_REAL_ODE",
+      "seed": 43,
+      "run_id": "SEQ_ACCUM__FM_REAL_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T17:15:45.754215+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T17:58:16.848510+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T17:15:45.753958+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T17:58:16.848212+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520256+00:00",
+      "updated_at": "2026-10-09T17:58:16.848228+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 38,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 43,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_SDE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001",
+          "created_at": "2026-10-09T17:58:16.906099+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T18:40:54.432946+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T17:58:16.905810+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T18:40:54.432642+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520257+00:00",
+      "updated_at": "2026-10-09T18:40:54.432660+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 39,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 43,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T18:40:54.491535+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T19:21:44.097740+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T18:40:54.491179+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T19:21:44.097523+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520259+00:00",
+      "updated_at": "2026-10-09T19:21:44.097537+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 40,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 43,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-09T19:21:44.145183+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T20:12:44.209238+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T19:21:44.144951+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T20:12:44.209045+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520261+00:00",
+      "updated_at": "2026-10-09T20:12:44.209061+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 41,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_STANDARD",
+      "seed": 71,
+      "run_id": "SEQ_ACCUM__FM_STANDARD__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001",
+          "created_at": "2026-10-09T20:12:44.256864+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T20:13:39.082245+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T20:12:44.256648+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T20:13:39.082042+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520263+00:00",
+      "updated_at": "2026-10-09T20:13:39.082055+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 42,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_REAL_ODE",
+      "seed": 71,
+      "run_id": "SEQ_ACCUM__FM_REAL_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T20:13:39.127855+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T20:47:14.811425+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T20:13:39.127660+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T20:47:14.811219+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520265+00:00",
+      "updated_at": "2026-10-09T20:47:14.811232+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 43,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 71,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_SDE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001",
+          "created_at": "2026-10-09T20:47:14.858735+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T21:20:50.367695+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T20:47:14.858523+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T21:20:50.367524+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520267+00:00",
+      "updated_at": "2026-10-09T21:20:50.367538+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 44,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 71,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T21:20:50.416955+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T21:54:24.978932+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T21:20:50.416740+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T21:54:24.978722+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520269+00:00",
+      "updated_at": "2026-10-09T21:54:24.978736+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 45,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 71,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-09T21:54:25.027246+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T22:45:19.568123+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T21:54:25.027023+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T22:45:19.567871+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520270+00:00",
+      "updated_at": "2026-10-09T22:45:19.567889+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 46,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_STANDARD",
+      "seed": 101,
+      "run_id": "SEQ_ACCUM__FM_STANDARD__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001",
+          "created_at": "2026-10-09T22:45:19.616846+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T22:46:15.488689+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T22:45:19.616630+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T22:46:15.488517+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520274+00:00",
+      "updated_at": "2026-10-09T22:46:15.488530+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_STANDARD__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 47,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_REAL_ODE",
+      "seed": 101,
+      "run_id": "SEQ_ACCUM__FM_REAL_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-09T22:46:15.536603+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T23:19:47.704994+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T22:46:15.536400+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T23:19:47.704802+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520276+00:00",
+      "updated_at": "2026-10-09T23:19:47.704816+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_REAL_ODE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 48,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 101,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_SDE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001",
+          "created_at": "2026-10-09T23:19:47.752722+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T23:56:23.711908+00:00",
+          "reason": "All formal artifacts passed; recovered a manifest-only WinError5 on the existing runner main thread, without training or resampling."
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T23:19:47.752522+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T23:53:23.756692+00:00",
+          "previous_status": "RUNNING",
+          "status": "FAILED",
+          "reason": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'D:\\\\work_space\\\\fm_theory_rebuild_v1\\\\PHASE2_MANIFEST.json.tmp' -> 'D:\\\\work_space\\\\fm_theory_rebuild_v1\\\\PHASE2_MANIFEST.json'"
+        },
+        {
+          "at": "2026-10-09T23:56:23.711725+00:00",
+          "previous_status": "FAILED",
+          "status": "COMPLETED",
+          "reason": "All formal artifacts passed; recovered a manifest-only WinError5 on the existing runner main thread, without training or resampling."
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520277+00:00",
+      "updated_at": "2026-10-09T23:56:23.711738+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed101/attempt_001",
+      "reason": "All formal artifacts passed; recovered a manifest-only WinError5 on the existing runner main thread, without training or resampling.",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_SDE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 49,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 101,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-09T23:53:23.808817+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T00:26:58.292862+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-09T23:53:23.808524+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T00:26:58.292674+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520279+00:00",
+      "updated_at": "2026-10-10T00:26:58.292687+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_ODE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 50,
+      "dataset_id": "SEQ_ACCUM",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 101,
+      "run_id": "SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-10T00:26:58.340649+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T01:17:53.328586+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T00:26:58.340427+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T01:17:53.328387+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520281+00:00",
+      "updated_at": "2026-10-10T01:17:53.328401+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 51,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_STANDARD",
+      "seed": 17,
+      "run_id": "SEQ_MULTISCALE__FM_STANDARD__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001",
+          "created_at": "2026-10-10T01:17:53.381309+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T01:18:51.329702+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T01:17:53.381074+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T01:18:51.329529+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520283+00:00",
+      "updated_at": "2026-10-10T01:18:51.329543+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 52,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_REAL_ODE",
+      "seed": 17,
+      "run_id": "SEQ_MULTISCALE__FM_REAL_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-10T01:18:51.375866+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T01:52:27.915984+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T01:18:51.375667+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T01:52:27.915788+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520284+00:00",
+      "updated_at": "2026-10-10T01:52:27.915803+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 53,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 17,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001",
+          "created_at": "2026-10-10T01:52:27.968115+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T02:25:54.436971+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T01:52:27.967902+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T02:25:54.436776+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520286+00:00",
+      "updated_at": "2026-10-10T02:25:54.436790+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 54,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 17,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-10T02:25:54.485299+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T02:59:22.302330+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T02:25:54.485083+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T02:59:22.302149+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520288+00:00",
+      "updated_at": "2026-10-10T02:59:22.302162+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 55,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 17,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-10T02:59:22.350249+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T03:50:05.176908+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T02:59:22.350036+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T03:50:05.176706+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520293+00:00",
+      "updated_at": "2026-10-10T03:50:05.176720+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 56,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_STANDARD",
+      "seed": 29,
+      "run_id": "SEQ_MULTISCALE__FM_STANDARD__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001",
+          "created_at": "2026-10-10T03:50:05.226838+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T03:51:01.298488+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T03:50:05.226621+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T03:51:01.298323+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520298+00:00",
+      "updated_at": "2026-10-10T03:51:01.298335+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 57,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_REAL_ODE",
+      "seed": 29,
+      "run_id": "SEQ_MULTISCALE__FM_REAL_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-10T03:51:01.345201+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T04:32:59.906471+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T03:51:01.344996+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T04:32:59.906272+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520300+00:00",
+      "updated_at": "2026-10-10T04:32:59.906287+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 58,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 29,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001",
+          "created_at": "2026-10-10T04:32:59.970701+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T05:19:26.007314+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T04:32:59.970453+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T05:19:26.006967+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520302+00:00",
+      "updated_at": "2026-10-10T05:19:26.006987+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 59,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 29,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-10T05:19:26.078024+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T05:56:13.614107+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T05:19:26.077722+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T05:56:13.613888+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520305+00:00",
+      "updated_at": "2026-10-10T05:56:13.613903+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 60,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 29,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-10T05:56:13.666924+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T06:51:17.179792+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T05:56:13.666718+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T06:51:17.179499+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520306+00:00",
+      "updated_at": "2026-10-10T06:51:17.179521+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 61,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_STANDARD",
+      "seed": 43,
+      "run_id": "SEQ_MULTISCALE__FM_STANDARD__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001",
+          "created_at": "2026-10-10T06:51:17.231049+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T06:52:19.839670+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T06:51:17.230842+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T06:52:19.839496+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520309+00:00",
+      "updated_at": "2026-10-10T06:52:19.839509+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 62,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_REAL_ODE",
+      "seed": 43,
+      "run_id": "SEQ_MULTISCALE__FM_REAL_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-10T06:52:19.889834+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T07:28:44.800771+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T06:52:19.889623+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T07:28:44.800544+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520310+00:00",
+      "updated_at": "2026-10-10T07:28:44.800560+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 63,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 43,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001",
+          "created_at": "2026-10-10T07:28:44.858723+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T08:05:15.054068+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T07:28:44.858477+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T08:05:15.053853+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520312+00:00",
+      "updated_at": "2026-10-10T08:05:15.053867+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 64,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 43,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-10T08:05:15.112074+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T08:41:43.024930+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T08:05:15.111802+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T08:41:43.024747+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520314+00:00",
+      "updated_at": "2026-10-10T08:41:43.024761+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 65,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 43,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-10T08:41:43.081118+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T09:37:30.676257+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T08:41:43.080851+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T09:37:30.676018+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520316+00:00",
+      "updated_at": "2026-10-10T09:37:30.676032+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 66,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_STANDARD",
+      "seed": 71,
+      "run_id": "SEQ_MULTISCALE__FM_STANDARD__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001",
+          "created_at": "2026-10-10T09:37:30.728786+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T09:38:35.365174+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T09:37:30.728492+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T09:38:35.364975+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520319+00:00",
+      "updated_at": "2026-10-10T09:38:35.364992+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 67,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_REAL_ODE",
+      "seed": 71,
+      "run_id": "SEQ_MULTISCALE__FM_REAL_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-10T09:38:35.415608+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T10:15:32.071054+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T09:38:35.415399+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T10:15:32.070731+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520321+00:00",
+      "updated_at": "2026-10-10T10:15:32.070747+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 68,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 71,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001",
+          "created_at": "2026-10-10T10:15:32.128238+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T10:52:29.346472+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T10:15:32.128025+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T10:52:29.346242+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520323+00:00",
+      "updated_at": "2026-10-10T10:52:29.346257+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 69,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 71,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-10T10:52:29.406105+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T11:29:24.144420+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T10:52:29.405872+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T11:29:24.144182+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520325+00:00",
+      "updated_at": "2026-10-10T11:29:24.144195+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 70,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 71,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-10T11:29:24.206053+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T12:25:32.655095+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T11:29:24.205812+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T12:25:32.654863+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520327+00:00",
+      "updated_at": "2026-10-10T12:25:32.654879+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 71,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_STANDARD",
+      "seed": 101,
+      "run_id": "SEQ_MULTISCALE__FM_STANDARD__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001",
+          "created_at": "2026-10-10T12:25:32.719346+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T12:26:36.534701+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T12:25:32.719101+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T12:26:36.534524+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520328+00:00",
+      "updated_at": "2026-10-10T12:26:36.534538+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_STANDARD__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 72,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_REAL_ODE",
+      "seed": 101,
+      "run_id": "SEQ_MULTISCALE__FM_REAL_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-10T12:26:36.593879+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T13:03:49.818936+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T12:26:36.593648+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T13:03:49.818736+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520331+00:00",
+      "updated_at": "2026-10-10T13:03:49.818750+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_REAL_ODE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 73,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 101,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001",
+          "created_at": "2026-10-10T13:03:49.876588+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T13:50:01.435035+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T13:03:49.876369+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T13:50:01.434769+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520333+00:00",
+      "updated_at": "2026-10-10T13:50:01.434784+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 74,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 101,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-10T13:50:01.495417+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T14:38:13.761960+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T13:50:01.495171+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T14:38:13.761739+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520335+00:00",
+      "updated_at": "2026-10-10T14:38:13.761754+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101/attempt_001",
+      "updates": 24000
+    },
+    {
+      "queue_index": 75,
+      "dataset_id": "SEQ_MULTISCALE",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 101,
+      "run_id": "SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-10T14:38:13.833385+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-10T15:50:29.207224+00:00",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-10-10T14:38:13.833061+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Independent Phase 2 from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-10T15:50:29.206877+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Independent Phase 2 formal evidence verified"
+        }
+      ],
+      "created_at": "2026-10-09T03:29:17.520337+00:00",
+      "updated_at": "2026-10-10T15:50:29.206898+00:00",
+      "output_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "reason": "Independent Phase 2 formal evidence verified",
+      "attempt": "attempt_001",
+      "attempt_dir": "outputs/phase2_3datasets/SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101/attempt_001",
+      "updates": 24000
+    }
+  ],
+  "nonformal_registry_path": "PHASE2_AUXILIARY_RUNS.json",
+  "deferred_registry_path": "PHASE2_DEFERRED_BY_USER.json"
+}

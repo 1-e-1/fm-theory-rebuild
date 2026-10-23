@@ -1,0 +1,7 @@
+Command: python -m pytest tests/model_diagnostics.py -q --basetemp tests/.pytest_model_diagnostics_v1
+2 passed.
+
+Initial run had both assertions passed but pytest teardown failed while trying to
+unlink the host temp pytest-current symlink outside the permitted workspace.
+The repeated run used an explicitly scoped workspace --basetemp and exited 0.
+No model code or machine-level permissions/configuration were changed.

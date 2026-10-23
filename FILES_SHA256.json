@@ -1,0 +1,22 @@
+{
+  "CODEX_RUNBOOK.md": {
+    "bytes": 27148,
+    "sha256": "eae469ba0e4d3d2d98c728e084008c47943b91131161894c991697ddebebb1c4"
+  },
+  "MODEL_CONTRACT.json": {
+    "bytes": 1888,
+    "sha256": "537f1c6005bbdb0955baec7389b550d221271172cf4849b9a4ac652dbba665ec"
+  },
+  "MODEL_GUIDE.md": {
+    "bytes": 15126,
+    "sha256": "8847417f6a1acb554ea2196f0c5b6cc48a8eafb990be199021bfd449372b4513"
+  },
+  "START_CODEX.txt": {
+    "bytes": 2554,
+    "sha256": "14e632918a9f5d7fc7e42d66852886f38e242a3db4addb06a209f07c97210c3d"
+  },
+  "theory_fm_models.py": {
+    "bytes": 41972,
+    "sha256": "fd97ebc960271869c4906cf4ad8f67252e30ebb39b84f461cc882442a2c76fbe"
+  }
+}

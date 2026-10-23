@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "dataset_id": "SEQ_IID",
+  "source": "new synthetic data generated in this project; no old experiment reused",
+  "data_seed": 20261009,
+  "rng": "numpy.default_rng / PCG64",
+  "length": 64,
+  "channels": 1,
+  "state_dim": 64,
+  "split_sizes": {
+    "train": 10000,
+    "validation": 2000,
+    "test": 5000
+  },
+  "formula": "Y[n,s,0] = mu[Z[n,s,0]] + sd[Z[n,s,0]] * eta[n,s,0]; Z iid categorical(w), eta iid N(0,1)",
+  "mixture_weights": [
+    0.25,
+    0.5,
+    0.25
+  ],
+  "mixture_means": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "mixture_standard_deviations": [
+    0.35,
+    0.6,
+    0.35
+  ],
+  "independence": "all realization indices, observation positions and component/noise draws independent; no latent shared sequence component",
+  "implementation_choices_not_fixed_by_task_book": [
+    "C=1",
+    "three Gaussian mixture with the parameters above",
+    "data_seed=20261009",
+    "per-coordinate population-SD train normalization"
+  ],
+  "flatten": "C-order reversible reshape [...,L=64,C=1] <-> [...,D=64], no projection or learned compression",
+  "standardization": "per flattened coordinate mean and population SD fit using train only, shared by all models/seeds",
+  "raw_dtype": "float32",
+  "standardized_dtype": "float32",
+  "stats_dtype": "float64",
+  "probability_path": {
+    "X_tau": "tau*Y + (1-0.95*tau)*epsilon",
+    "sigma_min": 0.05,
+    "ODE_label": "Y-0.95*epsilon",
+    "SDE_label": "Y-0.95*epsilon-kappa*epsilon/sigma(tau)"
+  },
+  "split_policy": "distinct independent realizations generated once, shared across all five models and five training seeds",
+  "pilot_access_policy": "load_split opens only the named train/validation NPZ; formal test evaluation must call evaluate_run explicitly",
+  "array_hashes": {
+    "train": {
+      "raw_sha256": "40102c7910b69062bf8aa24168e8427d5a9c1b3c4e37d6bdf61d949e94fa78e3",
+      "standardized_sha256": "747680086f2c3e255a62f43242c903a51ec22ed735f1c19ed6e0e01498bd5074"
+    },
+    "validation": {
+      "raw_sha256": "f18b510c34ad1e4bd92e3d44078c010988952ac8c23948241075dafea2dbb830",
+      "standardized_sha256": "f87340d68dda818a2fd862493a874ad7018cca0a14f6b639aab3e5f18364c43c"
+    },
+    "test": {
+      "raw_sha256": "7c866f19a2b89298fafdba304a9275327a94ceced0995d967ce3599aafe68bd3",
+      "standardized_sha256": "be23ee6936f70cd23e643b925f5cc9b3e931dc47eae4fc98425f747c3a52f9df"
+    }
+  },
+  "files": [
+    {
+      "filename": "train.npz",
+      "sha256": "5ff07b07032b6fa1fa5ab65afdcd3656723c2cf96a6f0f7875d8200ab8515a62",
+      "bytes": 5120516
+    },
+    {
+      "filename": "validation.npz",
+      "sha256": "bbc9fdd2ca870ae9ed06396cb6d887f3c32ed3ecd07bc5fcec88911b476c08ac",
+      "bytes": 1024516
+    },
+    {
+      "filename": "test.npz",
+      "sha256": "120160239b491712e1894a764547a23f1eee1d2ced3d79fbf3b144ee9a3546ee",
+      "bytes": 2560516
+    },
+    {
+      "filename": "stats.npz",
+      "sha256": "3d61378c45a5cd1b92bd0044cdc14e54e131eebf5c7f08f722cf38ac73e69f53",
+      "bytes": 1528
+    },
+    {
+      "filename": "metric_parameters.npz",
+      "sha256": "58ed10467d9f22572990162436f22e00fb60c65f0a025b65d54aaa3b738f5a18",
+      "bytes": 140380
+    },
+    {
+      "filename": "METRIC_SPEC.json",
+      "sha256": "a735515c1f7132d78cdb1e52588a46f7c7dd08ba06e49ac081a69141b736de1c",
+      "bytes": 1670
+    }
+  ],
+  "directory": "D:\\work_space\\fm_theory_rebuild_v1\\data\\seq_iid"
+}

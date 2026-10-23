@@ -1,0 +1,4202 @@
+[
+  {
+    "path": "data\\phase2_3datasets\\seq_delay\\DATA_SPEC.json",
+    "sha256": "717b2525c0bbc41d369fd218cdb263ae4cf58759c86376b5c3867685a7af69d2",
+    "bytes": 3892
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_delay\\METRIC_SPEC.json",
+    "sha256": "d1d47d71a38b1405d06a237b3112a2f235f4b1cb96631443b8f2fbca05133e38",
+    "bytes": 3388
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_delay\\metric_parameters.npz",
+    "sha256": "46ba16d7dd585f57ef6d0ef33805a80816110d42208cd8187ae2da8274386c10",
+    "bytes": 418630
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_delay\\stats.npz",
+    "sha256": "688b727938ee0295531d6018d40d065093bf4eb26c0345e7fae38641f96ff01b",
+    "bytes": 2552
+  },
+  {
+    "path": "PHASE2_MANIFEST.json",
+    "sha256": "fcf438195c16f8360124b37e82aa21929b0776447f89041a87f837cadf4643ab",
+    "bytes": 131126
+  },
+  {
+    "path": "PHASE2_SCOPE.json",
+    "sha256": "3b88e7fa083a6068ea751bb6c5d02bf923b873376c28491f57e9b4a454f2ffdd",
+    "bytes": 15532
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\config.json",
+    "sha256": "bfdbd299d26b46576cc88b4d6b2029ea9c8224cfbc80e981effb5bc6d39c197f",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\training.csv",
+    "sha256": "6e4cb97144aa39c345064ec7a5d10d543240bd0a208f17f3727f9c12d9e5100a",
+    "bytes": 1510459
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\training_cost.json",
+    "sha256": "8c00c19f431fc819ff02d2cd8b29c76cb45cfe59a727b7475006a928e4499019",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "3a24caa44a336d2a2062aefce8a46197dc1a3776d4007526cfae331822b8db9b",
+    "bytes": 921
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\evaluation_heun.json",
+    "sha256": "5e060d89b66ad85bf0f62441aa8f6a4e8584f43b343604f1c11ba6a2e373e94e",
+    "bytes": 3402
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "3bf5b68f31d2569c6266c899e258211ba29a9cf5ad340ab596c1ecc466e1c4e5",
+    "bytes": 2803482
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "292b70b26a93c977b13c122339be475b6e68b494ddd011cc4e30282bebe832ed",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "445e1ffaa1f2aded36f2f3c01aca2f641000ad900cf40df390b4349b8dd2202e",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "6d5f267abf04cb7d844422eb17e55cb901d6efeb24605cadb2d723d7afc03b38",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "fcefa740b88bc765e60e272acb4fb129432c1eba63c15a8a7016a8da5421736b",
+    "bytes": 2193982
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "bbf2414d244ce61983073e60c20520427e6a2cbabe62fcb2eed7c83936777977",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "af58d4825ab0548075245c6d07f2b6e2267ad912809ed2672de6dec9eeea16e8",
+    "bytes": 1530742
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "4fd46eaf1ca6e87870955d8e7460fe2e841b09c613711efbc76cb8d1abf05723",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "c1e5ed54393fde6bee5bdf72148566fd2fd25dff472281cb1b094e328b35f841",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "a746bc642b5e18459c2fa7e803caae8bebe910fa1a018e3b71babeacc269e89c",
+    "bytes": 3408
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "56fac5ca2a41a5b5ad21c5ae5ee543531f6fa0f08657185a56d698013bbabe75",
+    "bytes": 2801710
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "1fb36a1abff24f67f209774d13770eaa8f0cbaf84fb74320d73af81509dabc16",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "20e35d24a93ecaaade7ea88e3c3397a2eeb4bc0871ac30cac356928c19268d93",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "1119545906d069d188ef8562c1f569316c21ce59e9370fa69f0e9b7559be8e2c",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "310eadfe24098a4308631377265799078074ddfc0736294e441fab65a24a0ad5",
+    "bytes": 2193804
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\config.json",
+    "sha256": "eed5f3d1dc1bfeab907d1be2d5ce17d2d1a7d026e05ab39d9fe4929d0dd55a66",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\training.csv",
+    "sha256": "68b221345f989a1670279352e81ade926e5dc386f394ddc2719fe4ddf949d1ed",
+    "bytes": 1539299
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "4c5d6f3c4dc9733b500674a03967b1ef25d33a6ec01a58214b10acb4a67aa58d",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "0fdbdafd6941adf777c0e72da1ec5cf9b943815f15ee14f61644b4bfc58648cc",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "9557ef6f4d33222ab04b097e86fbeaeb72d3db7f0cdfa6844c0cd1b124aecc0f",
+    "bytes": 3413
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "30f3b1d65cf4832fb61e664b870df2311c93d599ab3f65bafe139922527fac56",
+    "bytes": 2802266
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "95d9c7285b2e80893cc067858e8135e30a6ee8fdacd811833a9d7e8a2d804ac9",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "bd1d3c4f841409d0745310d8ba6189273fe1cdd5c174bc110ecfd28ba537bac3",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "416db1d4a39e8bf071cc09cca4c5be8d665620280c9233e16ee2544dffbbefab",
+    "bytes": 594
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "9c1214a56d050f91be345b83a45ae7144f15d328061384452877adc7c55ae830",
+    "bytes": 2193705
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "e639f9293545f2579edc9878ee9acbc28062dbfca68d0d9b76a6786bbd311159",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "b5483db137a00306570ecb00ef6cd80608d472f58b59d4d657176ef1bc47643c",
+    "bytes": 1537162
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "45c56cbb03110d7085e2aa2610c2a98b8008b01f879450911a03fe1493923787",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "5a75f0b2ba6df840f169d9bc98657292f8f276dc14d291b55ac872ac2ddd255a",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "e090f62d3e5232b846e7e15d1bd6c7ff513f20bc3c3ac7b5e574ad2f376d9a33",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "c63264eb09b5146005f32ac89f93c781bd42d69d37329ee9b39dc477e2c6e29f",
+    "bytes": 2801862
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "882ce76b25317690cfb162c69fd6b69ed8abc0993d33f21026b22c824167e036",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "330caae4c71afbb2a6608dc23faca8c50e7d9220dbebfb9917715f63589789ad",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "cb3ca31ef1feb8800efb1c18335527ab366d909ce05c938fe851e25e15c6b57d",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "526e672a6fb4fbef2c018cea295ccea04a761964af7c6536360ea2d1c471f0ab",
+    "bytes": 2193717
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "03fb2870886193c8469f45b0754665bec1e95f578a58f6e54d9d1e63bd0ed2d2",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "d2f0d04fc00b457a9061bfd2c20e2458012b4bf1b522225a77312575ab0981b4",
+    "bytes": 1540457
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "e89adbdff855d83e60065ea0a5033211e67b520a58a835710dfe2a07c2e62f79",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "5e2b1b36585f75c29e2bfa9d4165f6c0c8d6deb7e23fc1ea9d95b9ff2846571b",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "8a989afc1fd1ef919b7e156321753a9ba2d88e337136d130ea7ac28854a551b1",
+    "bytes": 3409
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "2e3bd502edd3546122c8efb025956f42940763afb68f535333b3e11614e6dba7",
+    "bytes": 2801796
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "20ddc65c6e31dca925c802f8c2e23661a6a12e5a722661b3f1d4b0679d591b25",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "9f69cf0c66d5ffaa4d48928458f962ec4c54ecb5f5c8cb0331df30e66f3bd68c",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "89e8c89e2bcb6cf68ab7e22ec1f4b8cd0b682a0a685775cc1bb1881673f90547",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "a56c2180b2f18d929ab780107e3751fe9a394e9e4af247b00e0866664cdd0a8f",
+    "bytes": 2193857
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\config.json",
+    "sha256": "721a5761492a6f9555445141437dce0d0789ab80af632c75f6223a8b9486ec1a",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\training.csv",
+    "sha256": "30bda96f868bae8d77789dbd2629e83f7d85a142766b6c96635d853455c6cf5e",
+    "bytes": 1510644
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\training_cost.json",
+    "sha256": "4b91d7b94de5bd33dc0b043628016d927912e272dd90aa7543c9bd801d12bcf1",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "5469d7a9c69d4b7e0f31bf4d259e753037e1e5641c7a1a088e6d7049badf3042",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\evaluation_heun.json",
+    "sha256": "37218e6053c32b5de00acba1ea38bc99ef1cfe864e65b10cefdb95f51ee48dd5",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "f4a741075f82fddc77e83d88d91c1b83046f2127e98b63503b2fc06ad743c3d7",
+    "bytes": 2803618
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "fee9988500717c67a970cfcc7c8ad70fac4bbed639a600c43a2f762a04828d8a",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "8b024a8d2cd70cda062642ac58ca9d71f27a208f1e1c0603f672289eb3b2de65",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "cfbb1f920d2b692cf7fceef6021197e04dccdfaf175c91bbd7fc436b792f98a6",
+    "bytes": 598
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "6d4c81556859eebf228ef1ae7137433957c5515ed18b30024c5e3f4aed22160e",
+    "bytes": 2193987
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "870aa79731e8d026bb1a895b37e2cf60e1f4b06c335cd12f9104db78284c9c74",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "0632660723d8eec95961fc8728ad3dc72c2ae45a492e6fe93c319b7e01c93d97",
+    "bytes": 1530576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "813d741ff6d5b06e059e921869fde5b865249da57366a2b2838fbc67bba5efbf",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "066966e209ab9bac08c70ea3326f0199b51f803fa45a2bc05d4404c935f45208",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "6342378eb0e8c293d2fbddfed886e6bf3ac15e6926953337c08525746a2f28b9",
+    "bytes": 3412
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "65e2df594bb3f4a0499b5eabfd13dcd7fade053573fcf4dfe68d87b8ae65f3c2",
+    "bytes": 2802047
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "8b06c4d26f940c4277b45ea29fd52be42e2869babb0c7f4770c927f6a502370e",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "8fc26ae0b98048b1275993e79c006d75b3e9cd81631f7401e730d3e745465fa1",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3fe9e98ffef01cf8979ac3295245aa7a2eba3ee14f0a24d3ea696a507979bd97",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "56076a7ce9787873dcb24beef015946c8fae3ab7c02b76022544a50e979512b7",
+    "bytes": 2193968
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\config.json",
+    "sha256": "d4815fd9b880d0faae43118cda274d34b30894fe57fbe2bad7f589b931afa322",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\training.csv",
+    "sha256": "7eda4b58e39ddb3cee1e79d56b80835674d4b3d49d04604af26ec42013a347b6",
+    "bytes": 1538598
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "3845f42358bd628cfa8665ec7c7f2cc41c9cfeeb363f5f679262f255e46ae921",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "4a436d9beb9d9c63f64dc51a192162f8a10f0f7860fe52ff0555e589e44c8c21",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "f5d9d0abd13b5e0ba14db63955dccd72afa8933d91576e1ef1b5f20d98789e8b",
+    "bytes": 3414
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "b83960c39a8920c192ccadfea2fec629486dbe835074a6de9d6112c3f1bcd9d4",
+    "bytes": 2802401
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "0cbd5fb0c399c9553f3722d2175153f641641893008e5b72649ccdae6729f0eb",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "a32c76f786ad7e80665a404cd9947afcffe67d4c235f88d737f62b080b86f2eb",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "38c84e32fd3798ab9f9f4f4c761a6420c093100ec0ea8b9b55e690cf62743a95",
+    "bytes": 593
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "deb5c65011c630e3526c8cdec791ac9677a66694da5e751dcc2886098ce31df9",
+    "bytes": 2193766
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "56ba7d3ff0ae72563fbf09e10ca05b76ba78810dabd0ddac282764bddf81169e",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "c510301b471501ab987d93a57f1ff744298287c8f91acd0c8389faf31f69ac1d",
+    "bytes": 1538871
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "29b391aa3348bee755edecff992f17f2784b614326b19ad574f1ad963d71e46f",
+    "bytes": 392
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "afba6a474ee32bd1ae5ee6dca29ddfe9771c7865201330f1827498493dc420d7",
+    "bytes": 475
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "db165cbd9ef937a592ee0513fd2cc6dbc97b24a68e3e47bc767cacab9f205179",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "b433c24f576d28ee7b3b7be98f54775a596982d02cf67bd74207a9302ae93b3f",
+    "bytes": 2801901
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "8c71990bd0ea770663e0eb05acd4dfe3e0a058518314e56d7aa4a232cd8acd30",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "2b72d229e5827ba42d06a27af617717decd0c8d12ab641bf496cdf7e141ed583",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "85791715a81b0f4e597bb562647b37fd1930af7cdd0db8ffe6ae2a5fc68dd28d",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "ec7ae6d7c4154387d5d3c34230f31b7b7685d9f626a4bef019f440d6a75d0285",
+    "bytes": 2193919
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "b80f25f1d44db77d2f3e718ed16e96ac8fd2102d7819db2dc312cd729eede3d1",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "8a600115f907ba8f91a28e17c7b6fa085c71f774025b1d637865eb91f3a0a4f6",
+    "bytes": 1540429
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "e15c160d2cec697b22551efd5b6e41cfa3df1a7a553464a7a5e6db3495ac7fe8",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "3903c00e07828669aeee5eab151943c75a6b388759a131eb46af3ed8a7f32d12",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "3722eeba7f3a4c5e7879a6ab50d30c7e8f1c309b68ecc00af0778f60cf2985cc",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "2a49fcc449108b6b1d346cab8cca7d644eaf40adc7f2f924f7759146c4a430c9",
+    "bytes": 2802025
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "268780fc9597ad1e81f36fd24f5272a67cf936f6d4fbadfda4caf91cf6e83ff2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "d21705acfc29f22f611d9e7ff3556b360903153c8107f2636cd2fafd658d58f1",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "0888eda043b897be7afb18f335bc4aa65c611d5bbfc2b897a6176b9b1e67be52",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "6765b42bcc4102a2d63a1537a281b067d93a4e626b1804aa29f8f22cf516ea7c",
+    "bytes": 2193877
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\config.json",
+    "sha256": "b529ea04dd920ff286c705116624b4331049e6567b1c9e01280ad86eb2f401dc",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\training.csv",
+    "sha256": "8462add487f7bccc34cdbd17563c15a87c3764fcdddac53c3571ddef9848b3c2",
+    "bytes": 1511306
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\training_cost.json",
+    "sha256": "08a837a1112565e24a6b165c71abf598b3d805939a6c70e88782cb30e94b9187",
+    "bytes": 370
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "e23d29c019e26f49d8665233c2cbc4c1b38914e46c66bdc36805b85bddb1aabb",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\evaluation_heun.json",
+    "sha256": "dd76c0d079717e2e524bbfe5d55e00db2347e9932f29f4c96ad7f16a0b149b9b",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "49d9b42cf41e4d618f4c7ed67e6282a115971cd3e238bd0fc5cacf0b03253157",
+    "bytes": 2803219
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "ad028fc10c4df30ec2a56a54b357a631977ad8097c3211255238fb71ebcfa8ee",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "cf15b5358d2b40044dcaf4affa8a3e75947f80a6d77f13b619b9d60e99c3f7fd",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "3256fe2b2289e8ef55bb6e5569a22e75c5e87bac36dac68e7ca470f38813dcf8",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "6738418cb6a11844c9a370c7c8a981ec19571540bb718cad1d51fa2af9022250",
+    "bytes": 2193972
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "b74b5616f92784018807a7e0ac88637f7c50d52902d51c85b44a5aff7792ecb0",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "7dd4390577a9149e2b6933b7fd3b14f07c58b83e57f03bad7263b8d84a06441f",
+    "bytes": 1530368
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "aeec9683797cef83e4ba00636d1b78ee858c82a69e0fffe9437a84dd0747fbc7",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "228e423dc20566f1428cd069d32180ffcfe00712fb5e68a6db633a24a0a9f753",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "3d2607c2e43b4becd5f30e02afea2a59f88661d75a18a4426e7016853a362a70",
+    "bytes": 3414
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "4c9995c8da365c6033e10eaaf2fa4ecafbcad721ccbc4cfe860ee71eea3a329c",
+    "bytes": 2802041
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "e7b5bb6f6048ce318d45b1032b11e0574aa78b0cd4c1a907fd5b1a7bc69e6254",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "f2eb07dd5bf31f88dda58fc03f044799417688b018662df21c8fc595c0527e9a",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "2bd794b48f00532615adf6d77557a0eeef3793905ae13819e4ea2997337c2a69",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "9131732d73a6ea33437b7dbf70ad074783163fd00f2d2b98c4bb4becfbc3a128",
+    "bytes": 2193796
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\config.json",
+    "sha256": "7f4016f0338f0841fc7d6d60b431965d2b3bc6828c2a247eb3a82bd9906a1dfb",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\training.csv",
+    "sha256": "b12cf4d23d8673d891ef41e0c054d941e2691f45f4d83f3ad23c5634b4d62731",
+    "bytes": 1536175
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "8817dbb5270b35bdf046d175082fb71af98ec4bc41cf8085ef09c8eacaaeca4c",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f9d3f322a8359b3c11d7e55ac3f399cb03b34b15b81c991bf154bcf3259e6a1f",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "389f43a88702416380c5c7f8144a446abb7590f92b6253856fba167973f72992",
+    "bytes": 3414
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "a19a7b23c82d4a62b0c9b8209f164ef22f4de767238d0dd5d3c6b67ec4265000",
+    "bytes": 2802386
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "1bcb93597b7fceeca9dd88974a1afd70d579f8a714ab029b176f7539b9780586",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "bfd430e8694e8919782f506f31a0c340a964caf5e1083a1a0f79d198354ea0fb",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "d3d8856f49e96908c2f82a82befe4d840ef3ca2658beab0a2ffb579d8592dda9",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "5885abeeb10cfe12503fed2dde9e672cc21aa34cb26b7fdce0c34537169ba88d",
+    "bytes": 2193875
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "0028b9818114008091221e7eafcb59a65c685c84cd50add6730ebe1b68067e0a",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "5224611e94033b27a0f35aa84b1c0ae6f2c26a45f339713e3afe107be09c1cd4",
+    "bytes": 1538845
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "18887b385323a1f0466f1be67acfe7f14047421904a63f40c0eddcdd20b654cb",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "e027fb155ad45c35d9d39f550a961282a53f7d83d779e906621af5746b6d8cf1",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "efbdce003b984958af9814c1f721f6230f1a819097cc40526f072069c6417ced",
+    "bytes": 3411
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "d976b573172319a13e09ebb9caad69bb563c354a196ee12928b4848f9bcdcae1",
+    "bytes": 2802017
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "4ac68016bbb5dbca24863b377a6137e3266db3b97b8847b54b92a2c4bb7b6def",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "8d3e1fe89b28b9e8a5589fc3fc4e730b001b03413856b5f1b0cf5af629693a2b",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "1d036dbdb6ad6a419ae3a9ddfd09cd12beb352040ae78e56a4318d6fcb7ec4b8",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "a40df74d88c00e38ed5ebb144a117f188f5aa36bd5b5f5c7a3d26676ca7b0843",
+    "bytes": 2193882
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "880dfbc3f3ad6b16386085907745481e684375b7cc433a17fec290644397df04",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "b454dea102e52d8a9928ee88e0c1df5394a473cb3001287d5cba570c025d7eac",
+    "bytes": 1540382
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "9bfeb48bc45337ef11d70534ae81dff69f3f4d5ec9ebd90b5a163a525645c2b1",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "52aa67d3e105c9dc93dcaab9a0bc8955fbb74e9ab2737f78b26cf0b678510455",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "77df59dd2c83a591e8821b3cfae4b2e51ab1fc6e9c51eb19713c72584f20d427",
+    "bytes": 3412
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "99151ece1936efc604a75dc5113fe1e75e263cb03b9f8857e32c0048e610a1ca",
+    "bytes": 2801946
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "96b76bc6cd9a9dea35efc6214cea00ac21f60fffee3ba16fca45e16d71a78087",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "1aa7f92a05048c76a2c36493f76b19a183ef17cbfe6cef3d8052907e72372bb7",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "4573bc7ec6f5b412eaefa523e805d787abb8ae5040583179249c9062256b1876",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "cf7080ce2ee83669f7e321a6048dd18fd451f7aa6a428704b84e2de44b5cbefe",
+    "bytes": 2193892
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\config.json",
+    "sha256": "247d72f94e87015f077ccfa31a39b8a22912d87408fe07fc3b7ba7f513dd32f6",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\training.csv",
+    "sha256": "6f6ceeaacd730d6f81154152de5ca070c0619e1269d085bf7ad01166cde6ef6a",
+    "bytes": 1510679
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\training_cost.json",
+    "sha256": "654e8870715abf05e6ea695b46f4121b32fd91ed57d0cc6d20be3c79897856f4",
+    "bytes": 370
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "74406ef5802730aadceca9e92ec95af5b1788c5641644421b58aa15b1ad26e57",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\evaluation_heun.json",
+    "sha256": "2cb250f2df9cd5a8f6488cf540d11c5785e68a938c752982574e36723e55c390",
+    "bytes": 3413
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "5fa61234616c46d756ccada3b2eaec9458c71f66b1583261f90c377144ef6461",
+    "bytes": 2803406
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "22e6a09bb881e1a927f22646813495aa7ea102fcf75ad26c8dcd07103b027e15",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "73ec950aa1e8a7918b77e25471266dbd8effebdc8e46114ce51e7a5fbe4cdf9c",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "1a1e818ec3c1c3491bb6d8eeec76b991888ef8067e3e21b29f9cf11c8cb764f1",
+    "bytes": 595
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "b56e15c752cd00cee5b9bb96621bcfeb2aa0d06c527f8edd925c7ebb958185d5",
+    "bytes": 2194036
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "44773ac4e1e9fbaebd7485b23d75c48660a474340fc06abb65b022586524ebfc",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "07ca6bfa1ee15f16cd278fdea81f702a9be955a4e2cc2de791734e0ab5eb2ac4",
+    "bytes": 1530617
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "a1fbf553da1bff901911d0cc6f1561c7ec94596a000ab9562949b64be605220a",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "8d70bf59355fb0b22fdd57d000ecbb6b3d4955ec1be21f384853e782ef5e8522",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "f4df9b1f31b45944c4622be1ce6be5afd5fb5bc1f4a20f7da9a22b41ad8263f8",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "fab573762a99909b8e0ea35e842c6280bc9daecf010ab2aac5abf87988f7dbc5",
+    "bytes": 2802132
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "be65c2eab94a9585ad499281d35dd5afb7bad5a9b4eccf5588c722198c5029ad",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "c81d7e943383ea1c5cdb91c5fb03664ff57800a66606b2e24a8cb12e935205a7",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "4f687bf4cf6d1bcb7af2993d27e77b213cb57353673584cb14e3b8d8379c557d",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "b76fa38459a75db5f62f50e3024b680256cee8efb91b5f56e6d4f74b2b2d4413",
+    "bytes": 2193786
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\config.json",
+    "sha256": "37472934688b0d96732ead6b82a16c633e2b0b3350fb998c19aeb32aa5f6eb97",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\training.csv",
+    "sha256": "1894b28dde84f8d8ce5d27974219f21f732ecf2d49ce8cd612ddcd778977057c",
+    "bytes": 1539199
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "23d6fbedf5d58d8ff0a5af0a5d99d01710c0b140e8f083300f28fd315c43a810",
+    "bytes": 392
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "c07e155826a8aab6d2214614d86663ee14d91849f9d2319d1f4421d3ef952626",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "b9205d5fc7c256d42b10aa8f539d16fbaffe406509b83b4ed73e10a0159969ea",
+    "bytes": 3414
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "531d2c87e5e6d4429178c3d38c14f3abc27de146a5a3439b9da6eccfe179050f",
+    "bytes": 2802224
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "3f6520e5cdcd72416e2c54d400687b6fac50f12338fe8dd4973f203f0b581890",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "bb7312d7015d75fb876ac982353c99353ca9e420c2a9df78e74c7a6715a045fd",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "5962e35c1605bbef25304c10a8246cfb2bfa1df20a5048dfd8ddda79040ebb42",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "5376e78a240bf3c6bcdd585f4fbb0d8ad32132beb64dd3b87026f5a2ccc7c625",
+    "bytes": 2193833
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "1d402c2bc6aeea551589bf9f01d7bbf08b57a94447bfd310109dc3c6f9705c70",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "1e8cbd5a255e56defa948e35536b3eaee865ad8bf6246dbdd670f278fae2ccc5",
+    "bytes": 1538549
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "fc20dd112cb74b91aecd06cb2cfae634a79077006971cbc7a0d7c10cfdc5b576",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ad6118462fe63f9c3e9aebf395e4516e8f32fe214089d1bc7ce438a32b334db0",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "868750970795fffefb66ee111e8d7a174fab9a790f14a77ae3b5768bdb049a28",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "bbcec78d52dfceb1a71730760df81e8753b9e7a5bf19e89e1ded306a3c485cd8",
+    "bytes": 2801895
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "23b84da74a1bccf3635667960f4ce5ca2de441237a6752b0f1e06a1a9260f41a",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "1ccc205e86eb43c650487a32825d9f90e14150bec6cceee788709274521fbd6a",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3ca8acbfea2d089d15e32d3e29d60febf1f7000f99c5e4904bd50ee66f3d86d6",
+    "bytes": 595
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "4cc0696b9682e586e5814f956262e1f5b30a7e3cf5f1074002fb162162308cd2",
+    "bytes": 2193867
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "a8e932f2ae932870d942c6685241a5b7b3247460fb0bc136170aa3eef7408122",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "2765797e23cbf8b29592339ec3a3360131aae6bad55cca533e902866122e9024",
+    "bytes": 1541600
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "a8301b3b3486fc92e3c14108b3669b9182c5b91a250e5ec5d525c6fefc261e3a",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "03aa2bf0de7f28ef4ff4250980d011adfc4d447cbd3cbf8352286bd73f90931e",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "578c4c3d27b020cce3c46988ec745a407a07f464076a0c86a6e7d00ec451362e",
+    "bytes": 3408
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "6c05c5e44a5a7c452bc066575868c29c4ad5ac2b9df346975112f83bb034dbb0",
+    "bytes": 2801924
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "2e45e933cc8a5a2e32294367435e9a66db88f048242a727fb9d007f2a32c15a2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "47c9d881e60a2f92fb276a8aa7ac73ac5e566f1841c32190c00db35bd8c6743c",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3d702569585332c0cb5a8725c36af53b54ec1365fd9cfcfdf1235ba355762529",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "c15597e833a5c25ba7cb4c3e4f988b7ddb9b74497b50677aa32f0ccf75e39e4f",
+    "bytes": 2193775
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\config.json",
+    "sha256": "557e47843a7aa9ac2dd5b8b5e1bd8df2469d91c8eeff833ff712ad5c23ed9227",
+    "bytes": 3298
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\training.csv",
+    "sha256": "619ba12126aa11774fbeb0922be3ef1770837c3884f82358eae9602a31fc65f1",
+    "bytes": 1509983
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\training_cost.json",
+    "sha256": "76d6ea938914ea0590514ab1cbe45ad80590d739218ac64cfaf2dcef48c9338e",
+    "bytes": 370
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "5c41f1e22a3c4560680431ea3264e840297ea9f2d10e434a6179d5a13986a6b9",
+    "bytes": 924
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\evaluation_heun.json",
+    "sha256": "2f371b127e8ed63b808d2accc08c897abcf7f684c35003d7e0deeb3fb22fb6a8",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "05153569de5f44238a2ed4dce369c7ab796609ba2f5d299734937a4e81ab266f",
+    "bytes": 2803454
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "73fc94cd52d00d7d71e96d29ba370a414cf875ed5cb913c4b2c90411f75e472a",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "678a6ab49d903c302b991cd3122b1fcc400a4bf868bf683d07a966ae31c5631c",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "520ad2b02be1bc7da5003a7af0cfe179239ba0600b2ec79f5cf613c47c3f8d97",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "75d9363c4957a81cdfcb94983a7a4ea91a348861bcdbb9aa613ca0050ba14431",
+    "bytes": 2193952
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "6056b6e325207e45ce3776dc71449f4460ab7ec968bc295f3fa135ddbd244160",
+    "bytes": 3298
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "c332fafc564f80a213fe96559e363b8fc16432902c738b2996c18fbdb97c5f03",
+    "bytes": 1527270
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "45840626e3b7d515b8899bc4831c622e256af53092833a33c832a3291f19b741",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "977b6c65e21452be3a82eb14066199b2fd246a38c7354812afd25e830739e462",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "1cb382731447d43ae7f8dee9228b6cf56ded04e2e147946dd1c10a4c2c4f9826",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "03c87870ad12ecd10579571a1fd0d2b66c4f3eb6157de3d845a8a6d732e1148d",
+    "bytes": 2802100
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "2f10050eb76da695f418cf15a5cac38d5769be809b03430f12ecc136ea35d956",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "ec86ce0371ce33f15bb010173b37fe47628fb6c9fc290cbb6c3018cc05f1e9a4",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "39630c1dcabc52061e20d43039f26e5cc7865c0787bb3e25432748716867f40b",
+    "bytes": 594
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "71652602775000170cad86064f24fb7baad1a6b73d9f69f4caae9d44b73cda5c",
+    "bytes": 2193778
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_REAL_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\config.json",
+    "sha256": "666474d240893715abcdb3815fa1e5bf3eeca716757e5d7aaace04e7e53b752d",
+    "bytes": 3304
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\training.csv",
+    "sha256": "3b4cb01de9814c7fcf7520a00d09ecb50faf6df018299763f68fd9255f4c0d52",
+    "bytes": 1535690
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "c7b04d2380b36de695b272ae8d2f70155b53d393e65f8a56610217beef58db42",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "0e71ff00a96603f5c843fa0b49d3ce719f66652f212d3a5fe4ad2a800e97f246",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "0cda97f63a0645251958e5c10a8f638baa1d0387293f20db16b850fa86841b3c",
+    "bytes": 3412
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "09018f4e3884b435ba318b719d7ca1a0ce4aebbd747dcf02798b5a19ad31508f",
+    "bytes": 2802312
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "6439622428281935d1f01a2efc085f652b269089b122899f993222367086a8f1",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "538b448ec136fee2223b277f5a8250d5b31627acb6458bce7fafe5444b9d0103",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "4e6778be7325a4623c024331b96ba63e6236981cf0ec8d50f3c2dc94044f89c9",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "2d4950948fa85ded3ab91b51d99b2f5883d2111bdde81d622dd1b42e03a78ded",
+    "bytes": 2193783
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_SDE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "bd1891040d524aec510f8e04ede39b98134cadb6cb530c5a3eddeea183bf1ecc",
+    "bytes": 3304
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "92ecbf015844f91c5c6421aec4ef2d57ba6a278d5279edd74c478a86957e1051",
+    "bytes": 1535455
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "8a30a38612dca80962713ccf3dc9f7b89f768bbaa67dab48d405b4e0cb78acbb",
+    "bytes": 393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "d1e3d2db3435003d3fb335fd60bb11255df0859a295d54df81b0a5434097e16a",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "9ad5ed3a4544444a97fce71dbe953f87650b6ec05c21863f8ef068d08e5695f2",
+    "bytes": 3408
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "7d2da04c041763843f1ae53fada7b26d4ba1f35c2fecec9e2c7f8e75a32ab224",
+    "bytes": 2802190
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "f552fa0a2612491a7f8ffcf66ebc6aa04690be628c9e4fdeb9d3bfaa0f1fc1a5",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "86cec2538f0a275befa08be7876b114a213358608db3b05b32ff6096c9fe4af5",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "24d72711c802a0fdbe47d9608b0a29f4ab4fe3c3415c5c36145aca7dd1c51862",
+    "bytes": 596
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "f732d737a6972a427d7c163b5cc0d8ac502d88e53cb275b43511796ef34b4afe",
+    "bytes": 2193711
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "2f89c0402a80c6fa54479172af7e6ee66629f7a88ec5fb40a614863abf3cfa67",
+    "bytes": 3312
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "eca55ff116286a75ef67c3787affcf1fdff47071b921e3049d27463295b28ba6",
+    "bytes": 1538679
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "92949bcefee025789661833694ceaac1e3723e3393cf903a866e6d9c39a785aa",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "20b43a114e380631d74abb64860d8633336227d49ac45b5cc42df0afb52d645f",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "e3e65c20fd2b3b4750377b658c166163b7569961106735088081c0fa0bb48a13",
+    "bytes": 3408
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "97090d0f05bc96dc5bc42ca174ff37f1f37b4223da005bec54e0b5a8e1252f8f",
+    "bytes": 2802129
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "dde281a3d4778f25f65d492b26acf29c410cd068da0510e17199673afb83ee03",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "b7340f556b0b5cf4a4b0d10affb5689209fa686d5914357e6dab96a347cd8960",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "f3e40b581581d06f0e5a047403353d922ba2d8296cf3c4c6ae2db16f9bbf0d84",
+    "bytes": 597
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "fc5a7695ec10b9ad338c08e2ea4dd22911eb79450c2cfa22a94fad34d24b6d28",
+    "bytes": 2193808
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_DELAY__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "fee49dfc914948b3e3ae22fecd9cef3ee860f19ba1ac3bf86d983c444dd7a66d",
+    "bytes": 4194860
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_accum\\DATA_SPEC.json",
+    "sha256": "3bd7434e9c742df425816e36b63c263e3a4a207147cd11b6d735875a2dfda1a4",
+    "bytes": 3836
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_accum\\METRIC_SPEC.json",
+    "sha256": "4b8a35aa4fa3dea113a8381a0c2900913c0e77221772b3b877cbe6aba1f54dbf",
+    "bytes": 3563
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_accum\\metric_parameters.npz",
+    "sha256": "202425db55b7f2d7526206ab9de578644341213407a5384b53b8774c284dc8db",
+    "bytes": 484422
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_accum\\stats.npz",
+    "sha256": "cff1093c05bf414dc0d0fff5ea9482efc98b886249e672bfa36bcb1e1fd3b4e8",
+    "bytes": 2552
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\config.json",
+    "sha256": "5710fdeb9882d196466c5b89d0b17029d2ee51807a3bc3046700c3ed9167e649",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\training.csv",
+    "sha256": "9d0b9012f271daad6237a5cf0b4096df0b1b16de875e32e0585300c2369378f0",
+    "bytes": 3026953
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\training_cost.json",
+    "sha256": "73919ab1a0d903008b88fb892693ff433af87ae6a726b376a18ec71703b2c8d5",
+    "bytes": 368
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "49140db37d5ad1cf2e099fa36387f6bd7735d97a1ad8b72837d15daa449cf7a8",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\evaluation_heun.json",
+    "sha256": "47cf9183b91a479a215882b05cec99673017570e7126e22261f62eb9bf8cc71c",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "167eebedc41c88784c21d2d42f3b9cac67a160425e1b2a0b4526eb33f5d0cdd7",
+    "bytes": 4320868
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "d0506a42b9f0d56459777bf0fe3e7536d2ae263ffd36912b41826e0196574148",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "f4a4fef74023ddd1a0bd452e687b380ec1d240fa395de24674ad777b437cec7f",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "4f4f97428d339e6640b133109037ad78682f0b4dca2ba92e5d0d2fd33f403ebb",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "f06741044f81b90b4694e34a1b7177aeaf116be0dad01fa4916b0b1b26effe4d",
+    "bytes": 4390951
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "61520c6dacf62e3abd231fc9e448ec58784b6bf0f204d1c8a67c84692fce3633",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "bbe5e1904d214f95e3f26cd04cc09e0a34d5382b89e3f7c70f8743e53d39a74f",
+    "bytes": 3067303
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "4e7a4f4823a4b2b049b5e3bd2143f587a9e16886634f5be8f2c8f44657301348",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "20bc220e7a5dbfdd9cf9f8de19c03622d64b9591aa86a4b4e8b9d4ad95e7f660",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "6bd8641eb843bbce6de91d4647ca824d8de4fbeec16112cb03b44efe88079ff3",
+    "bytes": 3393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "432dd7377778b44201512fa2116f6944f8df5519a1d8130b4528af8762b0f860",
+    "bytes": 4320547
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "959f891319d94f821412c7fed1256050c05fc17954a9b9871011a0fe70f69423",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "fd1b5b73cf447e695a3e6a7c68ae99ce299b47d979a30b77def4f17061bdb921",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "5d2e9acf4e16b98976636e50aa82cb06ce7861661f12b84f6a3bedbd10311068",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "bed8720c96c53cb1f1d9d8cb68b14b97d613e7abeca959aeae4dcf280557e9fe",
+    "bytes": 4388710
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\config.json",
+    "sha256": "fc031722e36cd33dc32139e2887f3d4612a6519506f680fc0e4ed9b62812a3ad",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\training.csv",
+    "sha256": "33c3ea1d987ff4ec43bae1efdb411cb8178b4c62e7d336f4e676ee54d2156706",
+    "bytes": 3075688
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "e068b6c823c05fb3d7faf500c6eeba187cf3bf92a0897b8eb2974833699a634e",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "1aac4f0abbde20c8f8960499f42394adaab5b2247aed3deefa11163d72ee14a5",
+    "bytes": 475
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "a3cf01c5efaa93b3f6e4165a8ba13b7cdaf9aade0960d08714bb7c46ae9fa505",
+    "bytes": 3398
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "fd316d250bc986d517efdc8b3ac16b6a40f3df117e0067bb6c8cb42c66c16639",
+    "bytes": 4320619
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "46337f4b7d788d5e5f190c99007cf1c9d80b1476c94ec88b8e0793561f0a2165",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "60d989a88911ad6fbf5867ec5be3c1cf4244635b291796d7f1de3593db42221b",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "f9075cce9f130e36eb9037f93b908e07bf091d88130348f77cc1ec22a3567805",
+    "bytes": 585
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "bda4275d02a354168702d396897977df56679cdc14f1e1faf1292b41980babfa",
+    "bytes": 4388711
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "0abb50018221bae0f7b039973acc06b8eb26fb0b251b246eef58a8d464fd4e58",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "41111710cbd9d168eaa6c8e6faf34ce426283b1cea07c9ca27e2af273dc87f85",
+    "bytes": 3084173
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "28fbc903a89f5e9ba33079367130a0daf90741898409649c7c12d3ecb3096424",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f53e759942e4171680ba081ca37ad37af11724af89f7426b297dde313fdfd391",
+    "bytes": 475
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "8616317da8457c8e328da62a1d25a13bd92bdd3dea3b6acf876685a1d5590728",
+    "bytes": 3399
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "8641b843e67394989f7b609e7228727e737cddaa212d6842dd768f0b189ff736",
+    "bytes": 4320846
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "d4ba1c1a6cf13b9d5bbd4fbff89df3e2576cbd6e80faf7f53faa0fa2beebdc44",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "4187a8afbec97d3b97a6d144ffc94c7c739680c60614dcbe40bd948b968107c0",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3a8980d52868e1194267927f7727486c611f18596d1eb5f5fa7cf074a3067d46",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "45f97ba57544ba29136ec7fcb72a7b6dcc4312eee398515fc38c0b86fce8f207",
+    "bytes": 4388707
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "d65ec2bccc9f0b09f950433ad7d2e9282c9d39acee7e4690d3b29de28581a6f1",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "0af2137604723b46eb059061a6e0f99f2ed644a06cfe4fe3f94326bea18490fc",
+    "bytes": 3083226
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "71a97c13be874caafa4aacda84484f1f17ed192ab3bb7e17e463571b7d260058",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "db5e6f22706155e144925548e86de84a8c076416816638bc81eb469f1366b694",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "359fe122cbc02f8a4b8e2550dce99dd99df9d4cfa91c8de7ed429ac507e600ff",
+    "bytes": 3397
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "dfc73c897c150a1a6b480ec5ac13342f101bd36913fee031e914e26c03acb44b",
+    "bytes": 4321216
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "7b67a15dc27048a2595c622187e91787e95195fabd46faee7b2be4d871d0b307",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "7bfb531208129664c6da470607f3aad2d908a82a92ce73fb4c5d672144c543dd",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "e01f63a046879603f59e47fb322fd00fe8794285b44ac467b946a836c3c63f3c",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "41697b4ef6b2dc3276a99b709a783d78298d8ca393a16049e79e52f4dfc22125",
+    "bytes": 4389141
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\config.json",
+    "sha256": "73492b7943271181ae94feb6bede41dee882240ebaf8cdfd7b6afe948bebe4a3",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\training.csv",
+    "sha256": "d1891a2a00b8f899025b93029495ffd51a45c75117dc12df79e4205d1404a6e2",
+    "bytes": 3027041
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\training_cost.json",
+    "sha256": "063273882a13f072fc32bbf864c3fbce2741cd19dddd6f5ef064c71a3c13a91d",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "bd885015abb92ca92734dffb4d749b46e03df1b5043b19fba101c1c477fed012",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\evaluation_heun.json",
+    "sha256": "ee22b07e57dd3088464c2cbd285d3ef87fa78fa9b65331443161eb5c704e2572",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "92361e8aa9c82d49560b5e0a95330bcb74fcfaa8d829eebbbbb1b4fde8592f28",
+    "bytes": 4320797
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "bef8199dbc337ea684300adae8e15d1afdc8135e3bec8a8a50b82145d7dab2d6",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "8c19e73b557e6496d3f3cd729ec08ed5ec5b0d23c2c29b0070ad0483ea2d5fde",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "012424eb31fd887b7583083c71c8b080e07e3afe2f56ed2b19b0507adf9850f1",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "c6f38197733d8b308535ff8395deb1ecb4d5765f5a245ffa6d42d5cb5bcbce31",
+    "bytes": 4391024
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "4c2ab4beed5d6dcd75fc83c2e1474befb475f7cc32845b433c0d0b811d949a6d",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "ac0ea1c716239bd18712427f6c01d670cc24759ccf58599ca01eba6265957af3",
+    "bytes": 3064790
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "f33a0b49d309ed819efb79637c4ced5dfec4717da68a961dbde9b6d828b5f051",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ea8fd1503efb0689cacb70dcfe3261c79ba52bcdb46688fb9788fb7b67cbf334",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "0f3a56971774a439bd1cfe0b0e9e3c039f540bd05ba4cab0c1d8c4bfdcc1adc2",
+    "bytes": 3392
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "3d166419dad6cb0da925fbfac8c950ee600410b66190d97c2aaf32d3d8c8cfdf",
+    "bytes": 4322774
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "3efd9c7a06c68511ef51cd19d8cd477a360d0acfb76d65049395bbbd71215ed0",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "5573b38e75ad2e7caef9960005f490ac627fd118a5413495ba3edf409ad3b7e3",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "23e7c91f97ea5477f013e924aca5c2be093d4db1d8709c9c46c7cd289b5eb5c9",
+    "bytes": 581
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "893b73a56ac023c706fd422c30af1b0eea858312fa20451fa213e31aaa47be74",
+    "bytes": 4388503
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\config.json",
+    "sha256": "0abc143ea6ffc7672809d549075b92cbc7a58964687469ca522848237ef7cc57",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\training.csv",
+    "sha256": "4c280fe909c70b2f9741d2b3fc667f0133f97e560d1549cee65e2601379f9570",
+    "bytes": 3074700
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "c08e29f694a58029fcb2c8c729f5e3d38568349586db1711d9b09e49d9ba9cf5",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "20669a84c0fd02bd636a9b6fbe84eb57c859bbd7fd5f5b1af7fccd2162de0ef5",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "04f0881330fcfa3c5f2d50ceff34ea573837dc48f880db9be49c970c7d7e063b",
+    "bytes": 3398
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "7dbc39e6ad8be254ca948fb87aa38d8af849e3ebfa53821a311010430b825cd3",
+    "bytes": 4324115
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "c9bf104daf23a015f09ea2aabb073416c6679f5e50f58163975c4906f5c82383",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "bf03c032a85dc06c62ae9406c0db37ac7f8908b7321ee19e2a6b105158834d95",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "022b0dcb6993227e007aebd0b3c114dec9d83d3363b8b2630a509addc1d236cb",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "0fdf42a41a47ce975f3ba95f0849db71b507cb4f56c4efee8656375e245f1919",
+    "bytes": 4388196
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "4f2d332607c9c9f0ec821eb9a803fb7c7e68a686d5b54cb9a6d8667e7985040a",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "7e373d00a82d21d6c1214c262cd272c9c6fa2da56efd827ec6f260dd1c1fef7d",
+    "bytes": 3082200
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "9796bb5adbde7275865432b3834f5c12fe2cc4aca94d880ffd0e546b472a9a98",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f1b81aa80fcc31532ab1fa181755917fd141a3656df4487b49d9bb14110ed40e",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "dee9abc70410fbb04fe0ecaf4ab2b8ad571d23eb6f5861748172413b3b5f76ab",
+    "bytes": 3397
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "6371188c6fb076656f56ee6a9731d694eeae540fb0eda51586c636f487f09bb6",
+    "bytes": 4322525
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "a6708c03553d678a2a04eae1a4139806a472feca62335f96db5f430d736b4f81",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "85f9a0b1578dba2d283c6244f8edcd27e9e7fcdfb2212b0349401fe264b63003",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "639b96061d8dcea1010d3e23126bad3b494fcf119810510ba7fa2778a935343e",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "5082f817a8eadf0a7d0ea4d50c1cf35e5a87b8aa9e0acc5280fbf3e142eeb572",
+    "bytes": 4388339
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "d09eb645d7116e50bc162ad2d3d53cf7686ddec87d3cba82c63e7a5aff1c06c7",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "7fc5994788fdd50041ca999b0e0e2dbc10059e4afb3f0aeae30c05dcbb7f71d9",
+    "bytes": 3083655
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "71fac519d884c2e800d313c5df5a116d73836c6263b657ea53da155cd14cff9c",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "46eb3fd8d8474549eedb0a274af6c550b947e47af222e8518a76cc64dd6251f6",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "bc61d42a471341f6ce3b91a1e3e271c3b5490832c1841787b9d051a64c991a4b",
+    "bytes": 3398
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "c6bf5f856d316031ca59fe4667864ccbbe384c0f06f4afd2d251fa739e54ad42",
+    "bytes": 4321551
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "e7ff7e5dd513f1ceeb33c6c2d5310b5cc0b7777faf121c6fd431471206a4e5de",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "278f73e812e22ef0b681450f820004f69094a8c953b8a3b27c3046ce9af72c23",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "60ec822354797936533c02245eed196ef8762afe7ce97a9b112e84506505195a",
+    "bytes": 587
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "20fb4807b1c161396a635f78fbfd1445546fecd8398bc11a460d59106dc7a1af",
+    "bytes": 4388898
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\config.json",
+    "sha256": "6324213220eb2dcbbaf083b02fec22f96f9accfdd152f9621abb9d4156ca7163",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\training.csv",
+    "sha256": "51d38ebf6ed08a1d5b0004e53ff75bc95f5829c17bef41d435d62255f5fee60c",
+    "bytes": 3027852
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\training_cost.json",
+    "sha256": "ee94721afb43aa721c18bebcf1717c4f72befa4f5eec086d76b4b70157df92e1",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "87ca1347797379c054ceeb5456584d33c8e8d2c16d16a3ba2e852e81ae671089",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\evaluation_heun.json",
+    "sha256": "c199d3fc71d5c75ca1b7a268168368575e64460e3bd82e80e6592fa288fa14aa",
+    "bytes": 3412
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "44aeae2720324a39b0449d1d4030126c6a11515753cc0651410fce916b19b101",
+    "bytes": 4320909
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "5ccdc1cf3fe6220f6a57d51600f66524675b80446d73ce803353613472ec050b",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "20ca6dddbd8514d0e5c7bd0620ef235c06197cf2b66b6cac943ee7d53ccc5a44",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "fadaf687c7788591bcf2d3af36985f910e20e11156895d6ef4c60e18f09004eb",
+    "bytes": 587
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "347480fea4811d7c981c0a5567fd63f6eacf154d840883ded5eadbfa399ea4c1",
+    "bytes": 4391053
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "8233fea01ef336710ba2bcf1f726dab2853254a8f5da7f821df8af84755c0d31",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "6fa246228ca7e7b42a4e59756679da94a112b74db9ecf1dbe23f8cbd71530ab9",
+    "bytes": 3067098
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "bc8e38f997c2b3a7983698fa873bf3f19bcababa295978c7e910d67e2ee31007",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "bf6153e7d018e997f6c3b1c529d7f22aa73a74a5743d6e8f2c8596655c04422a",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "079987a07126f150155792d203b865681ca919c6c1c13e8980082de342172634",
+    "bytes": 3398
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "a1da8ff2a83bff4a379e75ab1ef9e1ff371f90792645aea5141177c5e447272f",
+    "bytes": 4321118
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "f5ea6563045c88655c73ed17950595ee2326ffb18845744d0ffdc336d0fbb2df",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "e000bc86d1fcd998460d307bf5dc8d61b50d51c18cd3e1837fc04dfb2a718aaf",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "009a3ccfa659b9302562807fb9e467004d6a069eb4ab41ec681edcfb665ce508",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "08d362bf3beb94f845f64351e1b43fc616f8d7eb47ad2969863a03d302d75a8f",
+    "bytes": 4388374
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\config.json",
+    "sha256": "04ef3bbb83932e040ad07f70ed391daf2b7c21c68f45f4ce44c804b96fed537f",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\training.csv",
+    "sha256": "7c09184963a79fdc220078ab16987e7abe741e1b0cc58206c5f2e3da86ef6c22",
+    "bytes": 3076396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "d79c2ac8dc6871960bb43d04976f3785b99360b2458621088fea1b665a7d7f08",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "7e10dcf8de655618b5808768ddc1e14d8a53b616fb8b367867e64c9b1c9b3c61",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "42551f77f390e24f6011be381a9bacf03eed51028f124f47dfe6e8adaeecce40",
+    "bytes": 3391
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "dc6cf90f469d6394500064901f9041d50c6cd39b662ffe983704cd4b1e86310a",
+    "bytes": 4321599
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "ae1f1f38e01e1a897181506a326902e1c4d37d5b23815aef143a8f8cd3baa222",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "8e6cbe0940b784641f874b66691cc9bd89c617d5ae77643dc77874a4f764dbe2",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "6040fd9504f5b44e4021c5cb475a0b2fe521a721e0b672c6af9205e638b56a25",
+    "bytes": 583
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "417af5c1e4b5caf10fd43752d5295dd315ef616041abbde65134d3e54933ddb3",
+    "bytes": 4388439
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "859215f1991395c69bdf93d00077b071dcd13a205ae15d955a11c383cab49597",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "c0ad587137d67523cb5f813d418890ceccf96e6f1f0cc9096b597a3b75ec41bd",
+    "bytes": 3084629
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "4c2b1a38f923501d65b2ece5f28c439d87c5d34470dffc39f6c2b1bbea932492",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "393835049eb945ad0a37fe2b14f0c57dac857960b2dc1899092802d7c01a9b5c",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "421424a9be56cd568df8d133eabfd2636ee709f1205b286b705f8771bf48143a",
+    "bytes": 3393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "ac75779d2a8078b3a9ba1f53e2d32c176e882d0a632fc07c5a187d9cf4b1b6e5",
+    "bytes": 4321267
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "b450680fdb7efbacf7fc2e7e6126dbd9c52411f95a149dc7e119d99fa08c3c02",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "7a59cd5f3f5b9010941a22affd10312cdd546dd2ec9c4f72c1535f719c73a891",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "5b371d06b48123d28a99c3542f7257379b293b5a5252d4b8e9fd652d8c24e175",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "62eb5dde88464d109d1bc0812913ce692e75e68b013fc07b3464934b69522c8a",
+    "bytes": 4388410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "f017989e87e5075eac3cb77f6ae415a057593b310c8b7635b94a49d56f0d11b4",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "cb472782483967c7f42a3f8f32e3f72c9e4a12698d371f8cb8a7a02a00f263ba",
+    "bytes": 3084511
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "c3c95c8f1fb63788489796a289226eea94de1768564ec10a742effb6bd33ac0d",
+    "bytes": 388
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ae3b2111007eb0e7881c5900e6f9bc21c71a4d5192c691516a75f7d6731da04d",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "21db641c7325c117a7c14cdbee37f916fac572e776590f3ebd043451856a14b7",
+    "bytes": 3393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "020748fa3748baa5724ebbde09d91f3b1a956dcdd6bf8ce2cfbb3c100138d7c1",
+    "bytes": 4321255
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "0b58662bcdb5cce73ad5689efed1527d69b1e52b22270d899c7f525dfa16921f",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "a19042519d17754d23d5c034f68a6145fdf6ba4bd9080dac13d901684bee9fa5",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "ee828b9f35175f40bd2b1ad79b2bea818fb92dd1706a05c1e5efcb46f1a92d89",
+    "bytes": 585
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "11c3cb9efff37b696ed5255f0313e1b5128fca160d3f5d827ae783488852dc87",
+    "bytes": 4388721
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\config.json",
+    "sha256": "8451431b4461d9dad620bc39347fcab03753c5778d781563eac5b8b0c0d23163",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\training.csv",
+    "sha256": "ff4501a29ad8b2eabea9d646330a095c4351a078add28cd556d4643b70c335c6",
+    "bytes": 3026609
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\training_cost.json",
+    "sha256": "8af55fdd0dd6534b56a85379c24f135bd49791844a0c14fe3f80ac397d46ca05",
+    "bytes": 370
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "fe38365e06946da61aebf7f393e695b001cfbb265712c083644c27601c303b37",
+    "bytes": 921
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\evaluation_heun.json",
+    "sha256": "38f4d46b842fc446153faa578d292c1fa954b95308846390b57754a1d8d790c3",
+    "bytes": 3407
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "81ad96f344449e7c862cf49888f7382a9df3b4e5f0be4d56aa4d7ce756336d01",
+    "bytes": 4320967
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "f6f6797834e2dc543d2b93be26636e6b5bb907b3469090952a01f38ef98a1166",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "c2656b0d1ffd047c9a7271ddc626b49f4a06a10ee03354af3d5c11e3ceec4909",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "214bbe5d65d9c7dfb1196bf616a8667d0f519b98585d9a9fb149ea6d403fedd2",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "72b75d0c8ae105d8a2bccfce319e7c4323fec5482ce79a0b3359876f27920f84",
+    "bytes": 4391210
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "be079f422040ec3ea2d1f6aee8551f4868f5c7b445c1891492bf4db63f047c57",
+    "bytes": 3296
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "172f637d9fa900e53aa712b4c56b855208f91dacf780ef5b6f3126e131a9c94d",
+    "bytes": 3065119
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "f40ab8f93215e4c267fe39f3072905d5edcf1e62b9f364721896c7224f84911d",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "15f838c24b1c1d74e82088e0c43f83874bca76ccf8da9c32aacfb6fbc7155d63",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "01b4af1c4a308940d992e7625a11547458c3499a54a82b08a5cda4ad19dff176",
+    "bytes": 3396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "388ac697114d33b6bc319712583adea9dc3c2bbaf19e6e7ecc1cce8366cfc936",
+    "bytes": 4320840
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "1f5968b3dfec0caaf533b7de2d73838f3da3181426b30eddaa2aa3d086313c54",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "6adb56ed9e262b9600884f1a31ee286f4d54d33903a8b4569adb55f833c66394",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "58762d3b5d2fd17cc51fa18ea38ded1e98fb58e13c75ccd4049fbb9e48483499",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "4c3abc737ef53b0127378c662203233dede0edf8ebd7b40a1f58d5978aff5368",
+    "bytes": 4388564
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\config.json",
+    "sha256": "3b0ed399a96badfb0bce2bcbd65a1a14c59133857bca723a10c52d4a0fc9716c",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\training.csv",
+    "sha256": "265557469dcc119d32da064b888095130750449bc234f24063cb72d624f10326",
+    "bytes": 3073470
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "6d21f02afb49f4883b14adfbc1f7c9efe1cf587cca23ea8c98822b2bfec6cfd6",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ca0806c48af076dafb35715b3101d9160a723dbd484542ae146e865a3fcb686b",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "40895dc7d176be8092a2ccd0790ffc525af53681a519cc295c26fc2c8b7f3085",
+    "bytes": 3395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "920f06c515b9836f11a7dadbc7dcd56966f31638cc50209174b4df35eeabfffd",
+    "bytes": 4321222
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "d27335cfddc08241b1c400c363948d256985c2d65867d972693cfccf84b9a242",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "abf4ff3eac73b63188ae596651afe4f872e99102f7db26c855b7b11539ee403c",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "857bea8f2e481b3f32d988a07187fcaeeefb30887666a48cd9d4286389a5d816",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "98669b8a57508b7fa5788d1bc94492783c4bca6ea4c3f6ecdf3ba54d899d9819",
+    "bytes": 4388472
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "9faa6cc2e9e4918cd02e8439397c50429d8518708b1620fbf972d848b65d344a",
+    "bytes": 3302
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "238774ef652a53d1f8f28655687990153b098fef8eae5c47e76913d51acf8ed6",
+    "bytes": 3083286
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "ad9140607d0bf2b4a9c776ce256200773887f6db9d560cd93186e7cf4d878b5c",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "097852f8c90c90ccc56ade5043ff486ef1aba3110232c623773d999209e2f667",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "6d130cbbf2e56e50bba67aede02b31e4c537e140465adf91d646335c0f51a492",
+    "bytes": 3400
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "88a45a8d7428564ed167145a3f7218a76a44a78e476d9f0bb213966690b98ce9",
+    "bytes": 4320988
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "fd62387ad427681d7acb1c85c00c342f3d7f12ab26516dcffcc0bb7cd91b86bc",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "ba5d78ce157ae094be6511b5a380967d0e68b0645b55475f80a6ad8c3617a579",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "17ea7d56ae058ba935da5b484bbea2aeb35bd708b8bf729f87c58ff746011710",
+    "bytes": 586
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "4ee045e925fb856461eb929ab3a6dcde4e61e2c5ee1423cce19602d756f595d3",
+    "bytes": 4388576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "bce724096e970ecc867f6e8df6f4ef0482041c789611987032cdfa4771354308",
+    "bytes": 3310
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "f379bceb76de2623c1a157efae688936b7655ae2bf41bb72b803c473183f422a",
+    "bytes": 3082972
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "1b1d7e34502f9f537bddb3ce9a46d0e82f21c1f538896f07f40c759f2471408c",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ac45c393901ba1403f3b54f9b556af5206aeca24f55a4c681ef6bc805974ee06",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "c501531e3fb61ae62f0233a00f07dcb430b706c6e629e52603f98632bd194c36",
+    "bytes": 3394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "05c3e8fa40fc30f0ed1c83eb5a900f7226c83ab05fd173cc69b72edfededca0a",
+    "bytes": 4320741
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "e286364e81957f81d7e2603163dffb2131db04da0b50ba12a2bde088b840c288",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "98ea0ceb6035589739b7063dc483f9556a3ee9d3128f0cdd853f0ed83e5ac3dc",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "0a78d0bd17a12cbc813a7eadd0523a4b300f9e077bbae8124bad7014a6406612",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "7795c72cf4d60e83de19723d17b43c343cdc4f130519b053a9528acf079d2042",
+    "bytes": 4388660
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\config.json",
+    "sha256": "1d0315f5acdfe681b4a4648684faacaa4c126fad42dea99cb2efe1db29caa8c9",
+    "bytes": 3298
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\training.csv",
+    "sha256": "01732626ab74f47371df55a6f40a160ecd237a142c6efb7664f2bc9253267b48",
+    "bytes": 3026485
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\training_cost.json",
+    "sha256": "c9d4e988ef1be0a677a2cae9883ae0207444cfd42a9c293e06f3d351be0745ab",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "bf09db4581342beb8847abf5c5acf03376cb9c92bfadf04130f0a20c0144baac",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\evaluation_heun.json",
+    "sha256": "8f4ae814072bdf8a5e7f72a4e2b9d392b3b9cd2dd2db6a88d9355a5be712601c",
+    "bytes": 3410
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "b2ae3300566d1dcff31619cad5db2bab4cef24401c906eaadfaa47859b67d9e7",
+    "bytes": 4320866
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "95e547198e7c8f3e95cf77be42a258d78acc2e1f24f13b71a03adf668739450f",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "9e0ef3ed587ab5b495ba1771320900e3f948d2e95ef2325bcf4f9c35fe85656f",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "da841547be30ab4e093e15bcda77979e26c2ffe54022d6080c54e35b107f1c8a",
+    "bytes": 585
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "b8c976c594a27a3cc374b037a21fefd6b406605067b7e11719257dc0b946a8bc",
+    "bytes": 4390906
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "cf1aeba2754d2d9bfaabadfc03ef4e1ccc945e235b904be843c5d22825499876",
+    "bytes": 3298
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "b5665924097e068e94796badaef1e69f38f8a859344ac0f1b96afcfda72e48ae",
+    "bytes": 3065315
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "7016623e61f30939157e42eab2dff4c942d74c14e5ef5efb61cd1af2a695bb3b",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "93c2ba5c2dcc7406ab3bfdff477b1ba43b6f6e58286c101ae9da9c2e313ae873",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "f5e48a3d7386cad71a25748b1ed18285f8253d07b0682b84aba93a245ba33bd3",
+    "bytes": 3387
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "90d483477d53f40d6a76ce79b1939350b0444858051070eb6386e12ee4c9ad81",
+    "bytes": 4321117
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "dc405710037a6cffcd471c8a523c901f24065ba451c69e20d3c43afce481004d",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "bb7bf5c593a3f19d91181c2c33aa06761f798143f3e797ece508e1b902f0f4e2",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3b7270a441212e22fc21d68072a63699b0990282ef65e17ceca45da45858ab19",
+    "bytes": 582
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "3e5933ee06d25fe40a42bdb67cd4b0333bf537e383d07c4f3598377c55e1e4f6",
+    "bytes": 4388443
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_REAL_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\config.json",
+    "sha256": "c3c22b8a3602cb00db2297ed293e45f6d383b44fa2de1e06e2997b528090d9b2",
+    "bytes": 3304
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\training.csv",
+    "sha256": "141a64aec3c3ff9a7567620b4903f8ca88387219bbbb8ced4e950c54ce03e701",
+    "bytes": 3074843
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "12f21075ea9e862114cc937d90bd5f795e5e38be8432b484f21b1d5f6c808305",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "57a5537cb7deeecb3f0efeced44f041acdd6e96462994385bd8cdfa9cc0a3f9f",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "744b861bbddd9cb94b19328e2e73e89809d6abe60340ce80f27b5eb5bd458689",
+    "bytes": 3397
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "1e3e9de91883a17e4ecb5713cf996b001a855a97afe7355fb12b14b68f66ab11",
+    "bytes": 4321626
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "aad66c201dfa5edda2bca9a4b93e7db7a67a1c573b78c1e0876162799b616197",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "e9cd12036bf2a490fcfd7b07af3bfddd4bcb3af1ef82f5e46aef4afdab86c6f0",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "b522ba1cbc43027380c0d6ab6d60c6e50002b249aa4f11f3470f1bbe4532d91d",
+    "bytes": 584
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "9f66f388ffd8b3b6fa1c8570a209c1cc6e553ce3c950d4d2222520e4b6acf989",
+    "bytes": 4388429
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_SDE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "82928b4dff89586cf864dcea869798bfd98c394f967e4378fe203caef0ad9982",
+    "bytes": 3304
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "9304b9c603ec9340441a301da6680f625201f3e018277d1751e19d739c3ece7d",
+    "bytes": 3082201
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "bec13d2f880c87c0d8f8e4ef048bd55c51af5fda958306463f7c243950928b25",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "7326a5a16851627dc9cd6b0dccadca885d598f4fe74e20afbf591fbac595bbdc",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "174fdaf1bd5333fc4756a49f3c6961c4b13fb106867ed50eac42b447f890800c",
+    "bytes": 3393
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "d2de0d72a470dc3742b7e346fe77a62564fb043d5efb49ad5e188280aed75408",
+    "bytes": 4321133
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "211266eb55c970517bc4db1aba0c2b2a23e8ac237abb4b32e48af6c587b0ceb4",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "8939f2f583609791578c619dcdb77fd2f3dc777f221d70c868502645f1e8506d",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "71a0650e0ea1d0ac627d2674e3a2bbd3d80009419478b117e37d7d6014bbb4d2",
+    "bytes": 583
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "1bf6f97d4616a1ed34fe3244b761116575fb6c430275f6e74d138f2b84432eb1",
+    "bytes": 4388370
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "8875853f756761a0d1c1a02fd01cf9ce5350a817d3105972b7db7bc759009940",
+    "bytes": 3312
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "3586f65d894ad3f02382a23e8ca51b36edcb888fe72bcda8d1bd04e66947a2bc",
+    "bytes": 3083154
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "aaab487c9c6d1d46ca1824f5f75077201250336aafed3f17646ea55435182f4a",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "31083a3095376dad44375a376f340a4d768bb1c959fd339f99b1e2990efd9225",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "c7c3660e3c8aaff55c5ca29d9a1b3548c1f5644788df4fa29d2c385016aa556f",
+    "bytes": 3395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "d3438f95ae669957b32c49c22157423173c99e1594aa026201702f7aefe6bc2a",
+    "bytes": 4321250
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "4062e0e6a3358d75eb391c2f0cd5cf2608ac80192456505756d952f7832c87d2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "9205590552d7bd9e29048477b79127390445f95e5288056fefeb09271749a868",
+    "bytes": 1313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "fbccf757ad2700f326bad6b911c81c3bb1523f3f530f099992fd915973c34491",
+    "bytes": 585
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "8bcd22f2c6788b6de060c58ec7f971bb140dda291eda2db580b36ab215eefc10",
+    "bytes": 4388729
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_ACCUM__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "bdb14851d1682ff15d366bfb45afc5bde6a272997034f2f7f30ceceb5c7aa380",
+    "bytes": 4194860
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_multiscale\\DATA_SPEC.json",
+    "sha256": "cd5938425ad838f91a17b019a1ae3e1d8a68a4c8bdd7dd2e18e9c262686eecf2",
+    "bytes": 5102
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_multiscale\\METRIC_SPEC.json",
+    "sha256": "bd55d0dbd6ec0829d3a7209cf734dec06e0b5ffe49d83ebdd85a2501c876c1f9",
+    "bytes": 3919
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_multiscale\\metric_parameters.npz",
+    "sha256": "d5031a9f2d715c706542869ac01f0e36add555deb1d9e0e8592055fa0a81940c",
+    "bytes": 616006
+  },
+  {
+    "path": "data\\phase2_3datasets\\seq_multiscale\\stats.npz",
+    "sha256": "53fda484305e0d046ae02234416918ec538c252ccd7d9e8fa97f264bb21b1c2b",
+    "bytes": 2552
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\config.json",
+    "sha256": "ccb8bd43f68918a7c0e1eb541393794537164614071a30c4e4edb09f78a1a6fa",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\training.csv",
+    "sha256": "92082060c8ecc63329adee390a156c3dd04e809fe31958d42e39a7a5409bcc4c",
+    "bytes": 3016034
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\training_cost.json",
+    "sha256": "e8d71052ea5ac6e56c2606d82a2b7d62942c6aff896074b6b32a6a2da53b45cc",
+    "bytes": 368
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "9a7f4d74c4d7aa015a416528e3e85c3efd096b649eb282008a2e044c2a3a3a5c",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\evaluation_heun.json",
+    "sha256": "f5108fb7116af8d866a1c21c6f73d30f42c1aa325217476bb049522d196513aa",
+    "bytes": 2762
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "25cbb3b5f4376c1b01b369c6166236c720971f541ebd60297eb5466895827d14",
+    "bytes": 511091
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "7cda4849f08ef7fbf4343a1acfb6156f12814013d21f80ae41b8aa8f24f447c1",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "f9541923ea243741e76743b44841d9cca13d36d26f5d91db5337a5f5559635ee",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "fcc64429e66173aefb96caa296ac0150316543d8096faccde60d5429d6449517",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "f650183483e5107ebb17dc16c877da13d8db7e69e74b5b669460653b8d81287e",
+    "bytes": 8833752
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed17\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "0d19dec947106fcfd8b8d3fe994deec1c4df1da829f9450d8bd40077f2161582",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "847cb99514b647325a2865b90684cf018d5d3c081b0fb4dbe56c1bdc429be8ff",
+    "bytes": 3062778
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "0c769531e5fbc80abc7fd44646308ae342a0a6add8e99d33db5d5773b6c077e7",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "77cffba4ed7f6602caa8da66fad397f995139eda6107ce0560ffaf4eab79bf7f",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "4a57d0b1fe64465bd91df37df90153876e3865700e6d6e774c5c6b19ce0947af",
+    "bytes": 2757
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "ae95b3c3b0694fc4c27921bb0fa5509332734cfabbcc685014412ed41d0c9f7f",
+    "bytes": 510841
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "e2b57519ed4b1080b9d381aed532c3e565f9bdfc72e079f318f6839e64347699",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "ae249fea3059b40280e64122f499b0705c84eb59fecef519ed70059014f2b091",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "067f1b3f0093f3c895d455cbc701129a4ebdfff5f2a0d216f4516e399fb094c6",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "2f9782e1a9e9f87ae6ed6e61119bc4289691a35ae012407faed3df71d159dc5a",
+    "bytes": 8831971
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\config.json",
+    "sha256": "9162e186b80e08653cf82d460a112e2a35c797e539ff349b311f199d86a2048c",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\training.csv",
+    "sha256": "ed6a4db8b1664055a57c4a9b7205b6122c456b1e43254f29c01fefe60eb487b6",
+    "bytes": 3073959
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "8f1fcb8cf05668f6c73ede7bad8eb9294aaf637484db285399d9b4811f5688f4",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "95b62c17060446444b0a547a8149836a8d024f55b81ff273902c5f58470dd4f6",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "037713f1818aa843e5103d23378c4a837c139b7ecf40e82b935be9c5fb4f9e37",
+    "bytes": 2750
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "08c6067a23308d8574f374f43e7d1f0a7700775c76b8488e95da06fa9dfb436c",
+    "bytes": 510791
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "958f874a277577018f2701209be8d0ea88015dec9c54f60942bc728e0ba34fdf",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "6576f6a209c96d9c5f634f7b3ae14916d8228c1636c71ec75a57da2ff83a4959",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "8b3a23b03c8d85dee677395fbce01e1bfb33942f5112687da2c3cf6ad67e60ce",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "c1670c774f5fc11ebc8c49befd9b4c87c078378c2b69007f032650e6626325aa",
+    "bytes": 8834141
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "7b9c8587c20bbcc5fcf78ec1c7ce80fd8972dcb891c1f202eefec2234c4f9a13",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "bd34e0053ec05b430a43c2e7e3d62a90cc75134aab843e79696c239f0a960407",
+    "bytes": 3079737
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "b6a3ab0e92cd20843d2fa5b06536255b68f249b25d9a32bb48723fc4c08f7e9c",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "40662f614dc96d3f3d2573d12821a830c84d91ea650f96cc571fdc046b8fd542",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "d78ce117b8f927529d1a336d731a97dda005e64b55576e4423ba114970cf1ef8",
+    "bytes": 2752
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "314ec1abc1cc623180d71dd864e258bfc5b7557313100ca9386ddfdca2de31ce",
+    "bytes": 510810
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "30569032a0c69b352e6ca76ae8b4c9678c8e1b6d198e3d96969511682622576d",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "4cbbc0dc021d829592e908c6ba2b0c7495bce77881b7c4d9b8459a9645e394db",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "429ad52bcdbff064fa2f8a689e995732674199a80d24087f151a8e3b75d4f5e1",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "1020fc4b4e67b842e18d016de769efadb955394fe4ca6ef3d43a6957ce7bb99c",
+    "bytes": 8832249
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\config.json",
+    "sha256": "b9ee533a16096ee998af18978b1ebd4373f2cabccce80fc136b7faeaa533c836",
+    "bytes": 3325
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training.csv",
+    "sha256": "5f26ea9eb57ee1ee40c286a5a1ce20b58a0cad9f2ad5295e116abdc2affdd107",
+    "bytes": 3080028
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\training_cost.json",
+    "sha256": "0567d169535738d42d0a1636a210c5dbc10032f5d0ed44a51060959e64b3fb1d",
+    "bytes": 390
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "e57857cf555b4f44aba862a04bbff82ace1253f3fd55d09c1e47cdb6040880d2",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\evaluation.json",
+    "sha256": "44e77220a25403225949f23a3c7877c5c0fd72c6fccb4ff701272e58d119f944",
+    "bytes": 2755
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metrics_arrays.npz",
+    "sha256": "458804b0751a1d9be711c0ea91993f3e5ca73786727003ddcce7bc2c8d089696",
+    "bytes": 509496
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\samples_raw.npy",
+    "sha256": "69a2ac7f4cdc7137f6f3a35585444560b94e6b88bf75d82d3715088385f31685",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\metric_provenance.json",
+    "sha256": "e7ae6ada6c57453943e14ed585267fa802cff409ac30a4e9c6c5d9a76b9e7c36",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "6042912c095ef0daaa50810d96ecacbf9d1850db6499cfab5cb6393f9ae6964d",
+    "bytes": 575
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\ridge_arrays.npz",
+    "sha256": "5705a325256827042cc27785cda5dcbbb2129cb602bb9d3a3538e9ee5038170b",
+    "bytes": 8833106
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed17\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\config.json",
+    "sha256": "ff0a31d57c8953fa28028ca06e95c26a2d3ba8a6ea2b05df5b4d7de4c5b45838",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\training.csv",
+    "sha256": "0cdc80c32c3be0fbbae30e65e87635e50eebfadbc4c8f28a2a26f9da5a774da0",
+    "bytes": 3014956
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\training_cost.json",
+    "sha256": "3260a672a1880420dde108517584a6d2e670a59ef3ed62ecc6aea81026428377",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "12b14c40c61316e0f62faa7ca156501a67095a4f7ba0c7990a7619ac7473adce",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\evaluation_heun.json",
+    "sha256": "a6a98dedbce54a3359d09f19ac29f9df22431e2e2091e65dae8edd4aeb28e443",
+    "bytes": 2752
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "d2e9baf3268746a36a9a46046bef962305073548d13b8609eeb3640ef2f93c73",
+    "bytes": 511010
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "81822d87e7f3f48935574f312ee7ad03ea093268c339cfaef4b02c753ec077b2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "cd2669a1b05b8aa2096ff137c02b9d4513099764898f39ae957ca7e3d11eda74",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "b50847978aa5825fed1e630b2fb52f5a272644ffc4ea8448b6b2dd81d155837f",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "ee2f3bff610ccd29b168c796b674ee8e3fb052dfb75118eafade2708a464fe5f",
+    "bytes": 8833780
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed29\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "b020b02f3f2aa878365fcbaec9b0c49501613bede656bcd04878dc0e816b049b",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "36ad5949e30c2e4e257ac05737ba13c9761d18569f2fe1f54ea622fd32513025",
+    "bytes": 3063036
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "9db632ee196c5923224e69b52a2f92101a6d85744cece9e08eba5e97851c4fa6",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "b856471cb931ab34ed9a54ca0c26553f846f19e31d87bfd703b5bdc5a311bde9",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "5d274164066e1d35c6df5a6c729920eab4f1c414dc166b35c95a71577719fb64",
+    "bytes": 2754
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "268924ca9acb6c3d8ef982ae5bf9015fc92b2d61519425d3013b2a444116fc3c",
+    "bytes": 510963
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "b65d374648d212b86c6d74841fa3bc3840b2d97064a9e3e3cf952ba7a213e7c3",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "e03ade6520dd823a6eb200d8094dbe4856d21827d0f78e0d0904fc8f083981df",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "4b90a9628d5a02400936f9d6d6ff14f9da7544423dfe4193c424d3a42dccc3e3",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "a30f0ffd0134e4a690c8150297e164521af9a31797d11c930f1455b34c67e17a",
+    "bytes": 8832317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\config.json",
+    "sha256": "8c7c48c68afee4242b5181740647ac927c129317ef984ee016c6a8c756b1af0e",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\training.csv",
+    "sha256": "53303a37f374b73500b40dc218227cdeeafd8b42a960e4ce011cd8b9584a0c4f",
+    "bytes": 3074124
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "623afe933ba99a809122b026c75596c1d5bbedc2ffde2022ffff568ddd57f366",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "055c6786e8dda3e19af67aceb9458215f501061364fab536cc09f9c0fb91a46b",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "c09f3f21d4a0bf327c50178e94c08a08e7cd260e5ba1aaeeaff34445d58277da",
+    "bytes": 2757
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "bf852a41695a79f8d5542b827a2ac1b90fe0bdc961c606bb2d85c6135001585b",
+    "bytes": 510862
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "6cbc3fafe1abe2128e2664920eb3184d1ae712545186cd6d327e6f5de3ed284c",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "c088cb91c447de7d15451c9235f542e565e509446cd43fbff6831c7f20fb3c8c",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "01306209edec8bd776f7b8d1d5b3a9561469c7488b51bf047a55a8686e403d1e",
+    "bytes": 578
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "f5f6e8406b03cdd85b7593c21e442724d4c5edebf3f1834305779c92c0068fc4",
+    "bytes": 8834149
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "d05c1409855e186011a37b12b4629eea62351f65c2015db5bc944055f6c5cf2a",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "64f5b77ca660e253bea9ecfd1c832f0b8776e1042e9c27945e1cbd909eabaadf",
+    "bytes": 3080313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "4e7db07e8767c57e9e54f61fe103f1e7a1bc16ebf19bd030f94c86ea7925057e",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "c8473f8d750a5a96fe791929b172180d8f83214a923434850a6c3d9b41462381",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "eba69e33938348f4dd306b6a944f617cc0d94c05c9bdc320154caa0f37707efa",
+    "bytes": 2758
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "ddcd7aa7882c4a1e25e615a06801a40b477bef361ee6df74f15dc7ad619aef38",
+    "bytes": 510819
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "1b701df894c5702cbde9187022eb6a24292d5984183a7a09bf14c628c0886825",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "5566ac82db73dca0e67ab4484765b19133bc0435edbacec2dd24d20d8cbaf342",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "275d36ec3926951a81e1512de3a6405233a9bc0bbde63d7d818f44cb6e55bb6d",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "579dacd3c9c872a410bd6bb9a23ef5efbfea42595b589612a4d9abe6a50bf5bf",
+    "bytes": 8832143
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\config.json",
+    "sha256": "9fa8a384032768693520e004d727fc1135c1621e86ee47f382bf631f874f4a98",
+    "bytes": 3325
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training.csv",
+    "sha256": "f4ff84ac4bb849c484955e98601925886852a4ba4a614c860a7c051dc1137693",
+    "bytes": 3080807
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\training_cost.json",
+    "sha256": "31d48f4095500049cf10e2d00994eed07ddff1bad8db55f1f9989d99a3ac113c",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "73e8dc1f09dd143ed599c3e3f28b8f439e2298119d54e2905e8df8da2b1aa509",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\evaluation.json",
+    "sha256": "c310475a62d1dc2780acd2cc545a5e9aa58b80fe8934c4d5aaad741d4f4c9692",
+    "bytes": 2758
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metrics_arrays.npz",
+    "sha256": "0a2b48c13f923b4f37a8e70f8ab41a8a7f43c4a2256993b285d5dba5dcc98bb7",
+    "bytes": 510036
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\samples_raw.npy",
+    "sha256": "a15e1fa7e0db7c0a1b0d54f885fe59c5259798017713ccf2368fc0fdbc96412c",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\metric_provenance.json",
+    "sha256": "a609d9456419c1e582266476184e3b6fe2753bef3bf214870e15120c40f3a550",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "d8eb33a8abc5854c55631ab4827a1af0dee457b839ec37634bbfd910309621e0",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\ridge_arrays.npz",
+    "sha256": "6a78bce2a5215dc462027fa7bde60085a95b48ed01cb5844553db3652dfd1770",
+    "bytes": 8833258
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed29\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\config.json",
+    "sha256": "c1b330c65dab47065758a662880125fac77d0f57f019f48d14063975de2fe235",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\training.csv",
+    "sha256": "5a6c04a91789f07d9c8a51b8a6ec7eb5d75f95f914cf783779a913695fbb04d9",
+    "bytes": 3015473
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\training_cost.json",
+    "sha256": "355f3fe06d5ea1323079ad8121a04e1f22454e8cc84a6e728df19c465e7ec18d",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f6c84825d8a0f209041e4add263e55ea171b0321a4fec25655a2b21cd0ed79dc",
+    "bytes": 923
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\evaluation_heun.json",
+    "sha256": "5c85add4dc8f2020ea68b997d0cdc18d44dd730aa9d440b30c954a9e33cfca75",
+    "bytes": 2756
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "0886bb408cc8710604ea27254f51342d708f822e882a2cdbce637dd777764d3a",
+    "bytes": 511090
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "164bf1f5bc84447eb8bc7f5a1ca59b4b7ee8744e6236ad0c8a9a78866ccc0100",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "8d9ce1de90c08457424a7d04095f92c3cff8be466ea5742760e986e1fcf786f1",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "41955045bb9c7e596d366b34a94e0b0ef82d1ead20008fd3f5039630657d991f",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "37f0e12f769bdd8c740d3bdb129bc0305f7c5979bced9a4e8e3afeceb2fc24d2",
+    "bytes": 8833700
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed43\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "8f3e80b28b3700e42b57c544e31bf436c50189b266584510b2beb0173af123ca",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "3593c3a712ebc0267217c535de6bcb30874a5bc26eb3379ec3695ccf5bbf0001",
+    "bytes": 3064349
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "705c1f8d58cc3a8a9e982a4dfab2aa670af967c557046b5be9da2d355531bc1d",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "e3092dc346cfcbf41ba4facfdacd1fa6548cfbfb5f80127a68e61816e75b99c5",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "6187e395eb13f5c31a0fc57eca91ba7bf4bc61f7863e3618308c5efddc2e8554",
+    "bytes": 2751
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "a79f53aa2512f498a2dd3561e544043d3fc6f77bad450e150abb7f4ce28821c7",
+    "bytes": 510937
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "4b42f020d7a88866a2de50c56a59ecc3889f49b2d4663a2e9c35c8604b302e4b",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "25e510f8e5a14ff01fc878bb91f14a13dbbd2f46c64dab03864bad17d580b1e9",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "8a8e014310f145a61e831779aea1dccc2d01fc37e4abad299afc7b6f59577c2f",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "499ab5574d1bfc455551e1521da4938025dab69803f2bf63c6611a8847a56c7c",
+    "bytes": 8832171
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\config.json",
+    "sha256": "917b9fe59a71660a2f0b41af6d90da83f6a5d76eb524891df846d1aee6a4f8d6",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\training.csv",
+    "sha256": "f9cbc6bedd543c1073590854b615a871949fa624189987ef23c9d93d92e4b352",
+    "bytes": 3074333
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "60eb20d245a3c08629cc613eaad15cfded29963ddc5dab47559887c6005d9cbe",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "575a98423f7ead922daab97efb7ec091c6f485574093f9d85d2f46aeab71d5f5",
+    "bytes": 475
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "8dfbe5775e04bae5588b8739c01804dad4362c48c182c9d02384eed7fe3e3161",
+    "bytes": 2752
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "e3c7059164e17063dab32bc56c3b9e38bd968221525e2d55e66f7ef7ef3f7844",
+    "bytes": 510873
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "64928982e444893c70192fcb9ea2f007860560e31d706a21cd211d4f9cfdb4b3",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "e7e5bcf0da4319f3fd24c0fdcc8af2c2faf414624b12df7ef5bdb0a29b451232",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "68822115eef20a880810e9f5fa722548ddbb81a2cafc28f7a64b8e46b1ff4b93",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "73fa1fa4b646108b0f255f9c5623b643e1a466bc95e56d73f8a5192005e5986f",
+    "bytes": 8832155
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "d664b95a51c41515f9d2674c6c5d99bd413792052d60f0545b5080479edf8371",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "b90e00490f9afcca4596badfcb95a386b5e9ef5ec4bad9f371b1c4d8b1973ee3",
+    "bytes": 3081435
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "29b985be34aaec2928591f307596fbd0f9c440c66d41ac24707bb8cb29b489ff",
+    "bytes": 394
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f06e6036d4ce442afde9e49e382e49a11838ddb34c9eb9a2dc390a4202c6ac6b",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "12f36396d90ecddd28c695cafbe02dcc1f487c4371a69d1a50198d4cb775f65e",
+    "bytes": 2751
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "07b085a1fb4af1268f84dd0b7702008c4282393796f9d0fcc90298e108dc24d3",
+    "bytes": 511002
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "7e8325a90f19a4ce26a64e3f3b3028f4a92b43d9248506a663556397961267ed",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "7784d1bcd39d00dba9a7f3b1cfb388f35d077eba6d38d853ddf29b0bccb9c22e",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "ab404b32270aa2a7480192101077f5068b48c7824a0841fdf470baf82e1afddf",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "d45df1921f863de9f3f23b5ddb870b1ba452c7bac3c0bd5d8acf31764f8c1c48",
+    "bytes": 8832219
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\config.json",
+    "sha256": "6d74097a44008fa4529b1a5642b9dac3492f15184fbf69c1bab496082c06c6c5",
+    "bytes": 3325
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training.csv",
+    "sha256": "2569be11d277361d5a98d821b4dd08c0919acb202b2f66307fc5b149b375d9af",
+    "bytes": 3080957
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\training_cost.json",
+    "sha256": "4bf091a7561c839574707ac6602f10e0efcfb5b8567450fcdbb8d4f59c309d12",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "f6da12ba8e6a7c2a2f2985a9868b41c08b0918c3353dccf5e28908e9bca6efce",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\evaluation.json",
+    "sha256": "5ae52ed1637cc3c831b79d102359c04f0d663500c654bd806f34443c7a9ce446",
+    "bytes": 2747
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metrics_arrays.npz",
+    "sha256": "bc8b89b5066a1c6e82e1c1a65535ae5fa9e636fed3765eee98f9b371a18fc816",
+    "bytes": 509916
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\samples_raw.npy",
+    "sha256": "b7ba95dffa5fcb8356f19b25d008928726baa8bbda63051d3833c11ed54cd5f2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\metric_provenance.json",
+    "sha256": "115e6740fcc49a07adaafa89103148acb3e3b5e811311147c8c22f7a723d50d4",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "2b3d9d87b285631a30e5d87a62a0304e21771cdf0bcce2a978fc8e071da1206c",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\ridge_arrays.npz",
+    "sha256": "ebf7df5647e4c43b124530873e0601e187c71d16fb6bf852dd0a55e15e241060",
+    "bytes": 8832384
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed43\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\config.json",
+    "sha256": "715dbf2b5200cc941093ecf89c8e612315c445da5505e4758c6cc6a610887aa9",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\training.csv",
+    "sha256": "0a9f42291d296caa831b0754a96fdf6a1eee8673ec36bf1e99841858954eda11",
+    "bytes": 3014191
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\training_cost.json",
+    "sha256": "dda7d4d9f520abb114252df96e3b81700a3ceea91262349a4bd1040f70a74c58",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "7c1aa4208db70dfc439da2b72f395fb15e79b9efb039c586e5481662706a8bb3",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\evaluation_heun.json",
+    "sha256": "d7c6c5e80659881291b673d01aee994ce34f97712584bda6efb84fe207a5e8e7",
+    "bytes": 2759
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "38d2ac5ee508172be57638bbf9de7d3188537ed8110b7cef510c8c6896607ba9",
+    "bytes": 511053
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "dd8fdf6a27bcd6db5eb002f9a94dfc15dafb9412b138dc25a91241f8fd8dfe2a",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "6f312266f0b439190455f183bf65a496f9a4afac4f09387a08da8a8ce9771343",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "4119f71ee1ee9b01df798feea31811b379dd7203bf913dacefe047dcd86e8ee9",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "f4ba3cb27e5da126a8b61ccf7464a1ac59ada7e3f2ed6bfc47b593e4b93e10a4",
+    "bytes": 8833877
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed71\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "a22049d2376df46c7c09208e33b78cb50cbe13ca921e51aa410a8bc0d4e64412",
+    "bytes": 3311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "386f2c004d5946d0ea7db895893b3b9bebf54514a7acd76cdb86600fcc848645",
+    "bytes": 3062408
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "a18b477f15c73d276349e5a8f088bd83c33d097a5ee4ba400de5591af8e5afa1",
+    "bytes": 390
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "3a567247fb6da0b3e8eead2d3fb18da6ec8c37ace7267bcf60c94f95df20eec9",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "82662aa021bf7dac8661104dffe881ae0c212c673987590e9d6204d7c93b4868",
+    "bytes": 2750
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "d8134a0568d6ae80323642531d21c8ba9bce50815aa731bc0c68e51bec18029d",
+    "bytes": 511097
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "9ef1c9d531f29aa088807b64d1000af3c3caea09f46e4abcbca1681546015c28",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "1e95d00279ef7c73e41243abec0a813944ad620f8cee186765d85e4f8c37c02f",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "ba7bf5f65bb5fc0ef965c586abad733829a431ad4b1921e24406bafa9faf86ef",
+    "bytes": 575
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "f0858262c1917a6fdf8bfa2c6d3044a5b066cc91f5b661a7d65a9aec51bd319c",
+    "bytes": 8832418
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\config.json",
+    "sha256": "357a91bacff9bfa58542cb1de6b9716be12b41508aeee72042df60c1aad028e7",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\training.csv",
+    "sha256": "39a4f2ca9ba80f1fd5fa7501c6039da73c6b5a550b0f749e9844adb48581fe80",
+    "bytes": 3071962
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "66b1ee0787a8cb30b817ab3953e1d246e2aa4cbbf20921f04eaae63751eaaf89",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "74de79e6961934b506178fc35cbd9f85edc05eda47e53545d579a90f09022d08",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "ccff8768b68a9d43395c21c8ae0c23096c4b17643e36da556aca588d6c13ded8",
+    "bytes": 2753
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "7a5fdf2a248fc50a143082ea276d1d2317c60319b7445c37d3feae56ecb25957",
+    "bytes": 510895
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "e8505e2e40f35cd55deaf08b304901f85c46444d07b089cce0167184dad3b94e",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "b5cbe8c731af22ac2363c022abafb59a002a9cc905b948ff47c6e2428fd9d4c0",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "d55ca9cc39bfd1b73e299adbd8b24c7babd2fe9c148bf250c8e15acd95bcb42e",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "98f45a13b9befc9c602bd5653f85daced24dda038cc8e1ed74a037ca1eabff37",
+    "bytes": 8832431
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "37bb0d34dca0f6262f6b611f2dd435eee1cf0366935aff9753ebf652bd3b08b9",
+    "bytes": 3317
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "bcec10615067cbc0d74ed45603431e8abf4158c7eb64d30193f59e6547e45fe5",
+    "bytes": 3079158
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "6df529a36c064b254e17d40754b04125ae02f6560dd19efbab3cb9e35f123da8",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "a103dad493d860ac4991afbe57e37c2b95cbbde56cab1b7540c299c037eb58ab",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "4444147d4b1153b98f823517e0e2ff639da42f3386e50c163cc3dfbcfbd244d8",
+    "bytes": 2747
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "de41ce26c68551a483d797f1a92fa074bab6f662c0231379e7c262ceea31b2a9",
+    "bytes": 511052
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "3568d7c94cf32728ca64032e7a27fa3785da12718d7273cdd9d47c709272d019",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "6dbaae8bbde5e9fa6a8694dac395bcbf7ff01c57716c7f41096d96b73cfba894",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "1201a71cc9924286bceef41a379baaa17c31567f624e9cfb301befd6b043efd1",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "d716f3652858bab4329c6b4f3c78c7fb128f463635f8700925f9b4c748f6ddb4",
+    "bytes": 8832604
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\config.json",
+    "sha256": "34dcacae3b6a005fa8fa26ef55a4df7d1fbb3ecbc83f749bf5939b202dc72ebe",
+    "bytes": 3325
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training.csv",
+    "sha256": "5f8fedded67b314ee46387ff92412c28af0abff689fa145d7efaa389822f5575",
+    "bytes": 3079183
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\training_cost.json",
+    "sha256": "06666beab3445052b5be8e4d82c8625f219af6942b316a86bafe4ebc4308e979",
+    "bytes": 395
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "03fb30eee26c8fdae5f00bbe6922c6048277cddcb382e677e95e6da41041004c",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\evaluation.json",
+    "sha256": "e3cdb10d74cfa3008424e6fb1762517e55bd4c0d0c4bcafce52b15230dbede97",
+    "bytes": 2754
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metrics_arrays.npz",
+    "sha256": "98421824bac1873b5384292587b5b0f5a08d485d04ca8838eed632c2a3465f4c",
+    "bytes": 510889
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\samples_raw.npy",
+    "sha256": "e75efcbdcb8a28a50cf31627f71ccf3f6888d7620fc807bd29e080aa94a04bee",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\metric_provenance.json",
+    "sha256": "b860aa92d70d50f3ff76d74f528b325a1d46fc8b45277b3409dc1b6a6b5ea609",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "e37edd6453b66b2058977b3558b53ab7f521fa60c561069a3228d81474b98717",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\ridge_arrays.npz",
+    "sha256": "8e6112b44580aa252c040d891f31535ca5f6a14e9bc6a3ad0e1a528ea85066ec",
+    "bytes": 8833100
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed71\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\config.json",
+    "sha256": "248e30e471ec45404a254a284d9c109f88dc90b3e34f0536d8b438aa26d75c45",
+    "bytes": 3313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\training.csv",
+    "sha256": "1020cb8ab5b17380181cb456bfc25c01c2628e175e198ec3d061a80c817c3341",
+    "bytes": 3014283
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\training_cost.json",
+    "sha256": "e08b1af9db843c5f91a2a5c0213ed34d07bbc7811979d20e2c2e227ef6c093b1",
+    "bytes": 369
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "6dd061ab784759f7d039f955c884a18a2a82468c642828ff05b9750c80f070f3",
+    "bytes": 922
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\evaluation_heun.json",
+    "sha256": "6bc413ce7ea65a0ba000d3368842e1db0b6fab7f344f461e05bcfb98a9b1819b",
+    "bytes": 2762
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metrics_arrays.npz",
+    "sha256": "20cd63ca9c0de5f25f36802afdf35b04e3be057f8fdd75621c8388914c3b0aa7",
+    "bytes": 511109
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\samples_raw.npy",
+    "sha256": "0d4335a5f2bc504bea596ce5f82f4b52215161ee4759fd0df643f0ed4e4fdd96",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\metric_provenance.json",
+    "sha256": "7507c4407e7961d43e0cefa9e21931e642f38681d96aafaa879c2cfd5087b082",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_diagnostics.json",
+    "sha256": "de1bf4e2c64a0e7c78d61c827909caa078f3587e69850d7feeccda36e6d21350",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\ridge_arrays.npz",
+    "sha256": "e604d77c9254a3f1add8cf9ad3112977bcb4fd85268a00d19b9966d895fa57f2",
+    "bytes": 8833683
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_STANDARD__seed101\\attempt_001\\heun_metrics\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "644b1dc730300413ce0d9df4dd721884f42e366a786cbd0218ffd9135b80d9be",
+    "bytes": 3313
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "51c1752afd3395c2218b02b51fb1ee1683ff390bf9eedb2861d9f7d8763e4183",
+    "bytes": 3063471
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "9192c2eaddd0c37896f3eb86c91d26f720fce6b371a097015fada8be667645c0",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "eba355c0fcf431f6bfe8fdcaaa2d7df3983989fa09da7dd5ce78123dae95db45",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "b30ac79c2206da5cd938bac3d544c452ba75c61522cbed99e2a7ffafcd035fc4",
+    "bytes": 2753
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "6cd804506783c39b22ba24d656b8261e802036f87923d7f3c4dcf3d49042a650",
+    "bytes": 510848
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "8fb46e307de0b71cc9ab3cae15d579c68c0bf671e7f3919e1469f5d4c12c8335",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "04c03095c4965daee4572478570a75c527db796f55522cb1300b29ce2f282303",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "2842bc60c82154cdf7a1d0b66ab57c3db15e11abf18489b6251a284df6c90cf9",
+    "bytes": 577
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "d7dc90313f9c3ddee5db21b39b20e48a0ec8dc332b87aa786361d2140aca244c",
+    "bytes": 8832670
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_REAL_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\config.json",
+    "sha256": "0d9914d7a3c7d6609d2d79b82444e3a29cb4bcd1d59298ecb07e72fa393bf00c",
+    "bytes": 3319
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\training.csv",
+    "sha256": "a8f3e04b0003c77dd106d25db1e99f4107dc29aef0bd125478bcbe688410e9ec",
+    "bytes": 3073126
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "fa50cbd1931d4876679077da39f85730df5407c62ab2fb0f7ac3b59fe16a768c",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "ba6060c0befdd5d941eb2f4088a36f6118bce32bb1ca97db0887ea44ed6aae57",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "4ef8b1a77ab7a25c5048baee47bdc130835f9e906051092d0b543474f2b4c43b",
+    "bytes": 2751
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "f2652705d984b841afb950024d493247f68063ca187f239cfff906c286313b4c",
+    "bytes": 511035
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "1b324f676bd7d57adc312c30b836f80980f0d67cea90f1bce09d366702b021b2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "8aeca382408d5141ffddcf6d685fbdad840106e3dc7f53c442ea4a1c172cfe74",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "eaa26d9165f087f83135db71efc9b815f87212e5b0df3f96e251dfa71c2edd4e",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "da56678005ed0c3081344df1c4afba01fd002278ceb4b94049fc51c6ed8cbce1",
+    "bytes": 8832265
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_SDE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "f4d4f2c4c3d7f2c24e3654ad46a6a492a200863eb1447e629f6c84ad3afd5c6b",
+    "bytes": 3319
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "ae09a93f5b182ff81a0b46a94a5643af434528b5fd0970ed44e9e9798798b3c1",
+    "bytes": 3080659
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "6dab4c55af43a08f03feac92101e3cd1d834501b6cc9d766c5e9f01921fdace8",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "89cc5eab51d7fa1938978027379866df04c16b47b347c1d43e893f60b34e5cc8",
+    "bytes": 476
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "cc6f81188f61567db193f74ca497658563dc3de493955c79d7e00a9cc94adaed",
+    "bytes": 2748
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "fb7d62e55cb47ded1d6f65a22513208af7ca934ce795b6916840bf65dd64bf56",
+    "bytes": 510918
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "bab1bb4ed89ca12c3301bfe51013ccd6d329c8c157dac7931ba15e53b0441a36",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "eaa1d03e48030fba8ba1a5216827cab86130c87e8480298a5a78a1d21af84517",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "3058d583813a0eeaa82cdb2a9dc9feeb903dad1a35529a30a87f71c6f283677a",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "28afc475290ce2371abd339b8cba0c77b8eef77e809254f5c1704a61cda97601",
+    "bytes": 8832435
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\config.json",
+    "sha256": "291a057e42e32c1417fe39c9d65ba079ec6337c7460bf6d9d55df37fb501ccca",
+    "bytes": 3327
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training.csv",
+    "sha256": "a69861148ba8ed36bd6e69d0dba74a8be4cd9511c7faf63808bd31f773c2cf0c",
+    "bytes": 3079528
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\training_cost.json",
+    "sha256": "5d738f8b47bab0bb804328aadf80b28c534accd7f9b20abb3bbdb81df7a68a01",
+    "bytes": 396
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\sampling_diagnostics.json",
+    "sha256": "72fd30745f8da3397c4cd3fbc47964d717a2832ccac09de8edd0342314a378ff",
+    "bytes": 477
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\evaluation.json",
+    "sha256": "c65af3d8d9f8d833d43b26b8cacd9881d8b1a2e70004e3ebbe0724339fd50a85",
+    "bytes": 2753
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metrics_arrays.npz",
+    "sha256": "d262a7f74f197d651751e623d842ad0c94e822944938481b35228233e0beda32",
+    "bytes": 510311
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\samples_raw.npy",
+    "sha256": "85e86375c5d40ce2073904a94eaba1ecebb1a1692b6f490531bf3edab76128f2",
+    "bytes": 1048704
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\metric_provenance.json",
+    "sha256": "234e90316697aed1724ecc9a5482033eef473b648f04d24e428d4b689a743e1a",
+    "bytes": 1328
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_diagnostics.json",
+    "sha256": "bd578f1f72ff0a27289bd33c890568b0b6d00d3e5d04ed06146607fcfbc8e2c7",
+    "bytes": 576
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\ridge_arrays.npz",
+    "sha256": "da912ad0cbb1b96143954fdc0d288cd6be283ffc10f8c568c2fe89191f3a605c",
+    "bytes": 8833066
+  },
+  {
+    "path": "outputs\\phase2_3datasets\\SEQ_MULTISCALE__FM_COMPLEX_VDC_ODE__seed101\\attempt_001\\real_real_reference_blocks.npz",
+    "sha256": "c5b63e49ec6b5af6566afd7fdb6e0cff2265b35335d6c33b8cba51a156c48db9",
+    "bytes": 4194860
+  },
+  {
+    "path": "phase2_experiment\\plots.py",
+    "sha256": "f592490d7d3d29aa1653fe15a0d47d0013302087911d3b63fcbd39bf2580d8b5",
+    "bytes": 36905
+  }
+]

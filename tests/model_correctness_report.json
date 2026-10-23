@@ -1,0 +1,633 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.9.1+cu128",
+  "numpy": "2.4.0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "source_sha256": "fd97ebc960271869c4906cf4ad8f67252e30ebb39b84f461cc882442a2c76fbe",
+  "test_sha256": "b557683d8242e42210567d4e2a26bfabdca270bfe7c82ae66971ac7734f94012",
+  "TF32": false,
+  "AMP": false,
+  "formal_training_configurations": 0,
+  "results": [
+    {
+      "name": "Gamma independent SciPy value/gradient",
+      "status": "PASSED",
+      "seconds": 0.01673610002035275,
+      "details": {
+        "dtype": "CPU float64/complex128",
+        "reference": "scipy.special.loggamma",
+        "max_value_error": 4.442279660508709e-15,
+        "max_gradient_error": 3.1665337019148865e-10,
+        "inputs": [
+          [
+            0.61,
+            0.49
+          ],
+          [
+            0.8,
+            -0.4
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.2,
+            0.15
+          ],
+          [
+            1.6,
+            -0.2
+          ],
+          [
+            2.4,
+            0.45
+          ],
+          [
+            5.0,
+            -0.1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Complex powers zero handling",
+      "status": "PASSED",
+      "seconds": 0.0017785000381991267,
+      "details": {
+        "max_error": 5.721958498152797e-17,
+        "zero_base_gradient_is_finite": true
+      }
+    },
+    {
+      "name": "Exact RL zero, -1, constant and linear PL histories",
+      "status": "PASSED",
+      "seconds": 0.0024840000551193953,
+      "details": {
+        "grid": [
+          0.0,
+          0.07,
+          0.21,
+          0.45,
+          0.8
+        ],
+        "orders": [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -0.6,
+            0.2
+          ],
+          [
+            0.2,
+            0.15
+          ]
+        ],
+        "max_error": 4.334226652766684e-15,
+        "representations": "node=PL; f0 is retained"
+      }
+    },
+    {
+      "name": "Exact PC cell primitive",
+      "status": "PASSED",
+      "seconds": 0.001744000008329749,
+      "details": {
+        "max_error": 7.835532217989666e-15,
+        "reference": "independent PC fractional integral primitive",
+        "times": [
+          0.0,
+          0.05,
+          0.23,
+          0.56
+        ],
+        "values": [
+          1.2,
+          -0.4,
+          0.7,
+          1.6
+        ],
+        "right": 0.8
+      }
+    },
+    {
+      "name": "RL true initial term and first cell",
+      "status": "PASSED",
+      "seconds": 0.0008590000215917826,
+      "details": {
+        "f0": 2.3,
+        "alpha": [
+          0.2,
+          0.15
+        ],
+        "node": [
+          2.1679632110605525,
+          -0.19303201407682447
+        ],
+        "initial_cell": [
+          4.211575050311121,
+          2.6575071856122947
+        ],
+        "Caputo_constant_value": 0.0
+      }
+    },
+    {
+      "name": "Continuous Gamma power reference H refinement",
+      "status": "PASSED",
+      "seconds": 0.0025474000140093267,
+      "details": {
+        "f": "t^2",
+        "nodes": [
+          17,
+          65,
+          257
+        ],
+        "absolute_errors": {
+          "(-0.6+0.2j)": [
+            0.00041236650070642543,
+            2.5950976245426974e-05,
+            1.6236809514568856e-06
+          ],
+          "(0.2+0.15j)": [
+            0.0010079653798789904,
+            9.103622034723926e-05,
+            7.945899451711092e-06
+          ]
+        },
+        "reference": "Gamma(3)/Gamma(3-alpha)*t^(2-alpha)"
+      }
+    },
+    {
+      "name": "CPU64 real/imag/coefficient order gradients",
+      "status": "PASSED",
+      "seconds": 0.010015400010161102,
+      "details": {
+        "device": "cpu",
+        "parameter_dtype": "torch.float64",
+        "kernel_dtype": "complex128",
+        "max_gradient_errors": {
+          "raw_a": 1.9844889620479478e-10,
+          "raw_b": 1.1420876744328012e-10,
+          "raw_c": 3.238886936429708e-11
+        },
+        "central_difference_step": 2e-06
+      }
+    },
+    {
+      "name": "CPU64 all five forward/backward, statelessness, first cell",
+      "status": "PASSED",
+      "seconds": 0.20613139995839447,
+      "details": {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "models": {
+          "FM_STANDARD": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_REAL_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_SDE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.31622776601683794,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_VDC_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          }
+        },
+        "hidden_state": false,
+        "forward_rng_unchanged": true
+      }
+    },
+    {
+      "name": "CPU64 potential evenness/spatial FD/permutation/history",
+      "status": "PASSED",
+      "seconds": 0.08066979999421164,
+      "details": {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "even_W_error": 0.0,
+        "spatial_gradient_fd_error": 2.77786404989655e-11,
+        "permutation_error": 2.7755575615628914e-17,
+        "weighted_permutation_error": 2.7755575615628914e-17,
+        "zero_order_past_effect": 2.7755575615628914e-17,
+        "nonzero_order_changed_snapshot_effect": 0.002273666652350903
+      }
+    },
+    {
+      "name": "Receiver/source alias fixed-law partial and outer dependencies",
+      "status": "PASSED",
+      "seconds": 0.043553900031838566,
+      "details": {
+        "aliased_vs_fixed_law_force_error": 0.0,
+        "outer_law_dependencies_retained": true,
+        "spatial_partial_holds_law_fixed": true
+      }
+    },
+    {
+      "name": "Full complex realification",
+      "status": "PASSED",
+      "seconds": 0.015089299995452166,
+      "details": {
+        "complex_encoded_vs_qF_rJF_error": 2.636779683484747e-16,
+        "omitted_imaginary_kernel_error": 0.006450673607613755
+      }
+    },
+    {
+      "name": "CPU64 nested force-loss parameter gradient finite differences",
+      "status": "PASSED",
+      "seconds": 0.20976539998082444,
+      "details": {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "step": 2e-05,
+        "force_loss_parameter_derivatives": {
+          "potentials.v_net.net.0.weight": {
+            "flat_index": 49,
+            "autograd": 0.3966238275383661,
+            "central_difference": 0.3966238274449862,
+            "error": 9.337991491165099e-11
+          },
+          "potentials.w_net.net.0.weight": {
+            "flat_index": 17,
+            "autograd": 0.05000244285649398,
+            "central_difference": 0.05000244277797438,
+            "error": 7.851960054372498e-11
+          },
+          "potentials.v_net.net.4.weight": {
+            "flat_index": 31,
+            "autograd": 0.8282749745141313,
+            "central_difference": 0.8282749744806249,
+            "error": 3.350641986088476e-11
+          },
+          "potentials.w_net.net.4.weight": {
+            "flat_index": 3,
+            "autograd": -0.06134314383989282,
+            "central_difference": -0.06134314383954286,
+            "error": 3.4995617514965716e-13
+          },
+          "temporal.raw_a": {
+            "flat_index": 0,
+            "autograd": 0.019235771737195293,
+            "central_difference": 0.019235771731018758,
+            "error": 6.176534977919701e-12
+          },
+          "temporal.raw_b": {
+            "flat_index": 3,
+            "autograd": 0.019193027523294708,
+            "central_difference": 0.01919302751729468,
+            "error": 6.000026864239061e-12
+          },
+          "temporal.raw_c": {
+            "flat_index": 1,
+            "autograd": 0.2273252509598281,
+            "central_difference": 0.2273252509343848,
+            "error": 2.54433141222421e-11
+          }
+        }
+      }
+    },
+    {
+      "name": "Algebraic SDE/ODE, real-order and second-potential reductions",
+      "status": "PASSED",
+      "seconds": 0.059914000041317195,
+      "details": {
+        "SDE_ODE_drift_error": 0.0,
+        "complex_zero_b_real_error": 0.0,
+        "zero_second_potential_single_error": 8.326672684688674e-17,
+        "state_Brownian_only": true
+      }
+    },
+    {
+      "name": "Two-dimensional VDC div/curl Laplacian signs",
+      "status": "PASSED",
+      "seconds": 0.05894820002140477,
+      "details": {
+        "D": 2,
+        "identity_error": 4.440892098500626e-16,
+        "div": "-Delta(qU-rS)",
+        "curl": "-Delta(rU+qS)"
+      }
+    },
+    {
+      "name": "CPU64 four-dimensional full vorticity and probe trace",
+      "status": "PASSED",
+      "seconds": 0.46343880001222715,
+      "details": {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "D": 4,
+        "curl_shape": [
+          2,
+          3,
+          6
+        ],
+        "full_jacobian_fd_error": 3.631595024700118e-11,
+        "orthogonal_probe_trace_error": 1.1102230246251565e-16,
+        "explicit_selected_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "J, reversible layout, robot map and input validation",
+      "status": "PASSED",
+      "seconds": 0.0022788000060245395,
+      "details": {
+        "flatten_shape": [
+          3,
+          64
+        ],
+        "robot_coefficients": 32,
+        "robot_trajectory_shape": [
+          2,
+          64,
+          8
+        ],
+        "endpoint_derivatives_zero": true,
+        "J": "64D canonical adjacent-coordinate blocks",
+        "invalid_shape_condition_time_history_dtype_rejected": true
+      }
+    },
+    {
+      "name": "Gaussian FP full drift sign and Brownian variance",
+      "status": "PASSED",
+      "seconds": 0.015748999954666942,
+      "details": {
+        "tau": 0.43,
+        "kappa": 0.05,
+        "max_FP_residual": 1.2428122680291365e-10,
+        "drift": "v+kappa*score",
+        "Brownian": [
+          {
+            "h": 0.02,
+            "expected_variance": 0.002,
+            "empirical_variance": [
+              0.0020090560421228243,
+              0.002011696223670246,
+              0.0020064091515035053,
+              0.001996995511068798
+            ],
+            "max_cross_coordinate_correlation": 0.004295647662322181
+          },
+          {
+            "h": 0.1,
+            "expected_variance": 0.010000000000000002,
+            "empirical_variance": [
+              0.009994282647725313,
+              0.010011350734597925,
+              0.01001063541787812,
+              0.009977357936689085
+            ],
+            "max_cross_coordinate_correlation": 0.004568617898278349
+          }
+        ],
+        "scope": "analytic and increment reference; trainer/sampler integration checked separately"
+      }
+    },
+    {
+      "name": "Independent reference history construction",
+      "status": "PASSED",
+      "seconds": 0.0001944000250659883,
+      "details": {
+        "query_count": 64,
+        "reference_count": 32,
+        "history_times": [
+          0.0,
+          0.11,
+          0.37,
+          0.8
+        ],
+        "query_permutation_does_not_change_reference": true,
+        "reference_Y_epsilon_fixed_across_time": true,
+        "scope": "independent fixture; trainer actual data-flow integration checked separately"
+      }
+    },
+    {
+      "name": "GPU32 real/imag/coefficient order gradients",
+      "status": "PASSED",
+      "seconds": 0.503367499972228,
+      "details": {
+        "device": "cuda",
+        "parameter_dtype": "torch.float32",
+        "kernel_dtype": "complex128",
+        "max_gradient_errors": {
+          "raw_a": 6.782042799802213e-06,
+          "raw_b": 7.929364178593801e-07,
+          "raw_c": 1.166090138715603e-05
+        },
+        "central_difference_step": 0.0005
+      }
+    },
+    {
+      "name": "GPU32 all five forward/backward, statelessness, first cell",
+      "status": "PASSED",
+      "seconds": 0.74031979998108,
+      "details": {
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "models": {
+          "FM_STANDARD": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_REAL_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_SDE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.31622776601683794,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          },
+          "FM_COMPLEX_VDC_ODE": {
+            "shape": [
+              2,
+              3,
+              64
+            ],
+            "all_parameter_gradients_finite": true,
+            "diffusion": 0.0,
+            "initial_cell_nonzero": true
+          }
+        },
+        "hidden_state": false,
+        "forward_rng_unchanged": true
+      }
+    },
+    {
+      "name": "GPU32 potential evenness/spatial FD/permutation/history",
+      "status": "PASSED",
+      "seconds": 0.2397303999750875,
+      "details": {
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "even_W_error": 0.0,
+        "spatial_gradient_fd_error": 0.0003653913736343384,
+        "permutation_error": 1.4901161193847656e-08,
+        "weighted_permutation_error": 0.0,
+        "zero_order_past_effect": 0.0,
+        "nonzero_order_changed_snapshot_effect": 0.017732828855514526
+      }
+    },
+    {
+      "name": "GPU32 nested force-loss parameter gradient finite differences",
+      "status": "PASSED",
+      "seconds": 0.7162590000079945,
+      "details": {
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "step": 0.002,
+        "force_loss_parameter_derivatives": {
+          "potentials.v_net.net.0.weight": {
+            "flat_index": 25,
+            "autograd": 1.3682297468185425,
+            "central_difference": 1.3681052923202515,
+            "error": 0.00012445449829101562
+          },
+          "potentials.w_net.net.0.weight": {
+            "flat_index": 57,
+            "autograd": 0.10032164305448532,
+            "central_difference": 0.10037421435117722,
+            "error": 5.257129669189453e-05
+          },
+          "potentials.v_net.net.4.weight": {
+            "flat_index": 10,
+            "autograd": -3.0282576084136963,
+            "central_difference": -3.028273344039917,
+            "error": 1.5735626220703125e-05
+          },
+          "potentials.w_net.net.4.weight": {
+            "flat_index": 25,
+            "autograd": 0.1476317197084427,
+            "central_difference": 0.14767049252986908,
+            "error": 3.87728214263916e-05
+          },
+          "temporal.raw_a": {
+            "flat_index": 0,
+            "autograd": 0.11490023881196976,
+            "central_difference": 0.11491774767637253,
+            "error": 1.7508864402770996e-05
+          },
+          "temporal.raw_b": {
+            "flat_index": 3,
+            "autograd": 0.08006518334150314,
+            "central_difference": 0.08007883280515671,
+            "error": 1.3649463653564453e-05
+          },
+          "temporal.raw_c": {
+            "flat_index": 1,
+            "autograd": 1.368952751159668,
+            "central_difference": 1.3689695596694946,
+            "error": 1.6808509826660156e-05
+          }
+        }
+      }
+    },
+    {
+      "name": "GPU32 four-dimensional full vorticity and probe trace",
+      "status": "PASSED",
+      "seconds": 1.198077800043393,
+      "details": {
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "D": 4,
+        "curl_shape": [
+          2,
+          3,
+          6
+        ],
+        "full_jacobian_fd_error": 0.00025466084480285645,
+        "orthogonal_probe_trace_error": 2.384185791015625e-07,
+        "explicit_selected_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    }
+  ],
+  "passed": 23,
+  "failed": 0
+}

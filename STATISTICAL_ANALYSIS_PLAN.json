@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "registered_before_formal_training": true,
+  "unit_of_training_replication": "training seed",
+  "datasets_analyzed_separately": true,
+  "required_training_seeds": [17, 29, 43, 71, 101],
+  "primary_metric": "swd_raw",
+  "secondary_metric": "mmd2_raw",
+  "comparison_reference": "FM_STANDARD",
+  "comparison_reference_solver": "same final FM_STANDARD checkpoint with Heun sampling; Euler reference is reported separately",
+  "main_per_seed_metric_source": "FM_STANDARD evaluation_heun.json; other models evaluation.json",
+  "comparison_models": ["FM_REAL_ODE", "FM_COMPLEX_SDE", "FM_COMPLEX_ODE", "FM_COMPLEX_VDC_ODE"],
+  "fixed_comparison_family_size": 7,
+  "fixed_comparisons": [
+    {"model_id": "FM_COMPLEX_ODE", "reference_model_id": "FM_REAL_ODE", "question": "complex imaginary order contribution"},
+    {"model_id": "FM_COMPLEX_SDE", "reference_model_id": "FM_COMPLEX_ODE", "question": "complete Brownian state diffusion method with corresponding FP target"},
+    {"model_id": "FM_COMPLEX_VDC_ODE", "reference_model_id": "FM_COMPLEX_ODE", "question": "dual-potential VDC versus shared potential"},
+    {"model_id": "FM_REAL_ODE", "reference_model_id": "FM_STANDARD", "question": "overall versus standard FM Heun"},
+    {"model_id": "FM_COMPLEX_SDE", "reference_model_id": "FM_STANDARD", "question": "overall versus standard FM Heun"},
+    {"model_id": "FM_COMPLEX_ODE", "reference_model_id": "FM_STANDARD", "question": "overall versus standard FM Heun"},
+    {"model_id": "FM_COMPLEX_VDC_ODE", "reference_model_id": "FM_STANDARD", "question": "overall versus standard FM Heun"}
+  ],
+  "paired_difference_definition": "comparison model metric minus that comparison's reference model metric at the same training seed; FM_STANDARD references use Heun",
+  "interval_method": "two-sided 95% Student t interval over training seeds; incomplete seed groups explicitly labeled partial",
+  "hypothesis_test": "two-sided paired Student t test; descriptive and assumption-dependent with five seeds",
+  "multiple_comparison_method": "Holm correction within each dataset and metric over seven fixed comparisons (three research contrasts and four model-versus-standard-Heun contrasts); raw intervals and adjusted p values remain separate",
+  "sampling_replication": "independent ensembles retained inside each checkpoint; interacting particles/projections/metric pairs are not independent training seeds",
+  "missing_policy": "Keep all 50 manifest rows. Never impute failed/blocked runs or drop them from the formal denominator. Partial mean/interval states the available n of 5 and is not a final five-seed comparison.",
+  "interpretation_limits": "SEQ_IID assesses independent sequence generation only; it does not establish long-memory or temporal-dependency advantages. No predetermined model winner."
+}

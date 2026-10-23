@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "phase_id": "PHASE1_50",
+  "created_at": "2026-10-08T17:58:28.869962+00:00",
+  "updated_at": "2026-10-09T00:20:57.666148+00:00",
+  "formal_configuration_count": 50,
+  "runs": [
+    {
+      "queue_index": 1,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_STANDARD",
+      "seed": 17,
+      "run_id": "SEQ_IID__FM_STANDARD__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001",
+          "created_at": "2026-10-08T18:08:17.204567+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T18:08:45.730210+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869850+00:00",
+      "updated_at": "2026-10-08T18:08:45.730070+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T18:08:17.204392+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T18:08:45.730056+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed17\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 2,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_REAL_ODE",
+      "seed": 17,
+      "run_id": "SEQ_IID__FM_REAL_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-08T18:08:45.738560+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T18:25:17.631419+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869860+00:00",
+      "updated_at": "2026-10-08T18:25:17.631248+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T18:08:45.738416+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T18:25:17.631233+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed17\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 3,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 17,
+      "run_id": "SEQ_IID__FM_COMPLEX_SDE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001",
+          "created_at": "2026-10-08T18:25:17.639982+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T18:41:48.640845+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869863+00:00",
+      "updated_at": "2026-10-08T18:41:48.640694+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T18:25:17.639837+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T18:41:48.640682+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed17\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 4,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 17,
+      "run_id": "SEQ_IID__FM_COMPLEX_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-08T18:41:48.649442+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T18:58:18.079058+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869868+00:00",
+      "updated_at": "2026-10-08T18:58:18.078888+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T18:41:48.649258+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T18:58:18.078874+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed17\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 5,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 17,
+      "run_id": "SEQ_IID__FM_COMPLEX_VDC_ODE__seed17",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+          "created_at": "2026-10-08T18:58:18.087369+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T19:23:23.190733+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869870+00:00",
+      "updated_at": "2026-10-08T19:23:23.190575+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T18:58:18.087216+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T19:23:23.190562+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed17\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 6,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_STANDARD",
+      "seed": 29,
+      "run_id": "SEQ_IID__FM_STANDARD__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001",
+          "created_at": "2026-10-08T19:23:23.199477+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T19:23:51.880180+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869872+00:00",
+      "updated_at": "2026-10-08T19:23:51.880035+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T19:23:23.199318+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T19:23:51.880022+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed29\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 7,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_REAL_ODE",
+      "seed": 29,
+      "run_id": "SEQ_IID__FM_REAL_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-08T19:23:51.888767+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T19:40:23.233186+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869873+00:00",
+      "updated_at": "2026-10-08T19:40:23.233017+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T19:23:51.888600+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T19:40:23.233004+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed29\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 8,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 29,
+      "run_id": "SEQ_IID__FM_COMPLEX_SDE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001",
+          "created_at": "2026-10-08T19:40:23.241601+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T19:56:55.355196+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869875+00:00",
+      "updated_at": "2026-10-08T19:56:55.355030+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T19:40:23.241449+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T19:56:55.355016+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed29\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 9,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 29,
+      "run_id": "SEQ_IID__FM_COMPLEX_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-08T19:56:55.363618+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T20:13:26.774190+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869877+00:00",
+      "updated_at": "2026-10-08T20:13:26.774039+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T19:56:55.363468+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T20:13:26.774027+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed29\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 10,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 29,
+      "run_id": "SEQ_IID__FM_COMPLEX_VDC_ODE__seed29",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+          "created_at": "2026-10-08T20:13:26.782586+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T20:38:28.737891+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869880+00:00",
+      "updated_at": "2026-10-08T20:38:28.737735+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T20:13:26.782403+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T20:38:28.737722+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed29\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 11,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_STANDARD",
+      "seed": 43,
+      "run_id": "SEQ_IID__FM_STANDARD__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001",
+          "created_at": "2026-10-08T20:38:28.746578+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T20:38:57.453471+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869881+00:00",
+      "updated_at": "2026-10-08T20:38:57.453333+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T20:38:28.746426+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T20:38:57.453320+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed43\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 12,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_REAL_ODE",
+      "seed": 43,
+      "run_id": "SEQ_IID__FM_REAL_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-08T20:38:57.460042+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T20:55:28.308426+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869884+00:00",
+      "updated_at": "2026-10-08T20:55:28.308235+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T20:38:57.459906+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T20:55:28.308223+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed43\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 13,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 43,
+      "run_id": "SEQ_IID__FM_COMPLEX_SDE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001",
+          "created_at": "2026-10-08T20:55:28.319734+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T21:11:56.154579+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869886+00:00",
+      "updated_at": "2026-10-08T21:11:56.154425+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T20:55:28.319569+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T21:11:56.154412+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed43\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 14,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 43,
+      "run_id": "SEQ_IID__FM_COMPLEX_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-08T21:11:56.163267+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T21:28:13.564760+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869888+00:00",
+      "updated_at": "2026-10-08T21:28:13.564600+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T21:11:56.163117+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T21:28:13.564587+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed43\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 15,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 43,
+      "run_id": "SEQ_IID__FM_COMPLEX_VDC_ODE__seed43",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+          "created_at": "2026-10-08T21:28:13.574056+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T21:52:58.956891+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869890+00:00",
+      "updated_at": "2026-10-08T21:52:58.956727+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T21:28:13.573885+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T21:52:58.956714+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed43\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 16,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_STANDARD",
+      "seed": 71,
+      "run_id": "SEQ_IID__FM_STANDARD__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001",
+          "created_at": "2026-10-08T21:52:58.966176+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T21:53:26.455159+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869892+00:00",
+      "updated_at": "2026-10-08T21:53:26.455030+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T21:52:58.966031+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T21:53:26.455018+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed71\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 17,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_REAL_ODE",
+      "seed": 71,
+      "run_id": "SEQ_IID__FM_REAL_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-08T21:53:26.462098+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T22:09:44.117310+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869893+00:00",
+      "updated_at": "2026-10-08T22:09:44.117156+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T21:53:26.461960+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T22:09:44.117143+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed71\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 18,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 71,
+      "run_id": "SEQ_IID__FM_COMPLEX_SDE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001",
+          "created_at": "2026-10-08T22:09:44.126077+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T22:26:00.177357+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869895+00:00",
+      "updated_at": "2026-10-08T22:26:00.177198+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T22:09:44.125926+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T22:26:00.177184+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed71\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 19,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 71,
+      "run_id": "SEQ_IID__FM_COMPLEX_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-08T22:26:00.186607+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T22:42:15.754680+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869897+00:00",
+      "updated_at": "2026-10-08T22:42:15.754524+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T22:26:00.186448+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T22:42:15.754512+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed71\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 20,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 71,
+      "run_id": "SEQ_IID__FM_COMPLEX_VDC_ODE__seed71",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+          "created_at": "2026-10-08T22:42:15.763333+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T23:06:55.789855+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869900+00:00",
+      "updated_at": "2026-10-08T23:06:55.789695+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T22:42:15.763170+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T23:06:55.789681+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed71\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 21,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_STANDARD",
+      "seed": 101,
+      "run_id": "SEQ_IID__FM_STANDARD__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001",
+          "created_at": "2026-10-08T23:06:55.799085+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T23:07:23.151752+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869902+00:00",
+      "updated_at": "2026-10-08T23:07:23.151615+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T23:06:55.798930+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T23:07:23.151601+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_STANDARD__seed101\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 22,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_REAL_ODE",
+      "seed": 101,
+      "run_id": "SEQ_IID__FM_REAL_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-08T23:07:23.158658+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T23:23:40.654205+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869905+00:00",
+      "updated_at": "2026-10-08T23:23:40.654064+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T23:07:23.158519+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T23:23:40.654050+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_REAL_ODE__seed101\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 23,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 101,
+      "run_id": "SEQ_IID__FM_COMPLEX_SDE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001",
+          "created_at": "2026-10-08T23:23:40.662905+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T23:39:58.053049+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869906+00:00",
+      "updated_at": "2026-10-08T23:39:58.052896+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T23:23:40.662760+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T23:39:58.052882+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_SDE__seed101\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 24,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 101,
+      "run_id": "SEQ_IID__FM_COMPLEX_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-08T23:39:58.062227+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-08T23:56:17.273927+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869908+00:00",
+      "updated_at": "2026-10-08T23:56:17.273775+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T23:39:58.062057+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-08T23:56:17.273761+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_ODE__seed101\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 25,
+      "dataset_id": "SEQ_IID",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 101,
+      "run_id": "SEQ_IID__FM_COMPLEX_VDC_ODE__seed101",
+      "status": "COMPLETED",
+      "attempts": [
+        {
+          "attempt_id": "attempt_001",
+          "directory": "outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+          "created_at": "2026-10-08T23:56:17.282438+00:00",
+          "status": "COMPLETED",
+          "updated_at": "2026-10-09T00:20:57.666144+00:00",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "output_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+      "created_at": "2026-10-08T17:58:28.869910+00:00",
+      "updated_at": "2026-10-09T00:20:57.665991+00:00",
+      "reason": "Formal artifacts and final evaluation verified",
+      "events": [
+        {
+          "at": "2026-10-08T23:56:17.282291+00:00",
+          "previous_status": "PENDING",
+          "status": "RUNNING",
+          "reason": "Formal from-scratch run in progress"
+        },
+        {
+          "at": "2026-10-09T00:20:57.665978+00:00",
+          "previous_status": "RUNNING",
+          "status": "COMPLETED",
+          "reason": "Formal artifacts and final evaluation verified"
+        }
+      ],
+      "attempt": "attempt_001",
+      "attempt_dir": "D:\\work_space\\fm_theory_rebuild_v1\\outputs\\phase1_iid_robot\\SEQ_IID__FM_COMPLEX_VDC_ODE__seed101\\attempt_001",
+      "updates": 12000
+    },
+    {
+      "queue_index": 26,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_STANDARD",
+      "seed": 17,
+      "run_id": "ROBOT_8DOF__FM_STANDARD__seed17",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_STANDARD__seed17",
+      "created_at": "2026-10-08T17:58:28.869911+00:00",
+      "updated_at": "2026-10-08T17:58:28.869912+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 27,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_REAL_ODE",
+      "seed": 17,
+      "run_id": "ROBOT_8DOF__FM_REAL_ODE__seed17",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_REAL_ODE__seed17",
+      "created_at": "2026-10-08T17:58:28.869913+00:00",
+      "updated_at": "2026-10-08T17:58:28.869914+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 28,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 17,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_SDE__seed17",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_SDE__seed17",
+      "created_at": "2026-10-08T17:58:28.869915+00:00",
+      "updated_at": "2026-10-08T17:58:28.869916+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 29,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 17,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_ODE__seed17",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_ODE__seed17",
+      "created_at": "2026-10-08T17:58:28.869917+00:00",
+      "updated_at": "2026-10-08T17:58:28.869918+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 30,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 17,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed17",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed17",
+      "created_at": "2026-10-08T17:58:28.869920+00:00",
+      "updated_at": "2026-10-08T17:58:28.869921+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 31,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_STANDARD",
+      "seed": 29,
+      "run_id": "ROBOT_8DOF__FM_STANDARD__seed29",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_STANDARD__seed29",
+      "created_at": "2026-10-08T17:58:28.869923+00:00",
+      "updated_at": "2026-10-08T17:58:28.869923+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 32,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_REAL_ODE",
+      "seed": 29,
+      "run_id": "ROBOT_8DOF__FM_REAL_ODE__seed29",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_REAL_ODE__seed29",
+      "created_at": "2026-10-08T17:58:28.869924+00:00",
+      "updated_at": "2026-10-08T17:58:28.869925+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 33,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 29,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_SDE__seed29",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_SDE__seed29",
+      "created_at": "2026-10-08T17:58:28.869926+00:00",
+      "updated_at": "2026-10-08T17:58:28.869927+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 34,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 29,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_ODE__seed29",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_ODE__seed29",
+      "created_at": "2026-10-08T17:58:28.869928+00:00",
+      "updated_at": "2026-10-08T17:58:28.869929+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 35,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 29,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed29",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed29",
+      "created_at": "2026-10-08T17:58:28.869930+00:00",
+      "updated_at": "2026-10-08T17:58:28.869931+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 36,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_STANDARD",
+      "seed": 43,
+      "run_id": "ROBOT_8DOF__FM_STANDARD__seed43",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_STANDARD__seed43",
+      "created_at": "2026-10-08T17:58:28.869932+00:00",
+      "updated_at": "2026-10-08T17:58:28.869932+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 37,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_REAL_ODE",
+      "seed": 43,
+      "run_id": "ROBOT_8DOF__FM_REAL_ODE__seed43",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_REAL_ODE__seed43",
+      "created_at": "2026-10-08T17:58:28.869934+00:00",
+      "updated_at": "2026-10-08T17:58:28.869935+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 38,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 43,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_SDE__seed43",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_SDE__seed43",
+      "created_at": "2026-10-08T17:58:28.869936+00:00",
+      "updated_at": "2026-10-08T17:58:28.869937+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 39,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 43,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_ODE__seed43",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_ODE__seed43",
+      "created_at": "2026-10-08T17:58:28.869938+00:00",
+      "updated_at": "2026-10-08T17:58:28.869939+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 40,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 43,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed43",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed43",
+      "created_at": "2026-10-08T17:58:28.869941+00:00",
+      "updated_at": "2026-10-08T17:58:28.869941+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 41,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_STANDARD",
+      "seed": 71,
+      "run_id": "ROBOT_8DOF__FM_STANDARD__seed71",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_STANDARD__seed71",
+      "created_at": "2026-10-08T17:58:28.869942+00:00",
+      "updated_at": "2026-10-08T17:58:28.869943+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 42,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_REAL_ODE",
+      "seed": 71,
+      "run_id": "ROBOT_8DOF__FM_REAL_ODE__seed71",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_REAL_ODE__seed71",
+      "created_at": "2026-10-08T17:58:28.869945+00:00",
+      "updated_at": "2026-10-08T17:58:28.869946+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 43,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 71,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_SDE__seed71",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_SDE__seed71",
+      "created_at": "2026-10-08T17:58:28.869947+00:00",
+      "updated_at": "2026-10-08T17:58:28.869947+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 44,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 71,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_ODE__seed71",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_ODE__seed71",
+      "created_at": "2026-10-08T17:58:28.869949+00:00",
+      "updated_at": "2026-10-08T17:58:28.869950+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 45,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 71,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed71",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed71",
+      "created_at": "2026-10-08T17:58:28.869951+00:00",
+      "updated_at": "2026-10-08T17:58:28.869952+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 46,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_STANDARD",
+      "seed": 101,
+      "run_id": "ROBOT_8DOF__FM_STANDARD__seed101",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_STANDARD__seed101",
+      "created_at": "2026-10-08T17:58:28.869953+00:00",
+      "updated_at": "2026-10-08T17:58:28.869953+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 47,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_REAL_ODE",
+      "seed": 101,
+      "run_id": "ROBOT_8DOF__FM_REAL_ODE__seed101",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_REAL_ODE__seed101",
+      "created_at": "2026-10-08T17:58:28.869954+00:00",
+      "updated_at": "2026-10-08T17:58:28.869955+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 48,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_SDE",
+      "seed": 101,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_SDE__seed101",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_SDE__seed101",
+      "created_at": "2026-10-08T17:58:28.869956+00:00",
+      "updated_at": "2026-10-08T17:58:28.869957+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 49,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_ODE",
+      "seed": 101,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_ODE__seed101",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_ODE__seed101",
+      "created_at": "2026-10-08T17:58:28.869958+00:00",
+      "updated_at": "2026-10-08T17:58:28.869958+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    },
+    {
+      "queue_index": 50,
+      "dataset_id": "ROBOT_8DOF",
+      "model_id": "FM_COMPLEX_VDC_ODE",
+      "seed": 101,
+      "run_id": "ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed101",
+      "status": "BLOCKED",
+      "attempts": [],
+      "output_dir": "outputs/phase1_iid_robot/ROBOT_8DOF__FM_COMPLEX_VDC_ODE__seed101",
+      "created_at": "2026-10-08T17:58:28.869960+00:00",
+      "updated_at": "2026-10-08T17:58:28.869961+00:00",
+      "reason": "Actual robot USD/geometry/FK/metadata/expert data unverified; see ROBOT_RESOURCE_AUDIT.json",
+      "events": []
+    }
+  ],
+  "nonformal_registry_path": "outputs/phase1_iid_robot/nonformal_registry.json",
+  "deferred_registry_path": "DEFERRED_BY_USER.json"
+}

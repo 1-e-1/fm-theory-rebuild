@@ -1,0 +1,1 @@
+run_id,model_id,seed,task_id,status,generated_candidate_count,raw_feasible_count,selection_status,selected_candidate_id,endpoint_error,path_length,jerk_rms

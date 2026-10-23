@@ -1,0 +1,87 @@
+[
+  {
+    "model_id": "FM_STANDARD",
+    "seconds_forward_backward": [
+      0.10109120002016425,
+      0.0012464000028558075,
+      0.0008219000301323831
+    ],
+    "peak_allocated_bytes": 18763776,
+    "E": 1,
+    "Q": 64,
+    "N": 32,
+    "H": 17,
+    "D": 64,
+    "tf32": false,
+    "amp": false,
+    "training_updates": 0
+  },
+  {
+    "model_id": "FM_REAL_ODE",
+    "seconds_forward_backward": [
+      0.539397899992764,
+      0.07501130003947765,
+      0.07792370003880933
+    ],
+    "peak_allocated_bytes": 386766336,
+    "E": 1,
+    "Q": 64,
+    "N": 32,
+    "H": 17,
+    "D": 64,
+    "tf32": false,
+    "amp": false,
+    "training_updates": 0
+  },
+  {
+    "model_id": "FM_COMPLEX_SDE",
+    "seconds_forward_backward": [
+      0.09125380002660677,
+      0.08608860004460439,
+      0.07355430000461638
+    ],
+    "peak_allocated_bytes": 386645504,
+    "E": 1,
+    "Q": 64,
+    "N": 32,
+    "H": 17,
+    "D": 64,
+    "tf32": false,
+    "amp": false,
+    "training_updates": 0
+  },
+  {
+    "model_id": "FM_COMPLEX_ODE",
+    "seconds_forward_backward": [
+      0.1394585000234656,
+      0.07464599999366328,
+      0.07471979997353628
+    ],
+    "peak_allocated_bytes": 386512384,
+    "E": 1,
+    "Q": 64,
+    "N": 32,
+    "H": 17,
+    "D": 64,
+    "tf32": false,
+    "amp": false,
+    "training_updates": 0
+  },
+  {
+    "model_id": "FM_COMPLEX_VDC_ODE",
+    "seconds_forward_backward": [
+      0.14773389999754727,
+      0.12234050000552088,
+      0.11574869998730719
+    ],
+    "peak_allocated_bytes": 614816256,
+    "E": 1,
+    "Q": 64,
+    "N": 32,
+    "H": 17,
+    "D": 64,
+    "tf32": false,
+    "amp": false,
+    "training_updates": 0
+  }
+]
